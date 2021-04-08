@@ -48,3 +48,7 @@ In dev mode
 
 * Add `?json=1` to URL to see raw data
 * Add `?bemjson=1` to URL to see BEMJSON generated with BEMTREE templates.
+
+## Чтобы не указывать путь к исполняемому файлу (./node_modules/.bin/enb) используйте:
+
+export PATH=./node_modules/.bin:$PATH
