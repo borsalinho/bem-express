@@ -74,6 +74,20 @@ app.get('/', function(req, res) {
     })
 });
 
+app.get('/about', function(req, res) {
+    render(req, res, {
+        view: 'page-about-OC',
+        title: 'about page',
+        meta: {
+            description: 'Page description',
+            og: {
+                url: 'https://site.com',
+                siteName: 'Site name'
+            }
+        }
+    })
+});
+
 isDev && require('./rebuild')(app);
 
 app.get('*', function(req, res) {

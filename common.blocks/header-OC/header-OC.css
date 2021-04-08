@@ -1,0 +1,166 @@
+.header-OC{
+    height: 80px;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 10px rgba(171, 171, 171, 0.12);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header-OC__logo{
+    width: 129px;
+    height: 46px;
+    margin-right: auto;
+}
+
+.header-OC__menu-list{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+@media screen and (max-width:1199px){
+    .header-OC__menu{
+        display: none;
+        opacity: 0;
+    }
+}
+
+.header-OC__menu-list-item{
+    font-size: 15px;
+    line-height: 20px;
+    align-self: center;
+}
+
+.header-OC__menu-list-item:not(:last-child) {
+    margin-right: 36px;
+}
+
+.header-OC__buttons{
+    margin-left: auto;
+    vertical-align: middle;
+    display: flex;
+}
+
+.header-OC__search{
+    position: relative;
+    white-space: nowrap;
+    margin-right: 16px;
+}
+
+.header-OC__search:hover .header-OC__search-input,.header-OC__search-input:focus{
+    width:160px;
+}
+
+@media screen and (max-width:767px){
+    .header-OC__search:hover .header-OC__search-input,.header-OC__search-input:focus{
+        width:130px;
+    }
+}
+.header-OC__search-input{
+    background: none;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.2), 0px 4px 28px rgba(171, 171, 171, 0.14);
+    border-radius: 12px;
+    outline: none;
+    width: 36px;
+    height: 36px;
+    border: none;
+    padding: 8px 0 8px 36px;
+    transition: width 0.3s linear;
+    font-size: 12px; 
+    line-height: 16px; 
+}
+
+/* анимация исчезновения плейсхолдера при нажатии */
+.header-OC__search-input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; font-size: 12px; line-height: 16px; color: #828282;}
+.header-OC__search-input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease; font-size: 12px; line-height: 16px; color: #828282;}
+.header-OC__search-input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease; font-size: 12px; line-height: 16px; color: #828282;}
+.header-OC__search-input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease; font-size: 12px; line-height: 16px; color: #828282;}
+.header-OC__search-input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.header-OC__search-input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.header-OC__search-input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.header-OC__search-input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+
+
+.header-OC__search-img{
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+
+.header-OC__profile{
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.2), 0px 4px 28px rgba(171, 171, 171, 0.14);
+    border-radius: 12px;
+    width: 56px;
+    height: 36px;
+    display: flex;
+    position: relative;
+}
+
+.header-OC__profile span{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 6px 8px;
+    /* background: url('/desktop.blocks/header-OC/header-OC-user.png'),
+                url('/desktop.blocks/header-OC/header-OC-dots.png'); */
+    background-repeat: no-repeat;
+    background-position: 7px center, 32px center;
+}
+
+.header-OC__profile-img{
+    margin-right: 4px;
+}
+
+.header-OC__pulsar-button{
+    animation: radial-pulse 2s infinite;
+    border-radius: 12px;
+    padding: 8px 16px;
+  }
+  
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px #035aa6;
+    }
+
+    100% {
+        box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+    }
+}
+
+.header-OC__drop-list{
+    display: none;
+    position: absolute;
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.2), 0px 4px 28px rgba(171, 171, 171, 0.14);
+    border-radius: 12px;
+    width: 205px;
+    right: -55px;
+    top: 10px;
+    padding: 20px;
+}
+
+.header-OC__drop-list-item:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.header-OC__drop-list-item span{
+    margin-left: 10px;
+}
+
+.header-OC__services{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: -80px;
+    display: none;
+}
+
+.header-OC__slider{
+    display: inline-flex;
+}

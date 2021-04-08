@@ -1,0 +1,14 @@
+.license-agreement-OC{
+    padding: 20px;
+    max-width: 900px;
+}
+@media screen and (max-width:767px){
+    .license-agreement-OC{
+        padding: 10px;
+    }
+}
+.license-agreement-OC__title{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+}
