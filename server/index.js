@@ -62,7 +62,7 @@ app.get('/ping/', function(req, res) {
 
 app.get('/', function(req, res) {
     render(req, res, {
-        view: 'page-index',
+        view: 'page-main-OC',
         title: 'Main page',
         meta: {
             description: 'Page description',

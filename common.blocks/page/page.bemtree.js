@@ -1,13 +1,13 @@
 block('page')({
     content: () => [
         {
-            block: 'header'
+            block: 'header-OC'
         },
         {
-            block: 'body'
+            block: 'body-OC'
         },
         {
-            block: 'footer'
+            block: 'footer-OC'
         }
     ]
 });
