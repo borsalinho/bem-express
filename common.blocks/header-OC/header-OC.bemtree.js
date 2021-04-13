@@ -27,7 +27,7 @@ block('header-OC')({
                                         block:'link-OC',
                                         content:'О платформе',
                                         attrs:{
-                                            href:'/desktop.bundles/page-about/page-about.html'
+                                            href:'/about'
                                         }
                                     }
                                 },

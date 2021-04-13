@@ -4,7 +4,7 @@ block('logo-OC')({
         {   
             tag:'a',
             attrs:{
-                href:'#'
+                href:'/'
             },
             content:{
                 elem: 'image',
