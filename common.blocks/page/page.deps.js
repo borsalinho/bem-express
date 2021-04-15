@@ -1,10 +1,22 @@
 ({
     shouldDeps: [
+        // Главные
+        'header-OC',
+        'footer-OC',
         {
             mods: { view: ['404'] }
         },
-        'header-OC',
-        'body-OC',
-        'footer-OC'
+
+        // Главная страница
+        {
+            mods: { open: ['main-OC'] }
+        },
+        'main-OC',
+        
+        // О проектe
+        {
+            mods: { open: ['about-OC'] }
+        },
+        'about-OC',
     ]
 })

@@ -8,7 +8,7 @@ block('footer-OC')({
                         cls:'row',
                         content:[
                             {
-                                cls:'col-xl-2 col-md-3',
+                                cls:'col-xl-2 col-md-3 footer__mb_md-20',
                                 content:[
                                     {
                                         cls:'row',
@@ -16,13 +16,21 @@ block('footer-OC')({
                                             {
                                                 cls:'col-md-12 col-5',
                                                 content:{
-                                                    block:'logo-OC'
+                                                    block:'logo-OC',
+                                                    mix:{
+                                                        block:'footer-OC',
+                                                        elem:'elem'
+                                                    },
                                                 }
                                             },
                                             {
                                                 cls:'col-md-12 col-7 justify-content-end justify-content-md-start d-flex',
                                                 content:{
                                                     block:'logo-messangers-OC',
+                                                    mix:{
+                                                        block:'footer-OC',
+                                                        elem:'elem'
+                                                    },
                                                     content:[
                                                         {
                                                             tag:'a',
@@ -33,7 +41,7 @@ block('footer-OC')({
                                                             content:{
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    src:'/desktop.blocks/logo-messangers-OC/logo-instagram.png',
+                                                                    src:'/img/logo-messangers-OC/logo-instagram.png',
                                                                     alt:'Логотип OneClick Yakutia в Instagram',
                                                                     title:'Страница OneClick Yakutia в Instagram',
                                                                 }
@@ -48,7 +56,7 @@ block('footer-OC')({
                                                             content:{
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    src:'/desktop.blocks/logo-messangers-OC/logo-twitter.png',
+                                                                    src:'/img/logo-messangers-OC/logo-twitter.png',
                                                                     alt:'Логотип OneClick Yakutia в Twitter',
                                                                     title:'Страница OneClick Yakutia в Twitter',
                                                                 }
@@ -63,7 +71,7 @@ block('footer-OC')({
                                                             content:{
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    src:'/desktop.blocks/logo-messangers-OC/logo-vk.png',
+                                                                    src:'/img/logo-messangers-OC/logo-vk.png',
                                                                     alt:'Логотип OneClick Yakutia в VK',
                                                                     title:'Страница OneClick Yakutia в VK',
                                                                 }
@@ -107,8 +115,7 @@ block('footer-OC')({
                                 
                             },
                             {
-                                cls:'col-xl-5 col-md-5',
-                                
+                                cls:'col-xl-5 col-md-5 footer__mb_md-20',
                                 content:[
                                     {   
                                         block:'footer-OC',

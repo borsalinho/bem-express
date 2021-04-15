@@ -2,7 +2,7 @@ block('header-OC')({
     content: () => [
         
             {
-                cls:'container d-flex align-items-center',
+                cls:'container d-flex align-items-center position-relative',
                 content:[
                     {   
                         block:'header-OC',
@@ -15,6 +15,7 @@ block('header-OC')({
                     {   
                         block:'header-OC',
                         elem:'menu',
+                        tag:'nav',
                         content:
                         {   
                             elem:'menu-list',
@@ -58,10 +59,9 @@ block('header-OC')({
                                 {   
                                     elem:'menu-list-item',
                                     tag:'li',
-                                    mix:[
-                                        {elem:'button-services',}
-                                    ],
                                     content:{
+                                        block:'dropdown-hover-OC',
+                                        js:true,
                                         tag:'a',
                                         content:'Сервисы'
                                     }
@@ -93,7 +93,7 @@ block('header-OC')({
                                         elem:'search-img',
                                         tag:'img',
                                         attrs:{
-                                            // src:'/desktop.blocks/header-OC/header-OC-search.png'
+                                            src:'/img/header-OC/header-OC-search.png'
                                         }
                                     },
                                     {
@@ -111,15 +111,18 @@ block('header-OC')({
                             {   
                                 elem:'profile',
                                 content:{
-                                    block:'dropdown-OC',
+                                    block:'dropdown-click-OC',
                                     js:true,
                                     content:{
                                         block:'header-OC',
                                         elem:'drop-list',
+                                        mix:{
+                                            block:'dropdown-click-OC',
+                                            elem:'item',
+                                        },
                                         content:[
                                             {   
                                                 elem:'drop-list-item',
-                                                
                                                 content:[
                                                     {
                                                         block:'link-OC',
@@ -130,7 +133,7 @@ block('header-OC')({
                                                             {
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    // src:'/desktop.blocks/header-OC/header-OC-profile-user.png'
+                                                                    src:'/img/header-OC/header-OC-profile-user.png'
                                                                 }
                                                             },
                                                             {   
@@ -156,7 +159,7 @@ block('header-OC')({
                                                             {
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    // src:'/desktop.blocks/header-OC/header-OC-profile-mail.png'
+                                                                    src:'/img/header-OC/header-OC-profile-mail.png'
                                                                 }
                                                             },
                                                             {   
@@ -181,7 +184,7 @@ block('header-OC')({
                                                             {
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    // src:'/desktop.blocks/header-OC/header-OC-profile-bookmark.png'
+                                                                    src:'/img/header-OC/header-OC-profile-bookmark.png'
                                                                 }
                                                             },
                                                             {   
@@ -206,7 +209,7 @@ block('header-OC')({
                                                             {
                                                                 tag:'img',
                                                                 attrs:{
-                                                                    // src:'/desktop.blocks/header-OC/header-OC-profile-log-out.png'
+                                                                    src:'/img/header-OC/header-OC-profile-log-out.png'
                                                                 }
                                                             },
                                                             {   
@@ -228,9 +231,20 @@ block('header-OC')({
                             }
                         ]
                         
+                    },
+                    {   
+                        elem:'services',
+                        mix:{
+                            block:'dropdown-hover-OC',
+                            elem:'item'
+                        },
+                        content:{
+                            block:'services-slider-header-OC',
+                        }
                     }
+                
                 ]
-            }
+            },
         
     ]
 });

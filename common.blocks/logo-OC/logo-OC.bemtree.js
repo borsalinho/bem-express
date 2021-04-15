@@ -11,7 +11,7 @@ block('logo-OC')({
                 tag:'img',
                 attrs:
                     {
-                        // src: 'logo-OC.png',
+                        src: '/img/logo/logo-OC.png',
                         alt:'Логотип OneClick Yakutia',
                         title:'Логотип OneClick Yakutia',
                     }

@@ -62,7 +62,7 @@ app.get('/ping/', function(req, res) {
 
 app.get('/', function(req, res) {
     render(req, res, {
-        view: 'page-main-OC',
+        view: 'main-OC',
         title: 'Главная страница',
         meta: {
             description: 'Page description',
@@ -76,7 +76,7 @@ app.get('/', function(req, res) {
 
 app.get('/about', function(req, res) {
     render(req, res, {
-        view: 'page-about-OC',
+        view: 'about-OC',
         title: 'О платформе',
         meta: {
             description: 'Page description',

@@ -1,4 +1,4 @@
-block('page-about-OC')({
+block('about-OC')({
     content: () => [
         {
             tag:'section',
