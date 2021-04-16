@@ -59,6 +59,7 @@ block('header-OC')({
                                 {   
                                     elem:'menu-list-item',
                                     tag:'li',
+                                    cls:'init-slider',
                                     content:{
                                         block:'dropdown-hover-OC',
                                         js:true,
@@ -240,6 +241,38 @@ block('header-OC')({
                         },
                         content:{
                             block:'services-slider-header-OC',
+                            goods:[
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                    url:'/about'
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                {   
+                                    image: '/img/header-services-OC/services-abiture.png',
+                                    text: 'Родные города и селы',
+                                },
+                                
+                            ]
                         }
                     }
                 

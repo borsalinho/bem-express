@@ -9,7 +9,6 @@ block('root')({
         return {
             block: 'page',
             title: data.title,
-            // mix:[data.view],
             favicon: '/favicon.ico',
             styles: [
                 {
