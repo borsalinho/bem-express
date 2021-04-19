@@ -257,32 +257,32 @@ block('header-OC')({
                             goods:[
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 1',
                                     url:'/about'
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 2',
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 3',
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 4',
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 5',
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 6',
                                 },
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',
-                                    text: 'Родные города и селы',
+                                    text: 'Родные города и селы 7',
                                 },
                                 
                             ]

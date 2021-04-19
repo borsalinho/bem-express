@@ -12,7 +12,7 @@ $(".header-OC__init-slider").hover(function(event){
   $('.services-slider-header-OC').slick({
     lazyLoad: 'ondemand',
       dots: false,
-      arrow: true,
+      arrows: true,
       infinite: true,
       speed: 300,
       slidesToShow: 4,

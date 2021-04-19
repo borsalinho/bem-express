@@ -1,5 +1,6 @@
 ({
     shouldDeps: [
-        'good'
+        'good',
+        'main-slider-OC'
     ]
 })
