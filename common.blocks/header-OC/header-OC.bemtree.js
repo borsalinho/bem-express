@@ -59,13 +59,26 @@ block('header-OC')({
                                 {   
                                     elem:'menu-list-item',
                                     tag:'li',
-                                    cls:'init-slider',
-                                    content:{
-                                        block:'dropdown-hover-OC',
-                                        js:true,
-                                        tag:'a',
-                                        content:'Сервисы'
-                                    }
+                                    mix:[
+                                        {elem:'init-slider'}
+                                    ],
+                                    content:[{
+                                            block:'dropdown-hover-OC',
+                                            // js:true,
+                                            tag:'a',
+                                            content:'Сервисы'
+                                        },
+                                        {
+                                            tag:'span',
+                                            content:{
+                                                elem:'arrow',
+                                                tag:'img',
+                                                attrs:{
+                                                    src:'img/header-OC/services-arrow.svg'
+                                                }
+                                            }    
+                                        }
+                                    ]   
                                 },
                                 {   
                                     elem:'menu-list-item',

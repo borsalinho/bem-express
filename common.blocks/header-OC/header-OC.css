@@ -160,4 +160,16 @@
     height: 113px;
     z-index: 1000;
 }
+.header-OC__arrow{
+    transition: transform 0.2s;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    transform: rotate(0deg);
+}
 
+.header-OC__arrow_rotate{
+    transform: rotate(180deg);
+}
+.header-OC__init-slider{
+    margin-right: 16px;
+}

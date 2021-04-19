@@ -7,8 +7,8 @@ $(window).resize(function() {
   } 
 });
 
-// при ховере загружается слайдер, и при закрытии "пропадал"
-$(".init-slider").hover(function(event){
+// при ховере загружается слайдер, и при закрытии "пропадал" слайдер. так ж операции со стрелкой
+$(".header-OC__init-slider").hover(function(event){
   $('.services-slider-header-OC').slick({
     lazyLoad: 'ondemand',
       dots: false,
@@ -41,11 +41,17 @@ $(".init-slider").hover(function(event){
       }
     ]
   });
-      event.preventDefault();
-  });
+  $('.header-OC__arrow').addClass("header-OC__arrow_rotate");
+  event.preventDefault();
+});
+
 $(document).mouseup(function (e){
-  if (!$(".init-slider").is(e.target) && !$(".services-slider-header-OC").is(e.target)
-      && $(".services-slider-header-OC").has(e.target).length === 0) { 
-      $( ".services-slider-header-OC" ).slick('unslick'); 
+  if (
+  !$(".header-OC__init-slider").is(e.target) && 
+  !$(".services-slider-header-OC").is(e.target) && 
+  !$(".dropdown-hover-OC").is(e.target) && 
+  $(".services-slider-header-OC").has(e.target).length === 0) { 
+      $( ".services-slider-header-OC" ).slick('unslick');
+      $('.header-OC__arrow').removeClass("header-OC__arrow_rotate");
   }
 });
