@@ -7,16 +7,25 @@ block('main-OC')({
                 block:'main-slider-OC',
                 goods:[
                     {
-                        text:'тут будет первый слайдер',
-                        image:'/img/main-slider-OC/application-banner.svg'
+                        title:'Платформа мониторинга проблем в Якутии',
+                        image:'/img/main-slider-OC/application-banner.svg',
+                        text:'Заметили проблему в своем населенном пункте? Сообщите о ней через сервис «Мониторинг проблем» и следите за устранением! Вам ответят в течение одного рабочего дня!',
+                        button:'Создать заявку',
+                        url:'/about'
                     },
                     {
-                        text:'тут будет второй слайдер',
-                        image:'/img/main-slider-OC/application-banner.svg'
+                        title:'тут будет второй слайдер',
+                        image:'/img/main-slider-OC/application-banner.svg',
+                        text:'Заметили проблему в своем населенном пункте? Сообщите о ней через сервис «Мониторинг проблем» и следите за устранением! Вам ответят в течение одного рабочего дня!',
+                        button:'Создать заявку',
+                        url:'/about'
                     },
                     {
-                        text:'тут будет третий слайдер',
-                        image:'/img/main-slider-OC/application-banner.svg'
+                        title:'тут будет третий слайдер',
+                        image:'/img/main-slider-OC/application-banner.svg',
+                        text:'Заметили проблему в своем населенном пункте? Сообщите о ней через сервис «Мониторинг проблем» и следите за устранением! Вам ответят в течение одного рабочего дня!',
+                        button:'Создать заявку',
+                        url:'/about'
                     }
                 ]
             },

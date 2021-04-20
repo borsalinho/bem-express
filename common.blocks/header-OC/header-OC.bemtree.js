@@ -63,7 +63,7 @@ block('header-OC')({
                                         {elem:'init-slider'}
                                     ],
                                     content:[{
-                                            block:'dropdown-hover-OC',
+                                            // block:'dropdown-hover-OC',
                                             // js:true,
                                             tag:'a',
                                             content:'Сервисы'
@@ -248,10 +248,6 @@ block('header-OC')({
                     },
                     {   
                         elem:'services',
-                        mix:{
-                            block:'dropdown-hover-OC',
-                            elem:'item'
-                        },
                         content:{
                             block:'services-slider-header-OC',
                             goods:[

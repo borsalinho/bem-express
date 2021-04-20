@@ -1,7 +1,96 @@
 .main-slider-OC{
     display: none;
+    background: #F0F7FE;
+}
+.main-slider-OC__item{
+    outline: none;
+}
+.main-slider-OC .slick-list{
+    position: relative;
 }
 .main-slider-OC__skeleton{
-    background: tomato;
-    height: 200px;
+    background: #F0F7FE;
+    height: 400px;
+}
+.main-slider-OC .slick-dots{
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    bottom: 5px;
+}
+.main-slider-OC .slick-dots li{
+    margin: 0 14px;
+    padding: 0;
+    display: inline;
+}
+.main-slider-OC .slick-dots li button{
+    background: darkgray;
+    font-size: 0;
+    line-height: 0;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    height: 4px;
+    padding: 3px;
+}
+.main-slider-OC .slick-dots .slick-active button{
+    background: black;
+}
+.main-slider-OC .slick-dots li button::before {
+    font-size: 0;
+}
+.main-slider-OC__title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.main-slider-OC__text{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 20px 0 0 0;
+    max-width: 585px;
+}
+@media screen and (max-width:991px) {
+    .main-slider-OC__text{
+        max-width: 100%;
+    }
+}
+.main-slider-OC__image{
+    width: inherit;
+}
+.main-slider-OC__button, .main-slider-OC__button:hover{
+    background: #035AA6;
+    color: #FFFFFF;
+    border-radius: 12px;
+    height: 40px;
+    width: 175px;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 7px;
+    margin-top: 24px;
+}
+.main-slider-OC__info{
+    margin-top: 24px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+.main-slider-OC__icon{
+    display: inline-block;
+    margin-right: 8px;
+}
+.main-slider-OC__number{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+}
+.main-slider-OC__board{
+    display: flex;
+    align-items: flex-end;
 }

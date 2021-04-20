@@ -33,6 +33,10 @@
     line-height: 20px;
     align-self: center;
 }
+.header-OC__menu-list-item a{
+    color:#1A1A1A;
+    cursor: pointer;
+}
 
 .header-OC__menu-list-item:not(:last-child) {
     margin-right: 36px;
@@ -150,7 +154,7 @@
     display: inline-flex;
 }
 .header-OC__services{
-    display: none;
+    left:-9999px;
     position: absolute;
     background: #FCFCFC;
     box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.2), 0px 4px 28px rgba(171, 171, 171, 0.14);
@@ -159,7 +163,19 @@
     bottom: -133px;
     height: 113px;
     z-index: 1000;
+    opacity: 0;
+    transition: .35s opacity, .35s visibility;
 }
+.header-OC__services_show{
+    left:0;
+    opacity: 1;
+    visibility: visible;
+}
+.header-OC__services_hide{
+    left:-9999px;
+    opacity: 0;
+}
+
 .header-OC__arrow{
     transition: transform 0.2s;
     margin-left: 10px;
