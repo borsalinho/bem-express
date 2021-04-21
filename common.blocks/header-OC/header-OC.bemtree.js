@@ -57,14 +57,13 @@ block('header-OC')({
                                     }
                                 },
                                 {   
-                                    elem:'menu-list-item',
+                                    elem:'init-slider',
                                     tag:'li',
                                     mix:[
-                                        {elem:'init-slider'}
+                                        {elem:'menu-list-item'}
                                     ],
+                                    js:true,
                                     content:[{
-                                            // block:'dropdown-hover-OC',
-                                            // js:true,
                                             tag:'a',
                                             content:'Сервисы'
                                         },
@@ -102,6 +101,7 @@ block('header-OC')({
                             {
                                 elem:'search',
                                 tag:'span',
+                                js:true,
                                 content:[
                                     {
                                         elem:'search-img',
@@ -113,6 +113,7 @@ block('header-OC')({
                                     {
                                         elem:'search-input',
                                         tag:'input',
+                                        js:true,
                                         attrs:{
                                             type:'text',
                                             placeholder:'Поиск',
@@ -121,6 +122,9 @@ block('header-OC')({
                                         
                                     },
                                 ]
+                            },
+                            {
+                                elem:'margin'
                             },
                             {   
                                 elem:'profile',
@@ -250,6 +254,7 @@ block('header-OC')({
                         elem:'services',
                         content:{
                             block:'services-slider-header-OC',
+                            js:true,
                             goods:[
                                 {   
                                     image: '/img/header-services-OC/services-abiture.png',

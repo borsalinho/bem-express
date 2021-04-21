@@ -5,6 +5,7 @@ block('main-OC')({
             tag:'section',
             content:[{
                 block:'main-slider-OC',
+                js:true,
                 goods:[
                     {
                         title:'Платформа мониторинга проблем в Якутии',
