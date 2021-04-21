@@ -1,7 +1,107 @@
 block('main-slider-OC')(
 
     content()(function() {
+        
+
         return this.ctx.goods.map(function(item){
+            let monitoringElem;
+            if(item.monitoringElemData){
+                monitoringElem = [{
+                    cls:'col-xl-auto',
+                    content:[
+                        {   
+                            block:'main-slider-OC',
+                            elem:'info',
+                            content:'Всего поступило'
+                        },
+                        {   
+                            block:'main-slider-OC',
+                            elem:'board',
+                            content:[
+                                {   
+                                    block:'main-slider-OC',
+                                    elem:'icon',
+                                    content:{
+                                        tag:'img',
+                                        attrs:{
+                                            src:'img/main-slider-OC/check-mark.png'
+                                        },
+                                    }
+                                },
+                                {
+                                    block:'main-slider-OC',
+                                    elem:'number',
+                                    content:'2020'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    cls:'col-xl-auto',
+                    content:[
+                        {   
+                            block:'main-slider-OC',
+                            elem:'info',
+                            content:'В регионе было решено'
+                        },
+                        {   
+                            block:'main-slider-OC',
+                            elem:'board',
+                            content:[
+                                {   
+                                    block:'main-slider-OC',
+                                    elem:'icon',
+                                    content:{
+                                        tag:'img',
+                                        attrs:{
+                                            src:'img/main-slider-OC/check-marks.png'
+                                        },
+                                    }
+                                },
+                                {
+                                    block:'main-slider-OC',
+                                    elem:'number',
+                                    content:'2621'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    cls:'col-xl-auto',
+                    content:[
+                        {   
+                            block:'main-slider-OC',
+                            elem:'info',
+                            content:'Сейчас рассматривается'
+                        },
+                        {   
+                            block:'main-slider-OC',
+                            elem:'board',
+                            content:[
+                                {   
+                                    block:'main-slider-OC',
+                                    elem:'icon',
+                                    content:{
+                                        tag:'img',
+                                        attrs:{
+                                            src:'img/main-slider-OC/check-marks.png'
+                                        },
+                                    }
+                                },
+                                {
+                                    block:'main-slider-OC',
+                                    elem:'number',
+                                    content:'101'
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+            }
+
             return [
                 {   
                     elem:'item',
@@ -36,40 +136,8 @@ block('main-slider-OC')(
                                                     content:item.button
                                                 }
                                             },
-                                            {
-                                                cls:'col-xl-auto',
-                                                content:[
-                                                    {   
-                                                        block:'main-slider-OC',
-                                                        elem:'info',
-                                                        content:'Всего поступило'
-                                                    },
-                                                    {   
-                                                        block:'main-slider-OC',
-                                                        elem:'board',
-                                                        content:[
-                                                            {   
-                                                                block:'main-slider-OC',
-                                                                elem:'icon',
-                                                                content:{
-                                                                    tag:'img',
-                                                                    attrs:{
-                                                                        src:'img/main-slider-OC/check-mark.png'
-                                                                    },
-                                                                }
-                                                            },
-                                                            {
-                                                                block:'main-slider-OC',
-                                                                elem:'number',
-                                                                content:'2020'
-                                                            }
-                                                        ]
-                                                        
-                                                    }
-                                                ]
-                                                    
-                                                
-                                            }
+                                            monitoringElem
+                                            
                                         ]
                                         
                                     }

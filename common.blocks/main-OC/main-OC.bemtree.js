@@ -12,7 +12,8 @@ block('main-OC')({
                         image:'/img/main-slider-OC/application-banner.svg',
                         text:'Заметили проблему в своем населенном пункте? Сообщите о ней через сервис «Мониторинг проблем» и следите за устранением! Вам ответят в течение одного рабочего дня!',
                         button:'Создать заявку',
-                        url:'/about'
+                        url:'/about',
+                        monitoringElemData:true,
                     },
                     {
                         title:'тут будет второй слайдер',
