@@ -7,7 +7,7 @@ block('main-slider-OC')(
             let monitoringElem;
             if(item.monitoringElemData){
                 monitoringElem = [{
-                    cls:'col-xl-auto',
+                    cls:'col-auto order-1 order-lg-2',
                     content:[
                         {   
                             block:'main-slider-OC',
@@ -38,7 +38,7 @@ block('main-slider-OC')(
                     ]
                 },
                 {
-                    cls:'col-xl-auto',
+                    cls:'col-lg-auto col-6 order-2 order-lg-3',
                     content:[
                         {   
                             block:'main-slider-OC',
@@ -69,7 +69,7 @@ block('main-slider-OC')(
                     ]
                 },
                 {
-                    cls:'col-xl-auto',
+                    cls:'col-lg-auto order-3 order-lg-4',
                     content:[
                         {   
                             block:'main-slider-OC',
@@ -113,9 +113,10 @@ block('main-slider-OC')(
                                 content:[
                                 {
                                     cls:'col-lg-7',
+                                    block:'main-slider-OC',
+                                    elem:'col',
                                     content:[{
                                         block:'main-slider-OC',
-                                        // вот тут без упоминания блока работает некоректно
                                         elem: 'title',
                                         content: item.title
                                     },
@@ -128,7 +129,7 @@ block('main-slider-OC')(
                                         cls:'row',
                                         content:[
                                             {
-                                                cls:'col-xl-auto d-flex',
+                                                cls:'col-lg-auto d-flex order-4 order-lg-1',
                                                 content:{
                                                     block:'main-slider-OC',
                                                     elem:'button',
@@ -137,7 +138,6 @@ block('main-slider-OC')(
                                                 }
                                             },
                                             monitoringElem
-                                            
                                         ]
                                         
                                     }
@@ -173,6 +173,7 @@ block('main-slider-OC')(
     elem('title')(
         tag()('h3'),
     ),
+    
     elem('text')(
         tag()('p'),
     ),

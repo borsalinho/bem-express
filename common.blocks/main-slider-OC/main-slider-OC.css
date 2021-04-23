@@ -68,12 +68,18 @@
     color: #FFFFFF;
     border-radius: 12px;
     height: 40px;
-    width: 175px;
+    /* width: 175px; */
+    width: 100%;
     text-align: center;
     outline: none;
     border: none;
     padding: 7px;
     margin-top: 24px;
+}
+@media screen and (min-width:575px) {
+    .main-slider-OC__button, .main-slider-OC__button:hover{
+        width: 175px;
+    }
 }
 .main-slider-OC__info{
     margin-top: 24px;
@@ -93,4 +99,7 @@
 .main-slider-OC__board{
     display: flex;
     align-items: flex-end;
+}
+.main-slider-OC__col{
+    padding-bottom: 40px;
 }

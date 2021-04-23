@@ -1,0 +1,37 @@
+.actual-info-OC {
+    
+}
+.actual-info-OC__slide{
+    border-radius: 12px;
+    height: 480px;
+    outline: none;
+}
+.actual-info-OC__content{
+    height: 480px;
+    padding: 20px;
+}
+.actual-info-OC__title{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    height: 46px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 16px;
+}
+.actual-info-OC__text{
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    
+}
