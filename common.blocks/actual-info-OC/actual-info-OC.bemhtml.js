@@ -8,7 +8,7 @@ block('actual-info-OC')(
                     content:{
                         elem:'slide',
                         attrs:{
-                            style:'background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%),' + item.background
+                            style:'background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%),' + item.background + 'center center no-repeat; background-size: cover;'
                         },
                         content:[
                             {
@@ -36,6 +36,9 @@ block('actual-info-OC')(
                             }
                         ]
                     }
+                },
+                {
+                    elem:'skeleton'
                 }
             ];
         });

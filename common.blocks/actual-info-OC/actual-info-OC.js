@@ -14,7 +14,7 @@ provide(bemDom.declBlock(this.name, {
                         slidesToShow: 1,
                         slidesToScroll: 1,
                     });
-                    $('.main-slider-OC__skeleton').css({'display' : 'none'});
+                    $('.actual-info-OC__skeleton').css({'display' : 'none'});
                     $('.actual-info-OC__slider').show();
                 });
             }

@@ -1,16 +1,26 @@
-.actual-info-OC {
-    
+.actual-info-OC__slider {
+    display: none;
+}
+.actual-info-OC__skeleton{
+    border-radius: 12px;
+    height: 480px;
+    background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%)
 }
 .actual-info-OC__slide{
     border-radius: 12px;
     height: 480px;
     outline: none;
+    
 }
 .actual-info-OC__content{
     height: 480px;
     padding: 20px;
+    display: flex;
+    display:-webkit-flex;
+    flex-direction: column;
 }
 .actual-info-OC__title{
+    margin-top: auto;
     font-weight: bold;
     font-size: 17px;
     line-height: 23px;
@@ -33,5 +43,11 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;
-    
+}
+.actual-info-OC__url{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: end;
 }

@@ -1,9 +1,5 @@
-// block('main-OC').elem('last-action')({
-//     content: () => [
-//         'проверка проверка'
-//     ]
-// });
-
-block('main-OC').elem('last-action').content()(function() {
-     'проверка проверка';
+block('main-OC').elem('last-actions')({
+    content: () => [
+        'проверка проверка'
+    ]
 });
