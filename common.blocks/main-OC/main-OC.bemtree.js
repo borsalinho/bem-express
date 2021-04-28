@@ -68,7 +68,7 @@ block('main-OC')({
                                 cls:'col-lg-3 col-sm-6',
                                 content:{
                                     block:'main-OC',
-                                    elem:'last-actions'
+                                    elem:'last-actions',
                                 }
                             },
                             {

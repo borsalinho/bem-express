@@ -8,92 +8,22 @@ block('main-OC').elem('last-comments')({
             },
             {
                 elem:'comments-body',
-                content:[
+                goods:[
                     {
-                        elem:'comment',
-                        content:[
-                            {
-                                elem:'comment-name',
-                                content:'Имя напишавшего в одну строку Имя напишавшего в одну строку'
-                            },
-                            {
-                                elem:'comment-text',
-                                content:'Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки'
-                            },
-                            {   
-                                
-                                elem:'comment-category',
-                                content:[
-                                    {   
-                                        tag:'span',
-                                        elem:'category-text',
-                                        content:'Мониторинг проблем'
-                                    },
-                                    {
-                                        tag:'span',
-                                        elem:'category-img'
-                                    }
-                                ]
-                            }
-                        ]
+                        name:'Зубенко Михаил Петрович',
+                        text:'Щумиловка городок, по кличке "Мафиозник"',
+                        category:'Мониторинг проблем'
                     },
                     {
-                        elem:'comment',
-                        content:[
-                            {
-                                elem:'comment-name',
-                                content:'Имя напишавшего в одну строку Имя напишавшего в одну строку'
-                            },
-                            {
-                                elem:'comment-text',
-                                content:'Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки'
-                            },
-                            {   
-                                
-                                elem:'comment-category',
-                                content:[
-                                    {   
-                                        tag:'span',
-                                        elem:'category-text',
-                                        content:'Мониторинг проблем'
-                                    },
-                                    {
-                                        tag:'span',
-                                        elem:'category-img'
-                                    }
-                                ]
-                            }
-                        ]
+                        name:'Зубенко Михаил Петрович',
+                        text:'Щумиловка городок, по кличке "Мафиозник"',
+                        category:'Мониторинг проблем'
                     },
                     {
-                        elem:'comment',
-                        content:[
-                            {
-                                elem:'comment-name',
-                                content:'Имя напишавшего в одну строку Имя напишавшего в одну строку'
-                            },
-                            {
-                                elem:'comment-text',
-                                content:'Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки. Текст на две строки'
-                            },
-                            {   
-                                
-                                elem:'comment-category',
-                                content:[
-                                    {   
-                                        tag:'span',
-                                        elem:'category-text',
-                                        content:'Мониторинг проблем'
-                                    },
-                                    {
-                                        tag:'span',
-                                        elem:'category-img'
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    
+                        name:'Зубенко Михаил Петрович',
+                        text:'Щумиловка городок, по кличке "Мафиозник"',
+                        category:'Мониторинг проблем'
+                    }
                 ]
             }
     ]

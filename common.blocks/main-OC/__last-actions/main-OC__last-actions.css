@@ -3,4 +3,41 @@
     box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.1), 0px 4px 40px rgba(171, 171, 171, 0.12);
     border-radius: 12px;
     padding: 20px;
+    height: 480px;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
 }
+.main-OC__actions-head{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+    margin: 0;
+}
+.main-OC__actions-body{
+    margin-top: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+.main-OC__action{
+    margin-bottom: 20px;
+}
+.main-OC__action-text{
+    font-size: 15px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 10px;
+}
+.main-OC__action-category{
+    display: -webkit-box;
+    display: flex;
+}
+
