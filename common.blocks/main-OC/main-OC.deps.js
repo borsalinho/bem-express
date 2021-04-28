@@ -1,7 +1,6 @@
 ({
     shouldDeps: [
         {
-            block:'main-OC',
             elems: ['last-actions']
         },
         {
@@ -12,6 +11,10 @@
         },
         {
             elems: ['comments-body']
+        },
+        {
+            block:['actual-info-OC'],
+            elems: ['slider']
         },
         'good',
         'main-slider-OC',

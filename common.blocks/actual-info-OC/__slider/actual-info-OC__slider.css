@@ -1,0 +1,17 @@
+.actual-info-OC__slider .slick-arrow{
+    position: absolute;
+    bottom:20px;
+    z-index: 1000;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.actual-info-OC__slider .slick-prev{
+    left: 20px;
+    background: url('img/actual-info-OC/chevron-left.png') 50% 50% no-repeat;
+}
+.actual-info-OC__slider .slick-next{
+    left: 56px;
+    background: url('img/actual-info-OC/chevron-right.png') 50% 50% no-repeat;
+}

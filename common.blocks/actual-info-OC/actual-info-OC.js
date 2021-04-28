@@ -7,8 +7,8 @@ provide(bemDom.declBlock(this.name, {
                 $(document).ready(function(){   
                     $('.actual-info-OC__slider').slick({
                         lazyLoad: 'ondemand',
-                        dots: true,
-                        arrows: false,
+                        dots: false,
+                        arrows: true,
                         infinite: true,
                         speed: 300,
                         slidesToShow: 1,

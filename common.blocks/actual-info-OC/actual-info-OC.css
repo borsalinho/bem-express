@@ -1,3 +1,6 @@
+.actual-info-OC{
+    position: relative;
+} 
 .actual-info-OC__slider {
     display: none;
 }
@@ -44,10 +47,22 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;
 }
+.actual-info-OC__bottom{
+    text-align: end;
+}
 .actual-info-OC__url{
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
-    text-align: end;
+}
+.actual-info-OC__top{
+    font-weight: normal;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #E0E0E0;
+    z-index: 1000;
 }
