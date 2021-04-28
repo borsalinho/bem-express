@@ -118,6 +118,7 @@ block('main-slider-OC')(
                                     content:[{
                                         block:'main-slider-OC',
                                         elem: 'title',
+                                        tag:item.titletag,
                                         content: item.title
                                     },
                                     {
@@ -171,7 +172,9 @@ block('main-slider-OC')(
         })
     ),
     elem('title')(
-        tag()('h3'),
+        tag()(function(){
+            return this.ctx.tag
+        }),
     ),
     
     elem('text')(
