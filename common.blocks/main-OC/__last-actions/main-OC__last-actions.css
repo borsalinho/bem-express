@@ -8,6 +8,12 @@
     display: -webkit-box;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+}
+@media screen and (min-width:992px) {
+    .main-OC__last-actions{
+        margin-top: 0px;
+    }
 }
 .main-OC__actions-head{
     font-weight: bold;

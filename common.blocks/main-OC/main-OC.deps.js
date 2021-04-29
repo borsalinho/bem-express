@@ -18,6 +18,11 @@
         },
         'good',
         'main-slider-OC',
-        'actual-info-OC'
+        'actual-info-OC',
+        'services-slider-OC',
+        {
+            elems: ['services']
+        },
+        'slick-slider-dots'
     ]
 })

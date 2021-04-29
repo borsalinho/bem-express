@@ -103,6 +103,55 @@ block('main-OC')({
                     }
                 ]
             }
+        },
+        {
+            elem:'c',
+            tag:'section',
+            content:
+            {
+                cls:'container',
+                content:{
+                    elem:'services',
+                    content:[
+                        {
+                            elem:'services-title',
+                            tag:'h3',
+                            content:'Сервисы'
+                        },
+                        {
+                            block:'services-slider-OC',
+                            mix:{block:'slick-slider-dots'},
+                            js:true,
+                            goods:[
+                                {
+                                    url:'/about/',
+                                    image:'/img/services-slider-OC/lampa.png',
+                                    title:'Конкурс детских рисунков "Цифровой мир" Конкурс детских рисунков "Цифровой мир"',
+                                    text:'Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы',
+                                },
+                                {
+                                    url:'/about/',
+                                    image:'/img/services-slider-OC/lampa.png',
+                                    title:'Конкурс детских рисунков ',
+                                    text:'Нарисуйте любимого персонажа ',
+                                },
+                                {
+                                    url:'/about/',
+                                    image:'/img/services-slider-OC/lampa.png',
+                                    title:'Конкурс детских рисунков "Цифровой мир" Конкурс детских рисунков "Цифровой мир"',
+                                    text:'Нарисуйте любимого ',
+                                },
+                                {
+                                    url:'/about/',
+                                    image:'/img/services-slider-OC/lampa.png',
+                                    title:'Конкурс детских ',
+                                    text:'Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы',
+                                },
+                            ]
+                        }
+                    ]
+                }
+            }
         }
     ],
 });

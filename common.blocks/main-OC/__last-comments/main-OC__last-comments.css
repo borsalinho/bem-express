@@ -6,6 +6,12 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+}
+@media screen and (min-width:992px) {
+    .main-OC__last-comments{
+        margin-top: 0px;
+    }
 }
 .main-OC__comments-head{
     font-weight: bold;

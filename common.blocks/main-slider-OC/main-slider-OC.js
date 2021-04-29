@@ -10,6 +10,7 @@ modules.define('main-slider-OC', ['i-bem-dom'], function(provide, bemDom) {
                             dots: true,
                             arrows: false,
                             infinite: true,
+                            adaptiveHeight: true,	
                             speed: 300,
                             slidesToShow: 1,
                             slidesToScroll: 1,

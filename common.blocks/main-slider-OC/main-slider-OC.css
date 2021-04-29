@@ -62,6 +62,7 @@
 }
 .main-slider-OC__image{
     width: inherit;
+    min-height: 230px;
 }
 .main-slider-OC__button, .main-slider-OC__button:hover{
     background: #035AA6;
