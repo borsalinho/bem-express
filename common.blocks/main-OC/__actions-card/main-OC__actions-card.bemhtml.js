@@ -1,4 +1,4 @@
-block('main-OC').elem('actions-body')(
+block('main-OC').elem('actions-card')(
 
     content()(function() {
         return this.ctx.goods.map(function(item){

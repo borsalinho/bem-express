@@ -6,6 +6,7 @@ block('main-OC')({
             content:[{
                 block:'main-slider-OC',
                 js:true,
+                mix:{block:'slick-slider-dots'},
                 goods:[
                     {   
                         title:'Платформа мониторинга проблем в Якутии',
@@ -89,6 +90,7 @@ block('main-OC')({
                                 content:{
                                     block:'main-OC',
                                     elem:'last-actions',
+                                    mix:{block:'card-OC'}
                                 }
                             },
                             {
@@ -96,7 +98,7 @@ block('main-OC')({
                                 content:{
                                     block:'main-OC',
                                     elem:'last-comments',
-                                    
+                                    mix:{block:'card-OC'}
                                 }   
                             }
                         ]
@@ -112,6 +114,7 @@ block('main-OC')({
                 cls:'container',
                 content:{
                     elem:'services',
+                    mix:{block:'card-OC'},
                     content:[
                         {
                             elem:'services-title',
@@ -148,8 +151,21 @@ block('main-OC')({
                                     text:'Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы Нарисуйте любимого персонажа и получите призы',
                                 },
                             ]
+                        },
+                        {
+                            elem:'skeleton'
                         }
                     ]
+                }
+            }
+        },
+        {
+            elem:'d',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:{
+                    elem:'actual',
                 }
             }
         }

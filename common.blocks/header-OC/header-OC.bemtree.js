@@ -134,10 +134,14 @@ block('header-OC')({
                                     content:{
                                         block:'header-OC',
                                         elem:'drop-list',
-                                        mix:{
+                                        mix:[{
                                             block:'dropdown-click-OC',
                                             elem:'item',
                                         },
+                                        {
+                                            block:'card-OC'
+                                        }
+                                        ],
                                         content:[
                                             {   
                                                 elem:'drop-list-item',

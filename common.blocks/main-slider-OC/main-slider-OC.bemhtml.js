@@ -1,5 +1,4 @@
 block('main-slider-OC')(
-
     content()(function() {
         
 

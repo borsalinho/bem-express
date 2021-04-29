@@ -23,6 +23,14 @@
         {
             elems: ['services']
         },
-        'slick-slider-dots'
+        'slick-slider-dots',
+        {
+            elems: ['actual']
+        },
+        {
+            elems: ['actual-content']
+        },
+        'card-OC',
+        'problems-OC'
     ]
 })
