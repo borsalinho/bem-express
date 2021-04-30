@@ -1,9 +1,10 @@
 .services-slider-header-OC{
+    display:none;
     padding: 20px 40px 20px 20px;
 }
-@media screen and (max-width:1119px) {
+@media screen and (min-width:1200px) {
     .services-slider-header-OC{
-        display:none
+        display:block
     }
 }
 .services-slider-header-OC .slick-arrow{

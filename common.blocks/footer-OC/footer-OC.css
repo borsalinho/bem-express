@@ -1,16 +1,19 @@
 .footer-OC{
     font-size: 13px;
     line-height: 18px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-@media screen and (max-width:767px){
+.footer__mb_md-20{
+    margin-bottom: 20px;
+}
+@media screen and (min-width:768px){
     .footer-OC{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     .footer__mb_md-20{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 }
 
