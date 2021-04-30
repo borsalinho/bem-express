@@ -45,10 +45,12 @@ block('problems-OC')(
                             },
                             {
                                 elem:'title',
+                                tag:'h3',
                                 content:item.title
                             },
                             {
                                 elem:'text',
+                                tag:'p',
                                 content:item.text
                             },
                             {

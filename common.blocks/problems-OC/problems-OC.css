@@ -1,3 +1,54 @@
 .problems-OC__col-20{
     margin-top: 20px;
 }
+.problems-OC__card{
+    height: 274px;
+}
+.problems-OC__data{
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+    margin-bottom: 20px;
+}
+.problems-OC__title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 0 16px 0;
+    height: 40px;
+}
+.problems-OC__text{
+    font-size: 15px;
+    line-height: 20px;
+    color: #1A1A1A;
+    height: auto;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    margin: 0 0 16px 0;
+}
+.problems-OC__bottom{
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+    display: -webkit-flex;
+    display: flex;
+}
+.problems-OC__comment-img{
+    margin-right: 8px;
+}
+.problems-OC__viewed-img{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.problems-OC__status{
+    margin-left: auto;
+}
