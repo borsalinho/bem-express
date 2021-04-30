@@ -200,13 +200,73 @@ block('footer-OC')({
                                     {   
                                         block:'footer-OC',
                                         elem:'elem',
-                                        content:{
-                                            block:'link-OC',
-                                            attrs:{
-                                               
+                                        content:[
+                                            {
+                                                block:'link-OC',
+                                                attrs:{
+                                                   type:'button',
+                                                   'data-toggle':'modal',
+                                                   'data-target':'#exampleModal'
+                                                },
+                                                content: 'Политика конфиденциальности',
                                             },
-                                            content: 'Политика конфиденциальности'
-                                        }
+                                            {
+                                                cls:'modal fade',
+                                                attrs:{
+                                                    id:'exampleModal',
+                                                    tabindex:'-1',
+                                                    'aria-labelledby':'exampleModalLabel',
+                                                    'aria-hidden':'true'
+                                                },
+                                                content:{
+                                                    cls:'modal-dialog modal-xl',
+                                                    content:{
+                                                        cls:'modal-content',
+                                                        content:[
+                                                            {
+                                                                cls:'modal-header',
+                                                                content:[
+                                                                    {
+                                                                        cls:'modal--title',
+                                                                        tag:'h5',
+                                                                        attrs:{
+                                                                            id:'exampleModalLabel'
+                                                                        },
+                                                                        content:'modal title'
+                                                                    },
+                                                                    {
+                                                                        cls:'close',
+                                                                        tag:'button',
+                                                                        attrs:{
+                                                                            type:'button',
+                                                                            'data-dismiss':'modal',
+                                                                            'aria-label':'Close'
+                                                                        },
+                                                                        content:{
+                                                                            tag:'span',
+                                                                            attrs:{
+                                                                                'aria-hidden':'true'
+                                                                            },
+                                                                            content:'&times;'
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                cls:'modal-body',
+                                                                content:{
+                                                                    block:'privacy-policy-OC'
+                                                                }
+                                                            }
+                                                        ]
+
+                                                        
+                                                    }
+                                                }
+                                                
+                                            }
+                                        ]
+                                        
                                     },
                                    
                                     {   
