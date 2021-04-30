@@ -31,6 +31,10 @@
             elems: ['actual-content']
         },
         'card-OC',
-        'problems-OC'
+        'problems-OC',
+        {
+            elems: ['news']
+        },
+        'news-OC'
     ]
 })

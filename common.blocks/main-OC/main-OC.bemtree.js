@@ -153,7 +153,7 @@ block('main-OC')({
                             ]
                         },
                         {
-                            elem:'skeleton'
+                            elem:'services-skeleton'
                         }
                     ]
                 }
@@ -166,6 +166,16 @@ block('main-OC')({
                 cls:'container',
                 content:{
                     elem:'actual',
+                }
+            }
+        },
+        {
+            elem:'e',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:{
+                    elem:'news'
                 }
             }
         }

@@ -30,7 +30,7 @@ modules.define('services-slider-OC', ['i-bem-dom'], function(provide, bemDom) {
                       }
                     ]
                     });
-                    $('.main-OC__skeleton').css({'display' : 'none'});
+                    $('.main-OC__services-skeleton').css({'display' : 'none'});
                     $('.services-slider-OC').show();
                   });
                 }

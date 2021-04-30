@@ -1,0 +1,8 @@
+.button-OC{
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.button-OC:hover{
+    outline: none;
+}

@@ -133,6 +133,7 @@ block('main-slider-OC')(
                                                 content:{
                                                     block:'main-slider-OC',
                                                     elem:'button',
+                                                    mix:{block:'button-OC'},
                                                     url:item.url,
                                                     content:item.button
                                                 }

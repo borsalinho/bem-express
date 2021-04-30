@@ -41,21 +41,18 @@
     width: inherit;
     min-height: 230px;
 }
-.main-slider-OC__button, .main-slider-OC__button:hover{
+.main-slider-OC__button{
     background: #035AA6;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     border-radius: 12px;
     height: 40px;
     /* width: 175px; */
     width: 100%;
-    text-align: center;
-    outline: none;
-    border: none;
     padding: 7px;
     margin-top: 24px;
 }
 @media screen and (min-width:575px) {
-    .main-slider-OC__button, .main-slider-OC__button:hover{
+    .main-slider-OC__button{
         width: 175px;
     }
 }
