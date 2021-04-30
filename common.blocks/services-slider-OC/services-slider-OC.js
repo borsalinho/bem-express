@@ -23,8 +23,8 @@ modules.define('services-slider-OC', ['i-bem-dom'], function(provide, bemDom) {
                       {
                         breakpoint: 600,
                         settings: {
-                          dots: true,
-                          arrows: false,
+                          // dots: true,
+                          // arrows: false,
                           slidesToShow: 1,
                         }
                       }

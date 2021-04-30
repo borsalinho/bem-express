@@ -1,0 +1,18 @@
+.main-OC__actual-top{
+    display: -webkit-flex;
+    display: flex;
+    align-items: baseline;
+}
+.main-OC__actual-title{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0;
+}
+.main-OC__actual-url{
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #035AA6;
+}

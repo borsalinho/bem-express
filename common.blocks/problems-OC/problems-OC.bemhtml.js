@@ -2,6 +2,7 @@ block('problems-OC')(
 
     content()(function() {
         return this.ctx.goods.map(function(item){
+            
             let statusMark;
             if(item.checked){
                 statusMark= [{
@@ -24,13 +25,20 @@ block('problems-OC')(
                 ]
             }
 
+            // let marginTop;
+            // if(item.mT){
+            //     marginTop = ['elem:"asdasd"']
+            // }
+
             return [ 
                 {
                     cls:'col-sm-6 col-lg-3',
+                    elem:item.mt,
+                    // marginTop,
                     content:{
                         elem:'card',
                         mix:{block:'card-OC'},
-                        content:[
+                        content:[                        
                             {   
                                 elem:'data',
                                 content:item.data
@@ -64,7 +72,7 @@ block('problems-OC')(
                                     },
                                     '12'   
                                     ,
-                                    statusMark
+                                    statusMark,
                                 ]
                             }
                         ]
