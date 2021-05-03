@@ -14,6 +14,7 @@
                 theme: 'islands'
             }
         },
-        'scripts'
+        'scripts',
+        'modal-OC'
     ]
 })

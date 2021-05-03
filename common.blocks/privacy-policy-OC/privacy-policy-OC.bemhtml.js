@@ -3,6 +3,7 @@ block('privacy-policy-OC')(
             return [
                 {   
                     elem:'main-title',
+                    tag:'h5',
                     content:'Политика в отношении обработки персональных данных '
                 },
                 { tag: 'br' },
@@ -167,7 +168,9 @@ block('privacy-policy-OC')(
                 
             ];
     }),
-    
+    elem('title')(
+        tag()('h6')
+    ),
     elem('text')(
         tag()('p')
     ),

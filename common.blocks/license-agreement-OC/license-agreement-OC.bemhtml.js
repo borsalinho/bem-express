@@ -237,7 +237,9 @@ block('license-agreement-OC')(
                 
             ];
     }),
-    
+    elem('title')(
+        tag()('h6')
+    ),
     elem('text')(
         tag()('p')
     ),
