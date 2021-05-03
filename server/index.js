@@ -63,9 +63,9 @@ app.get('/ping/', function(req, res) {
 app.get('/', function(req, res) {
     render(req, res, {
         view: 'main-OC',
-        title: 'Главная страница',
+        title: 'Oneclick Yakutia',
         meta: {
-            description: 'Page description',
+            description: 'OneClick Yakutia – средство решения многих проблем в жизни граждан. Республика Саха (Якутия)',
             og: {
                 url: 'https://site.com',
                 siteName: 'Site name'

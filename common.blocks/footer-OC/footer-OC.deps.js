@@ -7,13 +7,6 @@
         'license-agreement-OC',
         'modal-open',
         'privacy-policy-OC',
-        {
-            block: 'modal',
-            mods: {
-                autoclosable: true,
-                theme: 'islands'
-            }
-        },
         'scripts',
         'modal-xl-OC'
     ]

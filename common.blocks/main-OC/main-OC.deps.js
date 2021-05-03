@@ -16,7 +16,6 @@
             block:['actual-info-OC'],
             elems: ['slider']
         },
-        'good',
         'main-slider-OC',
         'actual-info-OC',
         'services-slider-OC',
