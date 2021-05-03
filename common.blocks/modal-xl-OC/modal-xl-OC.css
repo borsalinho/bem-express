@@ -1,7 +1,7 @@
-.modal-OC__body{
+.modal-xl-OC__body{
     border-radius: 12px;
 }
-.modal-OC__content{
+.modal-xl-OC__content{
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -15,7 +15,7 @@
     border-radius: 12px;
     outline: 0;
 }
-.modal-OC__close{
+.modal-xl-OC__close{
     position: absolute;
     right: 20px;
     top: 20px;

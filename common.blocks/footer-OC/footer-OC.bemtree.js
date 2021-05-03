@@ -201,7 +201,7 @@ block('footer-OC')({
                                         block:'footer-OC',
                                         elem:'elem',
                                         content:{
-                                            block:'modal-OC',
+                                            block:'modal-xl-OC',
                                             goods:[
                                                 {   
                                                     buttonName:'Политика конфидиальности',
@@ -217,7 +217,7 @@ block('footer-OC')({
                                         block:'footer-OC',
                                         elem:'elem',
                                         content:{
-                                            block:'modal-OC',
+                                            block:'modal-xl-OC',
                                             goods:[
                                                 {   
                                                     buttonName:'Лицензионное соглашение',

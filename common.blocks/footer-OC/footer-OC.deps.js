@@ -15,6 +15,6 @@
             }
         },
         'scripts',
-        'modal-OC'
+        'modal-xl-OC'
     ]
 })

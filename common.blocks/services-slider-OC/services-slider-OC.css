@@ -45,7 +45,7 @@
 .services-slider-OC .slick-arrow{
     position:absolute; 
     top:calc(50% - 18px);
-    z-index: 2000;
+    z-index: 1000;
     outline: none;
     border: none;
 }

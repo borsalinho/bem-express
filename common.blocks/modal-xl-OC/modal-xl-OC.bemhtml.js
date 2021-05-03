@@ -1,4 +1,4 @@
-block('modal-OC')(
+block('modal-xl-OC')(
 
     content()(function() {
         return this.ctx.goods.map(function(item){
@@ -25,7 +25,7 @@ block('modal-OC')(
                     content:{
                         cls:'modal-dialog modal-xl',
                         content:{
-                            block:'modal-OC',
+                            block:'modal-xl-OC',
                             elem:'content',
                             content:[
                                 {
@@ -51,7 +51,7 @@ block('modal-OC')(
                                     }
                                 },
                                 {   
-                                    block:'modal-OC',
+                                    block:'modal-xl-OC',
                                     elem:'body',
                                     content:{
                                         block:item.modalContent
