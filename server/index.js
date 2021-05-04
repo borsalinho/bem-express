@@ -67,8 +67,8 @@ app.get('/', function(req, res) {
         meta: {
             description: 'OneClick Yakutia – средство решения многих проблем в жизни граждан. Республика Саха (Якутия)',
             og: {
-                url: 'https://site.com',
-                siteName: 'Site name'
+                url: 'https://yakutia.click/',
+                siteName: 'Oneclick Yakutia'
             }
         }
     })
@@ -79,10 +79,10 @@ app.get('/about', function(req, res) {
         view: 'about-OC',
         title: 'О платформе',
         meta: {
-            description: 'Page description',
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
             og: {
-                url: 'https://site.com',
-                siteName: 'Site name'
+                url: 'https://yakutia.click/about',
+                siteName: 'О платформе'
             }
         }
     })

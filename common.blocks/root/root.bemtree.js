@@ -9,7 +9,7 @@ block('root')({
         return {
             block: 'page',
             title: data.title,
-            favicon: '/favicon.ico',
+            favicon: '/img/favicon/favicon-32x32.png',
             styles: [
                 {
                     elem: 'css',
