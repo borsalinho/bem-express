@@ -11,6 +11,11 @@
     margin: 0;
     color: #1A1A1A;
 }
+@media screen and (min-width:1200px) {
+    .about-OC__title{
+        margin-bottom: -40px;
+    }
+}
 .about-OC__title_font_14{
     font-weight: 600;
     font-size: 15px;
@@ -25,7 +30,7 @@
     margin-top: 40px;
 }
 @media screen and (min-width:992px) {
-    .about-OC__text{
+    .about-OC__text-a{
         margin-top: 0px;
     }
 }
@@ -50,4 +55,20 @@
     margin: 0;
     color: #1A1A1A;
     margin-top: 0px;
+}
+.about-OC__col{
+    display: flex;
+    align-items: center;
+}
+.about-OC__procedure{
+    margin-top:40px;
+    border: 2px dotted #212529;
+    border-radius: 12px;
+    padding: 10px;
+}
+@media screen and (min-width:992px) {
+    .about-OC__procedure{
+        padding: 20px;
+        border-radius: 50px;
+    }
 }
