@@ -34,6 +34,9 @@
         {
             elems: ['news']
         },
-        'news-OC'
+        'news-OC',
+
+        // временно
+        'modal-problems-OC'
     ]
 })
