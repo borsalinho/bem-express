@@ -18,5 +18,14 @@
             mods: { open: ['about-OC'] }
         },
         'about-OC',
+        // {
+        //     mods: { open: [node.data.view] }
+        // },
+        // {
+        //     block: node.data.view
+        // }
     ]
 })
+
+
+
