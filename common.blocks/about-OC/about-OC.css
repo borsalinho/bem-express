@@ -9,10 +9,15 @@
     font-size: 17px;
     line-height: 23px;
     margin: 0;
+    margin-bottom: 40px;
     color: #1A1A1A;
 }
+
+.about-OC__title_type_b{
+    margin-bottom: 0px;
+}
 @media screen and (min-width:1200px) {
-    .about-OC__title{
+    .about-OC__title_type_b{
         margin-bottom: -40px;
     }
 }

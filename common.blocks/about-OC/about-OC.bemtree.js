@@ -72,6 +72,7 @@ block('about-OC')({
                         content:[
                             {
                             elem:'title',
+                            elemMods:{ type:'b' },
                             tag:'h2',
                             content:'Как это работает'
                             },
