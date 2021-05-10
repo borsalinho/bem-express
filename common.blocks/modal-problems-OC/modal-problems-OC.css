@@ -1,0 +1,21 @@
+.modal-problems-OC__sub-and-share{
+    margin-top: 30px;
+}
+.modal-problems-OC__subscribe{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-box-align: center;
+    margin: 0 20px 0 0;
+}
+.modal-problems-OC__share{
+    margin-top: 20px;
+}
+@media screen and (min-width:768px){
+    .modal-problems-OC__share{
+        margin-top: 0px;
+    }
+}
+.modal-problems-OC__comments{
+    margin-top: 30px;
+}

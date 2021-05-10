@@ -1,0 +1,27 @@
+.share-OC{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.share-OC__title{
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+    font-weight: normal;
+    margin: 0 12px 0 0;
+}
+.share-OC__whassup-url{
+    margin-right: 8px;
+}
+.share-OC__vk-url{
+    margin-right: 8px;
+}
+.share-OC__telegram-url{
+    margin-right: 8px;
+}
+.share-OC__twitter-url{
+    margin-right: 8px;
+}
+.share-OC__facebook-url{
+    margin-right: 8px;
+}

@@ -1,0 +1,26 @@
+.status{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.status__text{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 8px 0 0;
+}
+.status__value{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+}
+.status__value_color_completed{
+    color:#28a745;
+}
+.status__value_color_inWork{
+    color: #fc0;
+}
+.status__value_color_clarifed{
+    color: #E46B57;
+}
+

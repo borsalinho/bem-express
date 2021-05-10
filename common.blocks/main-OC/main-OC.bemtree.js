@@ -181,6 +181,9 @@ block('main-OC')({
         },
         {
             block:'modal-problems-OC',
+            // временный класс
+            cls:'container',
+            // ..
             goods:[
                 {
                     title:'Детская площадка',

@@ -1,0 +1,16 @@
+.subscribe{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.subscribe__icon{
+    margin-right: 8px;
+}
+.subscribe__text{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #035AA6;
+    margin: 0;
+}

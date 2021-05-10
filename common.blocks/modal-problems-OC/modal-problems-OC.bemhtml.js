@@ -58,12 +58,80 @@ block('modal-problems-OC')(
                                     ]
                                 },
                                 {
-                                    elem:'',
+                                    elem:'sub-and-share',
                                     content:[
                                         {
-                                            
+                                            cls:'row',
+                                            content:[
+                                                {
+                                                    cls:'col-md-6 d-flex',
+                                                    content:[
+                                                        {   
+                                                            block:'modal-problems-OC',
+                                                            elem:'subscribe',
+                                                            content:{
+                                                                block:'subscribe',
+                                                            }
+                                                        },
+                                                        {
+                                                            block:'status',
+                                                            goods:[{
+                                                                completed:true,
+                                                                // inWork:true,
+                                                                // clarifed:true,
+                                                            }]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    cls:'col-md-6 d-flex justify-content-md-end',
+                                                    block:'modal-problems-OC',
+                                                    elem:'share',
+                                                    content:{
+                                                        block:'share-OC',
+                                                    }
+                                                }
+                                            ]
                                         }
                                     ]
+                                },
+                                {
+                                    elem:'comments',
+                                    content:{
+                                        block:'comments-OC',
+                                        content:[
+                                            {
+                                                elem:'title',
+                                                tag:'h6',
+                                                content:'Комментарии'
+                                            },
+                                            {
+                                                elem:'comments',
+                                                goods:[
+                                                    {
+                                                        avatarUrl:'/img/actual-info-OC/zatu4ka2.jpg',
+                                                        userName:'Зубенко Михаил Петрович',
+                                                        userText:'Вор в законе, Шумиловка городок.Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок'
+                                                    },
+                                                    {
+                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                        userName:'Зубенко Михаил Петрович Зубенко Михаил Петрович Зубенко Михаил Петрович',
+                                                        userText:'Вор в законе, Шумиловка городок'
+                                                    },
+                                                    {
+                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                        userName:'Зубенко Михаил Петрович',
+                                                        userText:'Вор в законе, Шумиловка городок'
+                                                    },
+                                                    {
+                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                        userName:'Зубенко Михаил Петрович',
+                                                        userText:'Вор в законе, Шумиловка городок'
+                                                    },
+                                                ]
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         }
