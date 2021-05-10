@@ -1,7 +1,8 @@
-block('modal-problems-OC')(
+block('main-OC').elem('problem-content')(
 
     content()(function() {
         return this.ctx.goods.map(function(item){
+
 
             return [ 
                 {
@@ -67,7 +68,7 @@ block('modal-problems-OC')(
                                                     cls:'col-md-6 d-flex',
                                                     content:[
                                                         {   
-                                                            block:'modal-problems-OC',
+                                                            block:'main-OC',
                                                             elem:'subscribe',
                                                             content:{
                                                                 block:'subscribe',
@@ -76,8 +77,8 @@ block('modal-problems-OC')(
                                                         {
                                                             block:'status',
                                                             goods:[{
-                                                                completed:true,
-                                                                // inWork:true,
+                                                                // completed:true,
+                                                                inWork:true,
                                                                 // clarifed:true,
                                                             }]
                                                         }
@@ -85,7 +86,7 @@ block('modal-problems-OC')(
                                                 },
                                                 {
                                                     cls:'col-md-6 d-flex justify-content-md-end',
-                                                    block:'modal-problems-OC',
+                                                    block:'main-OC',
                                                     elem:'share',
                                                     content:{
                                                         block:'share-OC',
@@ -107,7 +108,7 @@ block('modal-problems-OC')(
                                             },
                                             {
                                                 elem:'comments',
-                                                goods:[
+                                                commentsContent:[
                                                     {
                                                         avatarUrl:'/img/actual-info-OC/zatu4ka2.jpg',
                                                         userName:'Зубенко Михаил Петрович',

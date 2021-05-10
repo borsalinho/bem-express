@@ -3,9 +3,11 @@ block('problems-OC')(
     content()(function() {
         return this.ctx.goods.map(function(item){
             
-            let statusMark;
-            if(item.checked){
-                statusMark= [{
+           
+            let problemStatus;
+            if(item.completed){
+                problemStatus= [
+                    {
                         elem:'status',
                         tag:'img',
                         attrs:{
@@ -14,26 +16,38 @@ block('problems-OC')(
                     }
                 ]
             }
-            if(item.noChecked){
-                statusMark= [{
-                    elem:'status',
-                    tag:'img',
-                    attrs:{
-                        src:'/img/main-OC__actual/nochecked.png'
+            if(item.inWork){
+                problemStatus= [
+                    {
+                        elem:'status',
+                        tag:'img',
+                        attrs:{
+                            src:'/img/main-OC__actual/nochecked.png'
+                        }
                     }
+                ]
+            }
+            if(item.clarifed){
+                problemStatus= [
+                    {
+                        elem:'status',
+                        tag:'img',
+                        attrs:{
+                            src:'/img/main-OC__actual/checked.png'
+                        }
                     }
                 ]
             }
 
-            // let marginTop;
-            // if(item.mT){
-            //     marginTop = ['elem:"asdasd"']
-            // }
+            let marginTop="";
+            if(item.marginTop){
+                marginTop = item.marginTop
+            }
 
             return [ 
                 {
                     cls:'col-sm-6 col-lg-3',
-                    elem:item.mt,
+                    elem:marginTop,
                     // marginTop,
                     content:{
                         elem:'card',
@@ -74,7 +88,7 @@ block('problems-OC')(
                                     },
                                     '12'   
                                     ,
-                                    statusMark,
+                                    problemStatus,
                                 ]
                             }
                         ]

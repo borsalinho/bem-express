@@ -1,7 +1,7 @@
 block('comments-OC').elem('comments')(
 
     content()(function() {
-        return this.ctx.goods.map(function(item){
+        return this.ctx.commentsContent.map(function(item){
             return [
                 {
                     elem:'comment',

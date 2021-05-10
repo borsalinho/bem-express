@@ -1,9 +1,3 @@
-block('status')({
-    content: () => [
-        
-        
-    ]
-});
 
 block('status')(
 

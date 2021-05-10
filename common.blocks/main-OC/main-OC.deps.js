@@ -35,8 +35,20 @@
             elems: ['news']
         },
         'news-OC',
-
-        // временно
-        'modal-problems-OC'
+        {
+            elems: ['modal-problem']
+        },
+        {
+            elems: ['problem-content']
+        },
+        'share-OC',
+        'subscribe',
+        'status',
+        'comments-OC',
+        {
+            block:['comments-OC'],
+            elems: ['comments']
+        },
+        
     ]
 })
