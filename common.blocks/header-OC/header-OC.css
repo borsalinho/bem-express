@@ -36,6 +36,7 @@
     font-size: 15px;
     line-height: 20px;
     align-self: center;
+    height: 20px;
 }
 .header-OC__menu-list-item a{
     color:#1A1A1A;
@@ -44,6 +45,9 @@
 
 .header-OC__menu-list-item:not(:last-child) {
     margin-right: 36px;
+}
+.header-OC__menu-list-item_mr_10{
+    margin-right: 16px !important;
 }
 .header-OC__menu-list-item_adaptive{
     font-size: 15px;
@@ -142,6 +146,7 @@
     animation: radial-pulse 2s infinite;
     border-radius: 12px;
     padding: 8px 16px;
+    height: 100%;
   }
   
 @keyframes radial-pulse {
@@ -206,6 +211,30 @@
 .header-OC__arrow_rotate{
     transform: rotate(180deg);
 }
-.header-OC__init-slider{
-    margin-right: 16px;
+
+.header-OC__login{
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.2), 0px 4px 28px rgba(171, 171, 171, 0.14);
+    border-radius: 12px;
+    width: 80px;
+    height: 36px;
+    transition: width 0.3s linear;
+    overflow: hidden;
+}
+.header-OC__login_hide{
+    width: 0px;
+    transition: width 0.3s linear;
+}
+
+.header-OC__login .modal-OC__button{
+    width: 100%;
+    background: none;
+    height: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #035AA6;
+}
+.header-OC__search:hover ~ .header-OC__login{
+    width:0px;
 }

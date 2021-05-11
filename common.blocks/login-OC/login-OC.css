@@ -1,0 +1,91 @@
+.login-OC__body{
+    padding: 20px;
+}
+.login-OC__title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.login-OC__input-title{
+    font-size: 15px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin: 0 0 16px 0;
+    font-weight: normal;
+}
+.login-OC__input-log{
+    background: #FCFCFC;
+    border: 0.3px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    outline: none;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 12px;
+    color: #828282;
+    width: 100%;
+}
+.login-OC__im-no-robot{
+    margin: 30px 0 0 0;
+    background: #E0E0E0;
+    border-radius: 4px;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    padding: 12px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #4F4F4F;
+    margin-bottom: 30px;
+}
+.login-OC__input{
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+.login-OC__button{
+    background: #035AA6;
+    border-radius: 12px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+.login-OC__pol-and-lic{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+.login-OC__pol-and-lic a{
+    color: #035AA6 !important;
+    cursor: pointer;
+}
+.login-OC__verify{
+    padding: 20px;
+    position: relative;
+}
+.login-OC__repeat{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #035AA6;
+    margin: 16px 0 20px 0;
+    cursor: pointer;
+}
+.login-OC__back{
+    position: absolute;
+    top:20px;
+    cursor: pointer;
+}

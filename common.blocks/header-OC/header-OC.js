@@ -53,11 +53,12 @@ modules.define('header-OC__search-input', ['i-bem-dom'], function(provide, bemDo
                         $( ".header-OC__search-input" ).focus(function() {
                             $( ".header-OC__profile" ).toggleClass( "header-OC__profile_hide" );
                             $( ".header-OC__margin" ).toggleClass( "header-OC__margin_hide" );
-                            header-OC__margin
+                            $( ".header-OC__login" ).toggleClass( "header-OC__login_hide" );
                         });
                         $( ".header-OC__search-input" ).blur(function() {
                             $( ".header-OC__profile" ).toggleClass( "header-OC__profile_hide" );
                             $( ".header-OC__margin" ).toggleClass( "header-OC__margin_hide" );
+                            $( ".header-OC__login" ).toggleClass( "header-OC__login_hide" );
                         });
                     });
                     

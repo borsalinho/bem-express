@@ -5,6 +5,8 @@
         'dropdown-click-OC',
         'dropdown-hover-OC',
         'services-OC',
-        'services-slider-header-OC'
+        'services-slider-header-OC',
+        'modal-OC',
+        'login-OC'
     ]
 })
