@@ -39,19 +39,19 @@ block('problems-OC')(
                 ]
             }
 
-            let marginTop="";
-            if(item.marginTop){
-                marginTop = item.marginTop
-            }
 
             return [ 
                 {
                     cls:'col-sm-6 col-lg-3',
-                    elem:marginTop,
-                    // marginTop,
+                    
                     content:{
                         elem:'card',
-                        mix:{block:'card-OC'},
+                        mix:
+                            { 
+                                block:'card-OC',
+                                mods:{ mt:'20' }
+                            }
+                        ,
                         content:[                        
                             {   
                                 elem:'data',

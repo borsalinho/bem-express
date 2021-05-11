@@ -49,6 +49,6 @@
             block:['comments-OC'],
             elems: ['comments']
         },
-        
+        'comment-textarea-OC'
     ]
 })

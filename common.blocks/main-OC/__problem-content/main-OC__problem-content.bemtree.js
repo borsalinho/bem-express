@@ -6,33 +6,37 @@ block('main-OC').elem('problem-content')(
 
             return [ 
                 {
-                    elem:'card',
-                    mix:{block:'card-OC'},
+                    elem:'problem-card',
+                    mix:{
+                            block:'card-OC'
+                        },
                     content:[
                         {
-                            elem:'top',
+                            elem:'problem-top',
+                            tag:'p',
                             content:['Мониторинг проблем',
                                         {   
-                                            elem:'data',
+                                            elem:'problem-data',
                                             tag:'span',
-                                            content:'30 июня 2020, 17:00'
+                                            content:item.data
                                         }
                                     ]
                         },
                         {
-                            elem:'body',
+                            elem:'problem-body',
                             content:[
                                 {
-                                    elem:'title',
+                                    elem:'problem-title',
                                     tag:'h2',
                                     content:item.title
                                 },
                                 {
-                                    elem:'text',
+                                    elem:'problem-text',
+                                    tag:'p',
                                     content:item.text
                                 },
                                 {
-                                    elem:'elements',
+                                    elem:'problem-elements',
                                     content:[
                                         {
                                             elem:'elements-title',
@@ -46,14 +50,16 @@ block('main-OC').elem('problem-content')(
                                     ]
                                 },
                                 {
-                                    elem:'answer',
+                                    elem:'problem-answer',
                                     content:[
                                         {
                                             elem:'answer-title',
+                                            tag:'h6',
                                             content:'Ответ администратора'
                                         },
                                         {
                                             elem:'answer-text',
+                                            tag:'p',
                                             content:item.answer
                                         },
                                     ]
@@ -97,43 +103,61 @@ block('main-OC').elem('problem-content')(
                                     ]
                                 },
                                 {
-                                    elem:'comments',
-                                    content:{
-                                        block:'comments-OC',
-                                        content:[
-                                            {
-                                                elem:'title',
-                                                tag:'h6',
-                                                content:'Комментарии'
-                                            },
-                                            {
-                                                elem:'comments',
-                                                commentsContent:[
-                                                    {
-                                                        avatarUrl:'/img/actual-info-OC/zatu4ka2.jpg',
-                                                        userName:'Зубенко Михаил Петрович',
-                                                        userText:'Вор в законе, Шумиловка городок.Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок'
-                                                    },
-                                                    {
-                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
-                                                        userName:'Зубенко Михаил Петрович Зубенко Михаил Петрович Зубенко Михаил Петрович',
-                                                        userText:'Вор в законе, Шумиловка городок'
-                                                    },
-                                                    {
-                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
-                                                        userName:'Зубенко Михаил Петрович',
-                                                        userText:'Вор в законе, Шумиловка городок'
-                                                    },
-                                                    {
-                                                        avatarUrl:'/img/comments-OC/avatar_plug.png',
-                                                        userName:'Зубенко Михаил Петрович',
-                                                        userText:'Вор в законе, Шумиловка городок'
-                                                    },
-                                                ]
+                                    elem:'problem-comments',
+                                    content:[
+                                        {
+                                            block:'comments-OC',
+                                            content:[
+                                                {
+                                                    elem:'title',
+                                                    tag:'h6',
+                                                    content:'Комментарии'
+                                                },
+                                                {
+                                                    elem:'comments',
+                                                    commentsContent:[
+                                                        {
+                                                            avatarUrl:'/img/actual-info-OC/zatu4ka2.jpg',
+                                                            userName:'Зубенко Михаил Петрович',
+                                                            userText:'Вор в законе, Шумиловка городок.Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок'
+                                                        },
+                                                        {
+                                                            avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                            userName:'Зубенко Михаил Петрович Зубенко Михаил Петрович Зубенко Михаил Петрович',
+                                                            userText:'Вор в законе, Шумиловка городок'
+                                                        },
+                                                        {
+                                                            avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                            userName:'Зубенко Михаил Петрович',
+                                                            userText:'Вор в законе, Шумиловка городок'
+                                                        },
+                                                        {
+                                                            avatarUrl:'/img/comments-OC/avatar_plug.png',
+                                                            userName:'Зубенко Михаил Петрович',
+                                                            userText:'Вор в законе, Шумиловка городок'
+                                                        },
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            block:'comment-textarea-OC',
+                                            mix:{
+                                                block:'main-OC',
+                                                elem:'problem-comment-textarea'
                                             }
-                                        ]
-                                    }
-                                }
+                                        },
+                                        {
+                                            block:'button-OC',
+                                            mix:{
+                                                block:'main-OC',
+                                                elem:'problem-comment-button'
+                                            },
+                                            content:'Отправить'
+                                        }
+                                    ]
+                                },
+                                
                             ]
                         }
                     ]

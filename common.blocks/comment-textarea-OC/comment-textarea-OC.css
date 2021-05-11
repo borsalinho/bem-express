@@ -1,0 +1,13 @@
+.comment-textarea-OC__body{
+    background: #FCFCFC;
+    border: 0.3px solid #828282;
+    border-radius: 12px;
+    width: 100%;
+    outline: none;
+    height: 100px;
+    padding: 12px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+}

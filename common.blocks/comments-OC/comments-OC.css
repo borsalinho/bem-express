@@ -43,6 +43,7 @@
     width: calc(100% - 59px);
 }
 .comments-OC__comments{
+    padding: 0 10px 0 0;
     overflow-y: scroll;
     max-height: 300px;
 }

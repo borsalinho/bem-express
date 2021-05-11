@@ -6,9 +6,15 @@ block('news-OC')(
             return [ 
                 {
                     cls:'col-sm-6 col-lg-3',
-                    elem:item.mt,
+                    
                     content:{
                         elem:'card',
+                        mix:
+                            { 
+                                block:'card-OC',
+                                mods:{ mt:'20' }
+                            }
+                        ,
                         attrs:{
                             style:'background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%),' + item.background + 'center center no-repeat; background-size: cover;'
                         },
