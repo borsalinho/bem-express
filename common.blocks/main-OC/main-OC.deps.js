@@ -49,6 +49,12 @@
             block:['comments-OC'],
             elems: ['comments']
         },
-        'comment-textarea-OC'
+        'comment-textarea-OC',
+        {
+            elems: ['modal-news']
+        },
+        {
+            elems: ['news-content']
+        },
     ]
 })
