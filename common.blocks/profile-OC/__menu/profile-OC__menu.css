@@ -1,0 +1,32 @@
+.profile-OC__body{
+    display: flex;
+    display: -webkit-flex;
+}
+.profile-OC__menu{
+    width: 300px;
+}
+.profile-OC__cards{
+    width: calc(100% - 300px);
+}
+
+
+
+
+
+
+.profile-OC__menu-icon{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-box-align: center;
+    margin: 0 12px 0 0;
+}
+.profile-OC__list-item{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-box-align: center;
+}
+.profile-OC__info-icon{
+    margin: 0 12px 0 0;
+}

@@ -7,6 +7,9 @@
         'services-OC',
         'services-slider-header-OC',
         'modal-OC',
-        'login-OC'
+        'login-OC',
+        {
+            elems: ['drop-list']
+        },
     ]
 })

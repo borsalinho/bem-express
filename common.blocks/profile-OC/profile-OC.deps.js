@@ -1,0 +1,28 @@
+({
+    shouldDeps: [
+        {
+            elems:['menu']
+        },
+        {
+            elems:['icon-folder']
+        },
+        {
+            elems:['icon-settings']
+        },
+        {
+            elems:['icon-paperclip']
+        },
+        {
+            elems:['icon-star']
+        },
+        {
+            elems:['cards']
+        },
+        {
+            elems:['in-work']
+        },
+        {
+            elems:['card']
+        }
+    ]
+});

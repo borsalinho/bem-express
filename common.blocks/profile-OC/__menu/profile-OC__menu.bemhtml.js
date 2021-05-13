@@ -1,0 +1,12 @@
+block('profile-OC').elem('list-item')(
+    tag()('li')
+);
+block('profile-OC').elem('menu-item')(
+    tag()('span')
+);
+block('profile-OC').elem('info-item')(
+    tag()('li')
+);
+block('profile-OC').elem('info-icon')(
+    tag()('img')
+);
