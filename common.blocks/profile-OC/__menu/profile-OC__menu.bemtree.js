@@ -80,12 +80,21 @@ block('profile-OC').elem('menu')({
                     elem:'info-item',
                     content:[
                         {
-                            elem:'info-icon',
-                            attrs:{
-                                src:'/img/profile-OC/pin.png'
-                            }
-                        },
-                        'Локация',
+                            elem:'info-item-top',
+                            content:[
+                                {
+                                    elem:'info-icon',
+                                    attrs:{
+                                        src:'/img/profile-OC/pin.png'
+                                    }
+                                },
+                                {   
+                                    tag:'span',
+                                    content:'Локация'
+                                }
+                            ]
+                        }
+                        ,
                         {
                             elem:'info',
                             content:'Якутск, ул.Ленина 1, к 713'
@@ -96,12 +105,20 @@ block('profile-OC').elem('menu')({
                     elem:'info-item',
                     content:[
                         {
-                            elem:'info-icon',
-                            attrs:{
-                                src:'/img/profile-OC/call-phone.png'
-                            }
+                            elem:'info-item-top',
+                            content:[
+                                {
+                                    elem:'info-icon',
+                                    attrs:{
+                                        src:'/img/profile-OC/call-phone.png'
+                                    }
+                                },
+                                {
+                                    tag:'span',
+                                    content:'Телефон'
+                                },
+                            ]
                         },
-                        'Локация',
                         {
                             elem:'info',
                             content:'8-800-555-35-35'
@@ -112,12 +129,20 @@ block('profile-OC').elem('menu')({
                     elem:'info-item',
                     content:[
                         {
-                            elem:'info-icon',
-                            attrs:{
-                                src:'/img/profile-OC/mail.png'
-                            }
+                            elem:'info-item-top',
+                            content:[
+                                {
+                                    elem:'info-icon',
+                                    attrs:{
+                                        src:'/img/profile-OC/mail.png'
+                                    }
+                                },
+                                {
+                                    tag:'span',
+                                    content:'E-mail'
+                                },
+                            ]
                         },
-                        'Локация',
                         {
                             elem:'info',
                             content:'zubenko@mail.ru'
