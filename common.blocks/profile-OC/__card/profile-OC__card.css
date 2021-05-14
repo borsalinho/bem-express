@@ -1,0 +1,29 @@
+.profile-OC__card{
+    margin-bottom: 20px;
+}
+.profile-OC__card-bottom{
+    display: flex;
+    display: -webkit-flex;
+}
+.profile-OC__card-bottom .status{
+    margin-left: auto;
+}
+
+.profile-OC__card-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1A1A1A;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 0 10px 0
+}
+.profile-OC__card-data{
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+}

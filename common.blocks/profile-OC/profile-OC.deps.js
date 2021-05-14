@@ -23,6 +23,13 @@
         },
         {
             elems:['card']
-        }
+        },
+        {
+            elems:['archive']
+        },
+        {
+            elems:['card-archive']
+        },
+        'status'
     ]
 });

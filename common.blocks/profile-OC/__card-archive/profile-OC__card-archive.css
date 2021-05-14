@@ -1,0 +1,39 @@
+.profile-OC__card-archive{
+    margin-bottom: 20px;
+}
+.profile-OC__card-archive-top{
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 0 10px 0
+}
+.profile-OC__card-archive-top .status{
+    margin-left: auto;
+    align-items: start;
+}
+.profile-OC__card-archive-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1A1A1A;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.profile-OC__card-archive-bottom{
+    display: flex;
+    display: -webkit-flex;
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+}
+.profile-OC__unsubscribe{
+    margin-left: auto;
+    background: none;
+    border: none;
+    outline: none;
+    color: #035AA6;
+    font-weight: normal;
+}
