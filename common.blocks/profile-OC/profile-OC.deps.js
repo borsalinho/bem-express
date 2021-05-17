@@ -30,6 +30,15 @@
         {
             elems:['card-archive']
         },
-        'status'
+        'status',
+        {
+            elems:['settings']
+        },
+        'input-OC',
+        'select-OC',
+        {
+            elems:['scores']
+        },
+        
     ]
 });

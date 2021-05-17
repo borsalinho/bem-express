@@ -11,19 +11,41 @@ block('profile-OC').elem('menu')({
             content:[
                 {
                     elem:'list-item',
+                    mix:{elem:'additional-ul'},
                     content:[
-                        {
-                            
-                            elem:'icon-folder',
-                            mix:{elem:'menu-icon'}
-                            
-                        },
                         {   
-                            elem:'menu-item',
-                            content:'Мои обращения'
-                        }
+                            elem:'additional-li',
+                            content:[
+                                {
+                                
+                                elem:'icon-folder',
+                                mix:{elem:'menu-icon'}
+                                
+                                },
+                                {   
+                                    elem:'menu-item',
+                                    content:'Мои обращения'
+                                }
+                            ]
+                        },
+                        {   elem:'list-2',
+                            tag:'ul',
+                            content:[
+                                {   
+                                    elem:'list-item-2',
+                                    tag:'li',
+                                    content:'В работе'
+                                },
+                                {   
+                                    elem:'list-item-2',
+                                    tag:'li',
+                                    content:'Архив'
+                                }
+                            ]
+                        },
                     ]
                 },
+                
                 {
                     elem:'list-item',
                     content:[

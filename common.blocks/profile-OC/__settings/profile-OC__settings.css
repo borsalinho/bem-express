@@ -1,0 +1,76 @@
+.profile-OC__settings-top{
+    display: flex;
+    display: -webkit-flex;
+}
+.profile-OC__settings-data{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-OC__settings-avatar{
+    width: 103px;
+    height: 103px;
+    position: relative;
+    margin: 0 40px 0 0;
+}
+.profile-OC__settings-img{
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-OC__settings-img img{
+    width: 103px;
+    height: 103px;
+}
+.profile-OC__settings-avatar a{
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    cursor: pointer;
+    z-index: 2000;
+}
+.profile-OC__change-avatar{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: url('/img/profile-OC/change-avatar.png') center no-repeat,#035AA6 ;
+}
+.profile-OC__settings-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+    margin: 0 0 16px 0;
+}
+.profile-OC__settings-info{
+    font-size: 15px;
+    line-height: 20px;
+    color: #828282;
+}
+.profile-OC__decided{
+    margin-right: 10px;
+}
+.profile-OC__scores{
+    margin: 0 10px 0 45px
+}
+.profile-OC__settings-input{
+    margin: 16px 0 0 0;
+}
+.profile-OC__col{
+    margin: 40px 0 0 0;
+}
+.profile-OC__settings-quot{
+    color: #EB5757;
+    margin: 0 0 0 5px;
+}
+.profile-OC__settings-bottom{
+    margin: 60px 0 0 0;
+    text-align: end;
+}
+.profile-OC__settings-button{
+    background: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #035AA6;
+}

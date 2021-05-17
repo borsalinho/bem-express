@@ -66,3 +66,21 @@
     display: -webkit-flex;
     align-items: center;
 }
+.profile-OC__additional-ul{
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 0;
+}
+.profile-OC__additional-li{
+    display: flex;
+    display: -webkit-flex;
+}
+.profile-OC__list-2{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 32px;
+}
+.profile-OC__list-item-2{
+    padding: 10px 0;
+    margin: 30px 0 0 0;
+}
