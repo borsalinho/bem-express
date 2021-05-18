@@ -1,0 +1,15 @@
+.profile-OC__scores-top{
+    display:flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.profile-OC__scores-img{
+    width: 77px;
+    height: 77px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-OC__scores-img img{
+    width: 77px;
+    height: 77px;
+}

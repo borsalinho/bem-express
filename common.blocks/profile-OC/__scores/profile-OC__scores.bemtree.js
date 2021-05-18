@@ -3,6 +3,7 @@ block('profile-OC').elem('scores')({
         
         {
             elem:'scores-top',
+            mix:{block:'card-OC'},
             content:[
                 {
                     elem:'scores-avatar',

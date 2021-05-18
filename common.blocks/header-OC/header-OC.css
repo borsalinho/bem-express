@@ -115,6 +115,7 @@
 }
 
 .header-OC__profile{
+    cursor: pointer;
     transition: width 0.3s linear;
     position: relative;
     background: #FCFCFC;

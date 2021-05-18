@@ -47,7 +47,7 @@ block('profile-OC').elem('settings')({
                                 '12'
                                 ,
                                 {
-                                    elem:'scores',
+                                    elem:'total-scores',
                                     tag:'span',
                                     content:'Баллов платформы'
                                 }
