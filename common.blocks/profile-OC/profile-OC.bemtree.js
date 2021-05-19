@@ -11,9 +11,11 @@ block('profile-OC')({
                     content:[
                         {
                             elem:'menu',
+                            js:true,
                         },
                         {
                             elem:'cards',
+                            js:true,
                         }
                     ]
                 },

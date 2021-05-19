@@ -7,8 +7,7 @@ block("actual-info-OC").elem("slider")(
           attrs: {
             style:
               "background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%)," +
-              item.background +
-              "center center no-repeat; background-size: cover;",
+              "url(" + item.background + "); center center no-repeat; background-size: cover;",
           },
           content: [
             {

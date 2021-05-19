@@ -69,11 +69,14 @@
 .profile-OC__additional-ul{
     flex-direction: column;
     align-items: start;
-    padding-bottom: 0;
+    padding: 0;
+    cursor:auto;
 }
 .profile-OC__additional-li{
+    padding: 10px 0;
     display: flex;
     display: -webkit-flex;
+    cursor: pointer;
 }
 .profile-OC__list-2{
     list-style: none;
@@ -82,5 +85,16 @@
 }
 .profile-OC__list-item-2{
     padding: 10px 0;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+.profile-OC__list-item-2:not(:first-child){
     margin: 30px 0 0 0;
+}
+.profile-OC__list-item_active{
+    border-right:3px solid #035AA6;
+    color: #035AA6;
+}
+.profile-OC__list-item_active path{
+    fill: #035AA6;
 }

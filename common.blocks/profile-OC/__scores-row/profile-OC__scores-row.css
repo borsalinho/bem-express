@@ -1,0 +1,54 @@
+.profile-OC__mt-40{
+    margin: 40px 0 0 0;
+}
+.profile-OC__scores-col{
+    background: #FCFCFC;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.1), 0px 4px 40px rgba(171, 171, 171, 0.12);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.profile-OC__col-top{
+    border-radius: 12px 12px 0px 0px;
+    height: 92px;
+    position: relative;
+}
+.profile-OC__col-score{
+    position: absolute;
+    background: #1199FF;
+    border-radius: 6px;
+    font-size: 9px;
+    padding: 6px;
+    width: 90px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 8px;
+    right: -8px;
+}
+.profile-OC__col-body{
+    padding: 10px;
+}
+.profile-OC__col-title{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin:0 0 5px 0;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.profile-OC__col-text{
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}

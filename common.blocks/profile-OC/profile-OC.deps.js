@@ -39,6 +39,10 @@
         {
             elems:['scores']
         },
+        'button-OC',
+        {
+            elems:['scores-row']
+        },
         
     ]
 });

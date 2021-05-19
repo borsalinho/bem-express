@@ -33,11 +33,13 @@ block('profile-OC').elem('menu')({
                             content:[
                                 {   
                                     elem:'list-item-2',
+                                    mix:{elem:'item-in-work'},
                                     tag:'li',
                                     content:'В работе'
                                 },
                                 {   
                                     elem:'list-item-2',
+                                    mix:{elem:'item-archive'},
                                     tag:'li',
                                     content:'Архив'
                                 }
@@ -48,6 +50,7 @@ block('profile-OC').elem('menu')({
                 
                 {
                     elem:'list-item',
+                    mix:{elem:'item-subscribe'},
                     content:[
                         {
                             
@@ -63,6 +66,7 @@ block('profile-OC').elem('menu')({
                 },
                 {
                     elem:'list-item',
+                    mix:{elem:'item-settings'},
                     content:[
                         {
                             
@@ -78,6 +82,7 @@ block('profile-OC').elem('menu')({
                 },
                 {
                     elem:'list-item',
+                    mix:{elem:'item-scores'},
                     content:[
                         {
                             

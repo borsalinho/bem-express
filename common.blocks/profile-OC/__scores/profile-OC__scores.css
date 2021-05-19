@@ -1,15 +1,64 @@
 .profile-OC__scores-top{
-    display:flex;
-    display: -webkit-flex;
-    align-items: center;
+    
 }
 .profile-OC__scores-img{
     width: 77px;
     height: 77px;
     overflow: hidden;
     border-radius: 50%;
+    margin: auto;
 }
 .profile-OC__scores-img img{
     width: 77px;
     height: 77px;
+}
+.profile-OC__scores-data{
+    margin:20px 0 0 0;
+    text-align: center;
+}
+.profile-OC__scores-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+    margin: 0 0 10px 0;
+}
+
+.profile-OC__scores-info{
+    font-size: 15px;
+    line-height: 20px;
+    color: #828282;
+}
+.profile-OC__score{
+    margin: 0 10px 0 0;
+}
+.profile-OC__scores-take{
+    margin:20px 0 0 0;
+}
+.profile-OC__scores-button{
+    background: #035AA6;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+@media screen and (min-width:992px) {
+    .profile-OC__scores-top{
+        display:flex;
+        display: -webkit-flex;
+        align-items: center;
+    }
+    .profile-OC__scores-data{
+        margin:0 0 0 20px;
+        text-align: start;
+    }
+    .profile-OC__scores-take{
+        margin: auto;
+    }
+    .profile-OC__scores-button{
+        width: 189px;
+        
+    }
 }
