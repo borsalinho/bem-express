@@ -78,10 +78,17 @@
     display: -webkit-flex;
     cursor: pointer;
 }
+.profile-OC__additional-li_active{
+    color: #035AA6;
+}
+.profile-OC__additional-li_active path{
+    fill: #035AA6;
+}
 .profile-OC__list-2{
     list-style: none;
-    padding: 0;
-    margin: 0 0 0 32px;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 32px;
 }
 .profile-OC__list-item-2{
     padding: 10px 0;
