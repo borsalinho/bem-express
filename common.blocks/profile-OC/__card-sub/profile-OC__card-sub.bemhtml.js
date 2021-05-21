@@ -1,4 +1,4 @@
-block('profile-OC').elem('card-archive')(
+block('profile-OC').elem('card-sub')(
 
     content()(function() {
         return this.ctx.content.map(function(item){
@@ -29,12 +29,11 @@ block('profile-OC').elem('card-archive')(
                             elem:'card-archive-data',
                             content:item.data
                         },
-                        
-                        // {
-                        //     elem:'unsubscribe',
-                        //     content:'Отписатсья от проблемы',
-                        //     tag:'button'
-                        // }
+                        {
+                            elem:'unsubscribe',
+                            content:'Отписатсья от проблемы',
+                            tag:'button'
+                        }
                     ]
                 }
             ];

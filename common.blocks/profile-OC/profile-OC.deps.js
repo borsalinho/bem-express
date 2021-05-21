@@ -30,6 +30,9 @@
         {
             elems:['card-archive']
         },
+        {
+            elems:['card-sub']
+        },
         'status',
         {
             elems:['settings']
@@ -43,6 +46,5 @@
         {
             elems:['scores-row']
         },
-        
     ]
 });

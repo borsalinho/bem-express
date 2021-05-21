@@ -40,20 +40,29 @@ block('profile-OC').elem('settings')({
                             content:[
                                 {
                                     elem:'decided',
-                                    tag:'span',
-                                    content:'Проблем решено'
-                                }
-                                ,
-                                '12'
-                                ,
+                                    content:[
+                                        {
+                                            tag:'span',
+                                            content:'Проблем решено'
+                                        }
+                                        ,
+                                        '12'
+                                        ,
+                                    ]
+                                },
                                 {
                                     elem:'total-scores',
-                                    tag:'span',
-                                    content:'Баллов платформы'
+                                    content:[
+                                        {
+                                            tag:'span',
+                                            content:'Баллов платформы'
+                                        }
+                                        ,
+                                        '12334'
+                                        ,
+                                    ]
                                 }
-                                ,
-                                '12334'
-                                ,
+                                
                             ]
                         }
                     ]
@@ -68,7 +77,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -100,7 +109,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -132,7 +141,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -164,7 +173,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -196,7 +205,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -228,7 +237,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',
@@ -260,7 +269,7 @@ block('profile-OC').elem('settings')({
                     {   
                         block:'profile-OC',
                         elem:'col',
-                        cls:'col-4',
+                        cls:'col-xl-4',
                         content:[
                             {   
                                 block:'profile-OC',

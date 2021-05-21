@@ -1,19 +1,30 @@
-.profile-OC__settings-top{
-    display: flex;
-    display: -webkit-flex;
-}
 .profile-OC__settings-data{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 .profile-OC__settings-avatar{
     width: 103px;
     height: 103px;
     position: relative;
-    margin: 0 40px 0 0;
+    margin:auto;
 }
+@media screen and (min-width:1200px) {
+    .profile-OC__settings-top{
+        display: flex;
+        display: -webkit-flex;
+    }
+    .profile-OC__settings-data{
+        text-align: start;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile-OC__settings-avatar{
+        margin: 0 40px 0 0;
+    }
+}
+
+
 .profile-OC__settings-img{
     overflow: hidden;
     border-radius: 50%;
@@ -48,10 +59,26 @@
     color: #828282;
 }
 .profile-OC__decided{
-    margin-right: 10px;
+    margin-right: 0px;
+}
+.profile-OC__decided span{
+    margin: 0 12px 0 0;
 }
 .profile-OC__total-scores{
-    margin: 0 10px 0 45px
+    margin: 10px 0 0 0;
+}
+.profile-OC__total-scores span{
+    margin: 0 12px 0 0;
+}
+@media screen and (min-width:1092px){
+    .profile-OC__decided{
+        display: inline;
+        margin-right: 10px;
+    }
+    .profile-OC__total-scores{
+        display: inline;
+        margin: 0 10px 0 45px;
+    }
 }
 .profile-OC__settings-input{
     margin: 16px 0 0 0;
