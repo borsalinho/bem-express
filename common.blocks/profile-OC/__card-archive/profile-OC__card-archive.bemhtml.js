@@ -29,12 +29,6 @@ block('profile-OC').elem('card-archive')(
                             elem:'card-archive-data',
                             content:item.data
                         },
-                        
-                        // {
-                        //     elem:'unsubscribe',
-                        //     content:'Отписатсья от проблемы',
-                        //     tag:'button'
-                        // }
                     ]
                 }
             ];

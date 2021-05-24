@@ -54,12 +54,15 @@ block('profile-OC').elem('cards')({
                 ]
             }
         },
-        {
-            elem:'settings',
-            mix:{ block:'card-OC' },
-        },
+        // {
+        //     elem:'settings',
+        //     mix:{ block:'card-OC' },
+        // },
         {
             elem:'scores'
+        },
+        {
+            elem:'card-open'
         }
     ]
 });

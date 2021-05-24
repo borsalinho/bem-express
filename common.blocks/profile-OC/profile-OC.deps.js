@@ -46,5 +46,9 @@
         {
             elems:['scores-row']
         },
-    ]
+        {
+            elems:['card-open']
+        },
+        'profile-card'
+    ]   
 });
