@@ -1,4 +1,6 @@
-
+.profile-OC__menu{
+    max-height: 700px;
+}
 @media screen and (min-width:768px) {
     .profile-OC__menu{
         width: 300px;

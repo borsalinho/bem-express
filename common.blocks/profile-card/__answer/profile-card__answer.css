@@ -1,0 +1,33 @@
+.profile-card__answer-card{
+    display: flex;
+    margin:0 0 25px 0;
+}
+.profile-card__answer-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+}
+.profile-card__answer-body{
+    width: calc(100% - 80px);
+}
+.profile-card__answer-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A;
+    margin: 0 0 10px 0;
+}
+.profile-card__answer-data{
+    font-size: 13px;
+    line-height: 16px;
+    color: #B4B4B4;
+    margin: 0 0 13px 0;
+}
+
+.profile-card__answer-text{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}

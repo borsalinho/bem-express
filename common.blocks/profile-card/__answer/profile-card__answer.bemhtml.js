@@ -4,26 +4,39 @@ block('profile-card').elem('answer')(
         return this.ctx.content.map(function(item){
             return [
                 {
-                    elem:'answer-avatar'
-                },
-                {
-                    elem:'answer-body',
+                    elem:'answer-card',
+                    mix:{block:'card-OC'},
                     content:[
                         {
-                            elem:'answer-name',
-                            content:'Администратор'
+                            elem:'answer-avatar',
+                            content:{
+                                tag:'img',
+                                attrs:{
+                                    src:'/img/profile-card/admin-avatar.png'
+                                }
+                            }
                         },
                         {
-                            elem:'answer-data',
-                            content:item.data
-                        },
-                        {
-                            elem:'answer-text',
-                            tag:'p',
-                            content:item.text
+                            elem:'answer-body',
+                            content:[
+                                {
+                                    elem:'answer-name',
+                                    content:'Администратор'
+                                },
+                                {
+                                    elem:'answer-data',
+                                    content:item.data
+                                },
+                                {
+                                    elem:'answer-text',
+                                    tag:'p',
+                                    content:item.text
+                                }
+                            ]
                         }
                     ]
                 }
+                
             ];
  
         });

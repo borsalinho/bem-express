@@ -4,6 +4,9 @@
             elems:['answer']
         },
         'share-OC',
-        'card-OC'
+        'card-OC',
+        {
+            elems:['star']
+        },
     ]
 })

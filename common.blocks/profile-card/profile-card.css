@@ -1,0 +1,133 @@
+.profile-card__comment-button{
+    width: 100%;
+    margin-top: 30px;
+    background: #035AA6;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+@media screen and (min-width:768px) {
+    .profile-card__comment-button{
+        width: 250px;
+    }
+}
+.profile-card__comment-textarea{
+    margin-top: 40px;
+}
+.profile-card__change-card{
+    margin: 60px 0;
+}
+@media screen and (min-width:1200px) {
+    .profile-card__change-card{
+        padding: 30px 100px 50px;
+    }
+}
+.profile-card__change-button{
+    margin-top: 30px;
+    background: #035AA6;
+    border-radius: 12px;
+    width: 100%;
+    padding: 10px;
+    color: #FFFFFF;
+}
+@media screen and (min-width:768px) {
+    .profile-card__change-button{
+        width: 175px;
+    }
+}
+.profile-card__change-textarea{
+    font-size: 13px;
+    line-height: 18px;
+    outline: none;
+    padding: 12px;
+    margin:20px 0 0 0;
+    background: #FCFCFC;
+    border: 0.3px solid #828282;
+    border-radius: 12px;
+    width: 100%;
+    height: 90px;
+}
+.profile-card__change-text{
+    margin:30px 0 0 0;
+}
+.profile-card__change-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+.profile-card__change-select{
+    margin:20px 0 0 0;
+    width: 100%;
+}
+
+.profile-card__no-problem, .profile-card__go-archive, .profile-card__change-status {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #035AA6;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.profile-card__go-archive, .profile-card__change-status{
+    margin:10px 0 0 0;
+}
+.profile-card__share{
+    margin:20px 0 0 0;
+}
+.profile-card__stars{
+    margin:20px 0 0 0;
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(130, 130, 130);
+    font-weight: normal;
+}
+@media screen and (min-width:992px) {
+    .profile-card__stars{
+        margin:0;
+    }
+}
+.profile-card__stars-text{
+    margin:0 10px 0 0;
+}
+.profile-card__body{
+    margin: 0 0 25px 0;
+}
+.profile-card__body-top{
+    display: flex;
+}
+.profile-card__body-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+.profile-card__body-status{
+    margin-left: auto;
+    align-self: flex-start;
+    height: 20px;
+    white-space: nowrap;
+}
+.profile-card__body-data{
+    font-size: 13px;
+    line-height: 18px;
+    margin: 10px 0 0 0;
+    color: #828282;
+    display: inline-block;
+}
+.profile-card__body-unsubscribe{
+    font-size: 13px;
+    line-height: 18px;
+    color: #035AA6;
+    border: none;
+    background: none;
+    padding: 0;
+    float: right;
+    margin: 10px 0 0 0;
+}
+.profile-card__body-text{
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 30px 0 0 0;
+}
