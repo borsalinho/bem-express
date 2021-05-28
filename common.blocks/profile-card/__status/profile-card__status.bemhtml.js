@@ -13,10 +13,6 @@ block('profile-card').elem('status')(
                 answeredStatus = [
                     {
                         elem:'answered-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/answered.png'
-                        }
                     },
                     
                 ];
@@ -30,10 +26,6 @@ block('profile-card').elem('status')(
                 doneStatus = [
                     {
                         elem:'done-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/done.png'
-                        }
                     },
                 ];
                 doneStatusText = [
@@ -48,10 +40,7 @@ block('profile-card').elem('status')(
                 answeredStatus = [
                     {
                         elem:'answered-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/answered_disabled.png'
-                        }
+                        elemMods:{disabled:'true'},
                     },
                     
                 ];
@@ -66,10 +55,7 @@ block('profile-card').elem('status')(
                 doneStatus = [
                     {
                         elem:'done-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/done_disabled.png'
-                        }
+                        elemMods:{disabled:'true'},
                     },
                 ];
                 doneStatusText = [
@@ -85,10 +71,7 @@ block('profile-card').elem('status')(
                 answeredStatus = [
                     {
                         elem:'answered-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/answered.png'
-                        }
+                        
                     },
                     
                 ];
@@ -102,10 +85,6 @@ block('profile-card').elem('status')(
                 doneStatus = [
                     {
                         elem:'done-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/done.png'
-                        }
                     },
                 ];
                 doneStatusText = [
@@ -120,10 +99,6 @@ block('profile-card').elem('status')(
                 answeredStatus = [
                     {
                         elem:'answered-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/answered.png'
-                        }
                     },
                     
                 ];
@@ -137,10 +112,7 @@ block('profile-card').elem('status')(
                 doneStatus = [
                     {
                         elem:'done-img',
-                        tag:'img',
-                        attrs:{
-                            src:'/img/profile-card/done_disabled.png'
-                        }
+                        elemMods:{disabled:'true'},
                     },
                 ];
                 doneStatusText = [
@@ -161,7 +133,7 @@ block('profile-card').elem('status')(
                             content:[
                                 {
                                     elem:'sent-img',
-                                    tag:'img',
+                                    
                                     attrs:{
                                         src:'/img/profile-card/sent.png'
                                     }
@@ -177,10 +149,6 @@ block('profile-card').elem('status')(
                             content:[
                                 {
                                     elem:'received-img',
-                                    tag:'img',
-                                    attrs:{
-                                        src:'/img/profile-card/received.png'
-                                    }
                                 },
                                 {   
                                     elem:'received-text',

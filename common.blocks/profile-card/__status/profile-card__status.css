@@ -5,32 +5,104 @@
     display: flex;
     width: 100%;
 }
-.profile-card__status-body img{
-    height: 0px;
+.profile-card__status-sent, .profile-card__status-received, .profile-card__status-answered{
+    margin: 0 0 15px 0;
 }
 .profile-card__status-body{
     font-size: 12px;
     line-height: 14px;
-    background: url('/img/profile-card/status-vector-2.png')10px  no-repeat;
+    background: url('/img/profile-card/status-vector-2.png')7px  no-repeat;
 }
 .profile-card__answered-text_disabled_true, .profile-card__done-text_disabled_true{
-    color:#000000
+    color:gray;
+}
+.profile-card__status{
+    margin: 0 0 40px 0;
+}
+.profile-card__sent-img{
+    background: #035AA6;
+    margin: 0 12px 0 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.profile-card__received-img{
+    background: #035AA6;
+    margin: 0 12px 0 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.profile-card__answered-img{
+    background: #035AA6;
+    margin: 0 12px 0 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.profile-card__answered-img_disabled_true{
+    background: #DADADA;
+}
+.profile-card__done-img{
+    background: #035AA6;
+    margin: 0 12px 0 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.profile-card__done-img_disabled_true{
+    background: #DADADA;
 }
 @media screen and (min-width:992px) {
     .profile-card__status-body{
         display: flex;
         text-align: center;
-        
         background: url('/img/profile-card/status-vector.png')0 50% no-repeat;
     }
-    .profile-card__status-body img{
-        height: 120px;
-    }
+    
     .profile-card__sent-text, .profile-card__received-text, .profile-card__answered-text, .profile-card__done-text{
         margin:15px auto 0;
         max-width: 166px;
     }
-    .profile-card__status{
-        margin: 0 0 40px 0;
+    .profile-card__status-sent, .profile-card__status-received, .profile-card__status-answered, .profile-card__status-done{
+        display: block;
+        
     }
+    
+    .profile-card__sent-img{
+        background: url('/img/profile-card/sent.png') 50% 50% no-repeat;
+        height: 120px;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        
+    }
+    .profile-card__received-img{
+        background: url('/img/profile-card/received.png') 50% 50% no-repeat;
+        height: 120px;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    .profile-card__answered-img{
+        background: url('/img/profile-card/answered.png') 50% 50% no-repeat;
+        height: 120px;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    .profile-card__answered-img_disabled_true{
+        background: url('/img/profile-card/answered_disabled.png') 50% 50% no-repeat;
+    }
+    .profile-card__done-img{
+        background: url('/img/profile-card/done.png') 50% 50% no-repeat;
+        height: 120px;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    .profile-card__done-img_disabled_true{
+        background: url('/img/profile-card/done_disabled.png') 50% 50% no-repeat;
+    }
+    
 }

@@ -2,6 +2,22 @@ block('profile-card')({
     
     content: () => [
         {
+            elem:'tree-mob',
+            content:[
+                
+                {
+                    tag:'img',
+                    attrs:{
+                        src:'/img/profile-card/chevron-left.png'
+                    }
+                },
+                {
+                    tag:'span',
+                    content:'Назад'
+                },
+            ]
+        },
+        {
             elem:'tree',
             content:[
                 {
@@ -32,8 +48,8 @@ block('profile-card')({
                 {   
                     // на выбор один
 
-                    // inWork:true,
-                    answered:true,
+                    inWork:true,
+                    // answered:true,
                     // clarifed:true,
                     // completed:true,
                 }

@@ -132,12 +132,17 @@
     margin: 30px 0 0 0;
 }
 .profile-card__tree{
-    font-size: 12px;
-    line-height: 14px;
-    color: #BDBDBD;
-    margin: 0 0 20px 0;
-    display: flex;
-    align-items: center;
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .profile-card__tree{
+        font-size: 12px;
+        line-height: 14px;
+        color: #BDBDBD;
+        margin: 0 0 20px 0;
+        display: flex;
+        align-items: center;
+    }
 }
 .profile-card__tree img{
     margin: 0 12px 0 0;
@@ -148,4 +153,22 @@
 }
 .profile-card__path_active_true{
     color: #035AA6;
+}
+.profile-card__tree-mob{
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #035AA6;
+    cursor: pointer;
+}
+.profile-card__tree-mob img{
+    margin: 0 12px 0 0;
+}
+@media screen and (min-width:768px) {
+    .profile-card__tree-mob{
+        display: none;
+    }
 }
