@@ -31,23 +31,4 @@ modules.define('profile-card__change-status', ['i-bem-dom'], function(provide, b
 
 });
 
-modules.define('profile-card__stars', ['i-bem-dom'], function(provide, bemDom) {
 
-    provide(bemDom.declBlock(this.name, {
-        onSetMod: {
-            js: {
-                inited: function() {
-                    
-                    $(document).ready(function(){   
-
-                        
-
-                        
-                    });
-                    
-                }
-            }
-        }
-    }));
-
-});
