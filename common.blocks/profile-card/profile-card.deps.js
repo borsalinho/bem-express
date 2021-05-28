@@ -8,5 +8,8 @@
         {
             elems:['star']
         },
+        {
+            elems:['status']
+        },
     ]
 })

@@ -1,0 +1,36 @@
+.profile-card__sent-text, .profile-card__received-text, .profile-card__answered-text, .profile-card__done-text{
+    color: #035AA6;
+}
+.profile-card__status-sent, .profile-card__status-received, .profile-card__status-answered, .profile-card__status-done{
+    display: flex;
+    width: 100%;
+}
+.profile-card__status-body img{
+    height: 0px;
+}
+.profile-card__status-body{
+    font-size: 12px;
+    line-height: 14px;
+    background: url('/img/profile-card/status-vector-2.png')10px  no-repeat;
+}
+.profile-card__answered-text_disabled_true, .profile-card__done-text_disabled_true{
+    color:#000000
+}
+@media screen and (min-width:992px) {
+    .profile-card__status-body{
+        display: flex;
+        text-align: center;
+        
+        background: url('/img/profile-card/status-vector.png')0 50% no-repeat;
+    }
+    .profile-card__status-body img{
+        height: 120px;
+    }
+    .profile-card__sent-text, .profile-card__received-text, .profile-card__answered-text, .profile-card__done-text{
+        margin:15px auto 0;
+        max-width: 166px;
+    }
+    .profile-card__status{
+        margin: 0 0 40px 0;
+    }
+}

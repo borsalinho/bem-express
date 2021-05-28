@@ -7,7 +7,10 @@ block('profile-card')({
                 {
                     elem:'path',
                     tag:'span',
-                    content:'Список обращений'
+                    content:{
+                        tag:'a',
+                        content:'Список обращений'
+                    }
                 },
                 {
                     tag:'img',
@@ -25,6 +28,16 @@ block('profile-card')({
         },
         {
             elem:'status',
+            content:[
+                {   
+                    // на выбор один
+
+                    // inWork:true,
+                    answered:true,
+                    // clarifed:true,
+                    // completed:true,
+                }
+            ]
         },
         {
             elem:'body',
