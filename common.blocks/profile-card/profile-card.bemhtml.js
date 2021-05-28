@@ -98,7 +98,9 @@ block('profile-card')({
                 {
                     elem:'elements',
                     content:[
-
+                        {   
+                            content:'Вложения:'
+                        }
                     ]
                 }
             ]
@@ -142,6 +144,7 @@ block('profile-card')({
                         },
                         {
                             elem:'change-status',
+                            js:true,
                             tag:'button',
                             content:'Отменить статус:"Решено"',
                         }
