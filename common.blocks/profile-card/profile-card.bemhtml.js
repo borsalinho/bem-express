@@ -156,6 +156,7 @@ block('profile-card')({
                     content:[
                         {
                             elem:'stars',
+                            js:true,
                             content:[
                                 {   
                                     elem:'stars-text',
