@@ -1,0 +1,54 @@
+.problems-card__mt-20 {
+  margin-top: 20px;
+}
+.problems-card__card {
+  height: 274px;
+}
+.problems-card__data {
+  font-size: 13px;
+  line-height: 18px;
+  color: #828282;
+  margin-bottom: 20px;
+}
+.problems-card__title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0 0 16px 0;
+  height: 40px;
+}
+.problems-card__text {
+  font-size: 15px;
+  line-height: 20px;
+  color: #1a1a1a;
+  height: auto;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  margin: 0 0 16px 0;
+}
+.problems-card__bottom {
+  font-size: 13px;
+  line-height: 18px;
+  color: #828282;
+  display: -webkit-flex;
+  display: flex;
+}
+.problems-card__comment-img {
+  margin-right: 8px;
+}
+.problems-card__viewed-img {
+  margin-right: 8px;
+  margin-left: 20px;
+}
+.problems-card__status {
+  margin-left: auto;
+}

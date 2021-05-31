@@ -30,7 +30,7 @@
             elems: ['actual-content']
         },
         'card-OC',
-        'problems-OC',
+        'problems-card',
         {
             elems: ['news']
         },

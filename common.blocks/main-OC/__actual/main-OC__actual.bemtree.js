@@ -19,7 +19,7 @@ block("main-OC").elem("actual")({
       ],
     },
     {
-      block: "problems-OC",
+      block: "problems-card",
       cls: "row",
       content: [
         {

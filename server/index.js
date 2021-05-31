@@ -88,6 +88,21 @@ app.get('/about', function(req, res) {
     })
 });
 
+app.get('/problems', function(req, res) {
+    render(req, res, {
+        view: 'problems-OC',
+        title: 'Мониторинг проблем',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/problems',
+                siteName: 'О платформе'
+            }
+        }
+    })
+});
+
+
 app.get('/profile', function(req, res) {
     render(req, res, {
         view: 'profile-OC',

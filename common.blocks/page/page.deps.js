@@ -20,7 +20,8 @@
         'about-OC',
         
         // личный кабинет
-        'profile-OC'
+        'profile-OC',
+        'problems-OC'
     ]
 })
 

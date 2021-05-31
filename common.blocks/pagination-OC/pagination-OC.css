@@ -1,0 +1,24 @@
+.pagination-OC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-OC__active{
+    font-weight: bold !important;
+    color: #035AA6 !important;
+}
+.pagination-OC__prev{
+    font-size: 25px;
+    margin: -5px 10px 0 10px !important;
+    display: inline-block;
+}
+.pagination-OC a{
+    font-weight: 600;
+    color: #4F4F4F;
+    margin:0 10px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.pagination-OC a:hover{
+    text-decoration: none;
+}
