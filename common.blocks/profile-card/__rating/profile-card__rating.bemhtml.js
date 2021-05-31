@@ -1,57 +1,3 @@
-block('profile-card').elem('rating')({
-    tag:'span',
-    content: () => [
-        {
-           tag:'input',
-           attrs:{
-               type:'radio',
-               id:'star-3',
-               name:'rating',
-               value:'3'
-           }
-        },
-        {
-            tag:'label',
-            attrs:{
-                for:'star-3',
-                title:'Оценка *3*'
-            }
-        },
-        {
-            tag:'input',
-            attrs:{
-                type:'radio',
-                id:'star-2',
-                name:'rating',
-                value:'2'
-            }
-         },
-         {
-             tag:'label',
-             attrs:{
-                 for:'star-2',
-                 title:'Оценка *2*'
-             }
-         },
-         {
-            tag:'input',
-            attrs:{
-                type:'radio',
-                id:'star-1',
-                name:'rating',
-                value:'1'
-            }
-         },
-         {
-             tag:'label',
-             attrs:{
-                 for:'star-1',
-                 title:'Оценка *1*'
-             }
-         },
-    ]
-});
-
 block('profile-card').elem('rating')(
 
     content()(function() {
@@ -61,6 +7,12 @@ block('profile-card').elem('rating')(
 
             if (item.noRating) {
                 ratingBody = [
+                    
+                    {   
+                        elem:'rating-text',
+                        tag:'span',
+                        content:'Оценить:'
+                    },
                     {
                         elem:'rating-body',
                         tag:'span',

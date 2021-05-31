@@ -1,8 +1,8 @@
-.profile-card__rating{
-	overflow: hidden;
+.profile-card__rating-text{
+	margin:0 10px 0 0;
 }
 .profile-card__rating-body {
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* width: 265px; */
 	margin: 0 auto;
 }
@@ -45,11 +45,13 @@
 .profile-card__rating-result-body {
 	/* width: 265px; */
 	margin: 0 auto;
+	display: flex;
+	height:26px;
 }
 .profile-card__rating-result-body span {
 	padding: 0;
 	font-size: 52px;
-	margin: 0 3px;
+	margin:7px 0 3px 0;
 	line-height: 1px;
 	color: #89B3F4;;
 	text-shadow: 1px 1px rgb(3, 90, 166);

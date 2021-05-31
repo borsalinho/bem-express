@@ -157,23 +157,17 @@ block('profile-card')({
                         {
                             elem:'stars',
                             content:[
-                                {   
-                                    elem:'stars-text',
-                                    tag:'span',
-                                    content:'Оценить:'
-                                },
-                                
                                 {
                                     elem:'rating',
                                     content:[
                                         {
-                                            // noRating:true,
+                                            noRating:true,
                                             // Rating_1:true,
                                             // Rating_2:true,
-                                            Rating_3:true
+                                            // Rating_3:true
                                         }
                                     ]
-                                }
+                                },
                             ]
                         },
                         {   
