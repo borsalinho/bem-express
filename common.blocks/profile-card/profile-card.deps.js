@@ -11,5 +11,8 @@
         {
             elems:['status']
         },
+        {
+            elems:['rating']
+        },
     ]
 })

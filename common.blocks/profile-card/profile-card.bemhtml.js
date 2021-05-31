@@ -156,21 +156,23 @@ block('profile-card')({
                     content:[
                         {
                             elem:'stars',
-                            js:true,
                             content:[
                                 {   
                                     elem:'stars-text',
                                     tag:'span',
                                     content:'Оценить:'
                                 },
+                                
                                 {
-                                    elem:'star',
-                                },
-                                {
-                                    elem:'star',
-                                },
-                                {
-                                    elem:'star',
+                                    elem:'rating',
+                                    content:[
+                                        {
+                                            // noRating:true,
+                                            // Rating_1:true,
+                                            // Rating_2:true,
+                                            Rating_3:true
+                                        }
+                                    ]
                                 }
                             ]
                         },
