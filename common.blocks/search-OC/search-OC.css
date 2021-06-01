@@ -1,0 +1,14 @@
+.search-OC__input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 0 8px;
+}
+.search-OC__input::placeholder, .search-OC__input::-moz-placeholder,.search-OC__input:-ms-input-placeholder, .search-OC__input::-webkit-input-placeholder, .search-OC__input::-ms-input-placeholder{
+    color: #828282;
+}
+
+
+

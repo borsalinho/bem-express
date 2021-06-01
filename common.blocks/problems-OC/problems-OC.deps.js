@@ -1,6 +1,10 @@
 ({
     shouldDeps:[
         'pagination-OC',
-        'problem-content'
+        'problem-content',
+        'search-OC',
+        {
+            elems:['menu']
+        }
     ]
 })
