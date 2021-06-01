@@ -38,9 +38,7 @@
         {
             elems: ['modal-problem']
         },
-        {
-            elems: ['problem-content']
-        },
+        
         'share-OC',
         'subscribe',
         'status',

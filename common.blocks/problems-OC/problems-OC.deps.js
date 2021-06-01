@@ -1,5 +1,6 @@
 ({
     shouldDeps:[
-        'pagination-OC'
+        'pagination-OC',
+        'problem-content'
     ]
 })

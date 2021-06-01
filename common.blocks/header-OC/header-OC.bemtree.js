@@ -35,6 +35,9 @@ block("header-OC")({
                 content: {
                   tag: "a",
                   content: "Мониторинг проблем",
+                  attrs: {
+                    href: "/problems",
+                  },
                 },
               },
               {

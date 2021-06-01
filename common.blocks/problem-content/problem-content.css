@@ -1,28 +1,28 @@
-.main-OC__sub-and-share{
+.problem-content__sub-and-share{
     margin-top: 30px;
 }
-.main-OC__problem-comments{
+.problem-content__comments{
     margin-top: 30px;
 }
-.main-OC__subscribe{
+.problem-content__subscribe{
     display: flex;
     display: -webkit-flex;
     align-items: center;
     -webkit-box-align: center;
     margin: 0 20px 0 0;
 }
-.main-OC__share{
+.problem__share{
     margin-top: 20px;
 }
 @media screen and (min-width:768px){
-    .main-OC__share{
+    .content__share{
         margin-top: 0px;
     }
 }
-.main-OC__problem-comment-textarea{
+.problem-content__comment-textarea{
     margin-top: 30px;
 }
-.main-OC__problem-comment-button{
+.problem-content__comment-button{
     margin-top: 30px;
     background: #035AA6;
     border-radius: 12px;
@@ -33,52 +33,52 @@
     padding: 10px;
 }
 @media screen and (min-width:575px) {
-    .main-OC__problem-comment-button{
+    .problem-content__comment-button{
         width: 250px;
     }
 }
-.main-OC__problem-top{
+.problem-content__top{
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #1A1A1A;
     margin: 0 0 30px 0;
 }
-.main-OC__problem-data{
+.problem-content__data{
     font-weight: normal;
     font-size: 13px;
     line-height: 18px;
     color: #828282;
     margin: 0 0 0 12px;
 }
-.main-OC__problem-title{
+.problem-content__title{
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     color: #1A1A1A;
     margin: 0 0 20px 0;
 }
-.main-OC__problem-text{
+.problem-content__text{
     font-size: 15px;
     line-height: 20px;
     color: #1A1A1A;
     margin: 0 0 20px 0;
 }
-.main-OC__elements-title{
+.problem-content__elements-title{
     font-weight: 600;
     font-size: 13px;
     line-height: 18px;
     color: #828282;
     margin: 0 0 16px 0;
 }
-.main-OC__answer-title{
+.problem-content__answer-title{
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
     color: #1A1A1A;
     margin: 0 0 16px 0;
 }
-.main-OC__answer-text{
+.problem-content__answer-text{
     font-size: 13px;
     line-height: 18px;
     color: #1A1A1A;
