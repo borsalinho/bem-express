@@ -16,7 +16,8 @@ block('problems-OC').elem('menu')(
                             tag:'span',
                             content:item.text
                         },
-                        {
+                        {   
+                            elem:'menu-item-img',
                             tag:'img',
                             attrs:{
                                 src:item.icon

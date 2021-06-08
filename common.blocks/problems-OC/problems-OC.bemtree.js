@@ -27,6 +27,7 @@ block('problems-OC')({
                     },
                     {
                         elem:'menu',
+                        js:true,
                         content:[
                             {
                                 img:'img/problems-OC/car.png',
@@ -184,6 +185,191 @@ block('problems-OC')({
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
                             
+                        ]
+                    },
+                    {
+                        elem:'tags',
+                        content:[
+                            {
+                                elem:'tags-item',
+                                elemMods:{visible:'true'},
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Дорожная инфраструктура'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Дорожная разметка'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Дорожные знаки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Дорожные работы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Обочины'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Организация дорожного движения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Освещение дорог'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Остановки общественного транспорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Парковки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Пещеходные переходы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ремонт дорог'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Светофоры'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Среда для инвалидов'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Тротуары'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Уборка снега'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ямы, выбоины'
+                                    }
+                                ]
+                            },
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Внутридворовая инфраструктура для отдыха'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Внутридворовые дорожная инфраструктура'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Внутридвороые дорожные покрытия'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Дворовая территория'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Детские площадки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Зеленые насаждения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Контейнерные площадки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Общественные территории и пешеходные зоны'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие наружного освещения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Парки, скверы'
+                                    },
+                                ]
+                            },
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Брошенный автомобиль'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Вырубка деревьев'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Детские площадки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Зеленые насаждения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Канализационные люки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Пешеходная инфраструктура'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Размещение рекламы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Самострой'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Уборка снега'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Угроза падения льда с крыш'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Уличное освещение'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ямы, выбоины'
+                                    },
+                                ]
+                            }
                         ]
                     }
                 ]
