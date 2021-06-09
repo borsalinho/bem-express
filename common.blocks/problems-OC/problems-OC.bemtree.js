@@ -25,169 +25,179 @@ block('problems-OC')({
                         ]
                         
                     },
-                    {
-                        elem:'menu',
-                        js:true,
+                    {   
+                        elem:'top',
                         content:[
                             {
-                                img:'img/problems-OC/car.png',
-                                text:'Автомобильные дороги',
-                                icon:'img/problems-OC/chevron-bottom.png'
+                                elem:'show-all',
+                                tag:'button',
+                                content:'Все'
                             },
                             {
-                                img:'img/problems-OC/park.png',
-                                text:'Благоустройство',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/park-2.png',
-                                text:'Дворы и территории общего пользования',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/medic.png',
-                                text:'Медицина',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/tree.png',
-                                text:'Многоквартирные дома',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/delete.png',
-                                text:'Мусор',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/ruler.png',
-                                text:'Образование',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/bus.png',
-                                text:'Общественный транспорт',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/russia.png',
-                                text:'Плата за ЖКУ',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/tower.png',
-                                text:'Связь и телевидение',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/shield.png',
-                                text:'Социальное обслуживание и защита',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/stock.png',
-                                text:'Экономика и бизнес',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/faucet.png',
-                                text:'Водоснабжение',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/tools.png',
-                                text:'Газоснабжение',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/dashboard.png',
-                                text:'Информационные технологии',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/church.png',
-                                text:'Культура',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/binder.png',
-                                text:'МФЦ “Мои документы”',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/desktop.png',
-                                text:'Портал услуг',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/plant.png',
-                                text:'Природа, Экология',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/crane.png',
-                                text:'Строительство',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/boiler.png',
-                                text:'Теплоснабжение',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/shop.png',
-                                text:'Торговля',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/gym.png',
-                                text:'Физическая культура и спорт',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/risk.png',
-                                text:'Электроснабжение',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/paw.png',
-                                text:'Ветеринария',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/document.png',
-                                text:'Иное',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/forest.png',
-                                text:'Лесное хозяйство',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/cafe.png',
-                                text:'Общественное питание',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/park-3.png',
-                                text:'Парки культуры и отдыха',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/dead.png',
-                                text:'Погребение и похоронное дело ',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/wheat.png',
-                                text:'Сельское хозяйство и охота',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/document.png',
-                                text:'Отчет правительства',
-                                icon:'img/problems-OC/chevron-bottom.png'
+                                elem:'menu',
+                                js:true,
+                                content:[
+                                    {
+                                        img:'img/problems-OC/car.png',
+                                        text:'Автомобильные дороги',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/park.png',
+                                        text:'Благоустройство',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/park-2.png',
+                                        text:'Дворы и территории общего пользования',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/medic.png',
+                                        text:'Медицина',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/tree.png',
+                                        text:'Многоквартирные дома',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/delete.png',
+                                        text:'Мусор',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/ruler.png',
+                                        text:'Образование',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/bus.png',
+                                        text:'Общественный транспорт',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/russia.png',
+                                        text:'Плата за ЖКУ',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/tower.png',
+                                        text:'Связь и телевидение',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/shield.png',
+                                        text:'Социальное обслуживание и защита',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/stock.png',
+                                        text:'Экономика и бизнес',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/faucet.png',
+                                        text:'Водоснабжение',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/tools.png',
+                                        text:'Газоснабжение',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/dashboard.png',
+                                        text:'Информационные технологии',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/church.png',
+                                        text:'Культура',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/binder.png',
+                                        text:'МФЦ “Мои документы”',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/desktop.png',
+                                        text:'Портал услуг',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/plant.png',
+                                        text:'Природа, Экология',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/crane.png',
+                                        text:'Строительство',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/boiler.png',
+                                        text:'Теплоснабжение',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/shop.png',
+                                        text:'Торговля',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/gym.png',
+                                        text:'Физическая культура и спорт',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/risk.png',
+                                        text:'Электроснабжение',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/paw.png',
+                                        text:'Ветеринария',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/document.png',
+                                        text:'Иное',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/forest.png',
+                                        text:'Лесное хозяйство',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/cafe.png',
+                                        text:'Общественное питание',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/park-3.png',
+                                        text:'Парки культуры и отдыха',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/dead.png',
+                                        text:'Погребение и похоронное дело ',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/wheat.png',
+                                        text:'Сельское хозяйство и охота',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                    {
+                                        img:'img/problems-OC/document.png',
+                                        text:'Отчет правительства',
+                                        icon:'img/problems-OC/chevron-bottom.png'
+                                    },
+                                ]
                             },
                         ]
                     },
