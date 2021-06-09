@@ -74,6 +74,7 @@
 .problems-OC__menu::-webkit-resizer{
     background-image:url('');
     background-repeat:no-repeat;
+    
     height:10px;
 }
 

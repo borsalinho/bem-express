@@ -85,16 +85,6 @@ block('problems-OC')({
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
                             {
-                                img:'img/problems-OC/desktop.png',
-                                text:'Портал услуг',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/forest.png',
-                                text:'Лесное хозяйство',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
                                 img:'img/problems-OC/stock.png',
                                 text:'Экономика и бизнес',
                                 icon:'img/problems-OC/chevron-bottom.png'
@@ -125,6 +115,11 @@ block('problems-OC')({
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
                             {
+                                img:'img/problems-OC/desktop.png',
+                                text:'Портал услуг',
+                                icon:'img/problems-OC/chevron-bottom.png'
+                            },
+                            {
                                 img:'img/problems-OC/plant.png',
                                 text:'Природа, Экология',
                                 icon:'img/problems-OC/chevron-bottom.png'
@@ -132,11 +127,6 @@ block('problems-OC')({
                             {
                                 img:'img/problems-OC/crane.png',
                                 text:'Строительство',
-                                icon:'img/problems-OC/chevron-bottom.png'
-                            },
-                            {
-                                img:'img/problems-OC/document.png',
-                                text:'Иное',
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
                             {
@@ -164,7 +154,16 @@ block('problems-OC')({
                                 text:'Ветеринария',
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
-                            
+                            {
+                                img:'img/problems-OC/document.png',
+                                text:'Иное',
+                                icon:'img/problems-OC/chevron-bottom.png'
+                            },
+                            {
+                                img:'img/problems-OC/forest.png',
+                                text:'Лесное хозяйство',
+                                icon:'img/problems-OC/chevron-bottom.png'
+                            },
                             {
                                 img:'img/problems-OC/cafe.png',
                                 text:'Общественное питание',
@@ -185,7 +184,11 @@ block('problems-OC')({
                                 text:'Сельское хозяйство и охота',
                                 icon:'img/problems-OC/chevron-bottom.png'
                             },
-                            
+                            {
+                                img:'img/problems-OC/document.png',
+                                text:'Отчет правительства',
+                                icon:'img/problems-OC/chevron-bottom.png'
+                            },
                         ]
                     },
                     {
@@ -754,9 +757,881 @@ block('problems-OC')({
                                 content:[
                                     {
                                         elem:'tag-name',
-                                        content:'#'
+                                        content:'#Изменение класса и количества автобусов на действующем маршруте'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Информации о расписании движения транспортных средств'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Льготы на проезд и тарифы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение графика движения транспорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение перевозчиком правил дорожного движения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение схемы движения маршрута'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения в сфере таксомоторных перевозок'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Некорректное поведение водительского и кондукторского состава перевозчиков'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Несанкционированная парковка, эвакуация ТС, специализированные стоянки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неудовлетворительное состояние железнодорожной инфраструктуры (переходов, платформ и т.п.)'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неудовлетворительные условия проезда в автомобильном транспорте'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неудовлетворительные условия проезда в пригородных электропоездах'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Оплата проезда, невыдача пассажиру билета'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Предложения по изменению маршрута или графика транспорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Работа водного транспорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Работа воздушного транспорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Создание безбарьерной среды для инвалидов на общественном транспорте'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Социальные карты'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Транспортно-пересадочные узлы, автостанции, автовокзалы'
+                                    },
+                                ]
+                            },
+                            // Плата за ЖКУ
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ошибки в начислении платы за коммунальные и жилищные услуги'
+                                    },
+                                ]
+                            },
+                            // Связь и телевидение
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Вышки сотовой связи'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Изменение режима работы отделения почты России'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения в работе Почты России'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие качественной сотовой связи'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие широкополосного доступа к сети Интернет в месте проживания'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Признаки ограничения конкуренции при оказании телематических услуг связи'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Цифровое телевидение'
                                     },
                                     
+                                ]
+                            },
+                            // Социальное обслуживание и защита
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Доступная среда для людей с ограниченными возможностями'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Качество и доступность предоставления социальных услуг'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Качество проживания, лечения и предоставляемых услуг в санатории'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Материнский капитал'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Необоснованные отказы работодателей в трудоустройстве людей с ограниченными возможностями'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неформальная занятость граждан'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Оказание социальной помощи'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Организация общественных работ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Организация отдыха в летнем оздоровительном лагере'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Оформление индивидуальной программы предоставления социальных услуг'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Получение социальной карты'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Получение удостоверения многодетной семьи'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Пользование услугами социального такси'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Постановка в очередь на получение земельного участка многодетной семьей'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Предоставление государственных пособий на детей'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Предоставление компенсаций по оплате жилого помещения и коммунальных услуг'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Предоставление социального обслуживания'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Содействие людям с ограниченными возможностями в поиске работы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Социальная реабилитация несовершеннолетних, попавших в трудную жизненную ситуацию'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Трудоустройство безработных'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Установление опеки и попечительства в отношении совершеннолетних граждан'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Учет в центре занятости'
+                                    },
+                                    
+                                ]
+                            },
+                            // Экономика и бизнес
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Кадастровая стоимость объектов недвижимости'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение сроков рассмотрения или незаконный отказ при получении разрешений, лицензий или согласований'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения при проведении закупок органами власти'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения при проведении проверок надзорными органами'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ограничение конкуренции'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы при регистрации прав на объекты недвижимости и сделок с ними'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы при строительстве автодорог и связанными с ними коммуникаций'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с подключением к инфраструктуре'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с получением в аренду муниципального имущества для ведения бизнеса'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с получением земли для размещения производства'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с получением налоговых льгот, субсидий или господдержки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с размещением наружной рекламы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Проблемы с согласованием разрешительной документацией в области строительства'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Регистрация юридических лиц, субъектов малого предпринимательства'
+                                    },
+                                ]
+                            },
+                            // Водоснабжение
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Водоотведение'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Водопроводная сеть'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Водоразборная колонка'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Горячее водоснабжение'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Некачественная вода'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отключение воды'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Повреждение трубопровода'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Холодное водоснабжение'
+                                    },
+                                                                       
+                                ]
+                            },
+                            // Газоснабжение
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Восстановление газоснабжения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Газификация'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие газоснабжения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Присоединение к сетям'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Сжиженный углеводородный газ'
+                                    },
+                                    
+                                ]
+                            },
+                            // Информационные технологии
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Данные на информационных ресурсах'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Информационные системы и сервисы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Услуги по обработке данных, персональные данные'
+                                    },                             
+                                ]
+                            },
+                            // Культура
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Недовоство услугами, оказываемыми учреждениями культуры'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неудовлетворительное состояние учреждений культуры'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие доступа к учреждениям культуры'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие условий для инвалидов в учреждении культуры'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Поисковые работы, захоронение, подзахоронение, перезахоронение'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Содержание объектов культурного наследия'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Установка памятника'
+                                    },                                                               
+                                ]
+                            },
+                            // МФЦ, Мои документы
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отказ в предоставлении услуги'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Очередь в МФЦ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ошибка оператора МФЦ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Превышение сроков'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Справочные службы'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Условия обслуживания'
+                                    },
+                                                                                                   
+                                ]
+                            },
+                            // Портал госуслуг
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Oшибка при работе с мобильным приложением Портала'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие ответа от службы технической поддержки Портала'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отсутствие результата предоставления услуги'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ошибка отображения данных об услугах, организациях, ведомствах на Портале'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Работоспособность Портала'
+                                    },
+                                ]
+                            },
+                            // Природа, Экология
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Загрязнение атмосферного воздуха'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение режима особой охраны природной территории'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения при эксплуатации очистных сооружений'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Незаконное ограничение доступа к водным объектам'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Незаконное размещение отходов'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Сброс сточных вод, нарушение использования и охраны водных объектов'
+                                    },
+                                    
+                                ]
+                            },
+                            // Строительство
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Высокий уровень шума при выполнении строительных работ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Наличие незаконных ограждений и построек'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Наличие признаков незаконных строительных работ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Неисправное, слишком яркое или отсутствующее освещение на территории стройплощадки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ненадлежащее содержание строительной площадки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Несоблюдение правил техники безопасности на строительном объекте'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Несоблюдение правил уборки территории строительной площадки'
+                                    },
+                                ]
+                            },
+                            // Теплоснабжение
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Повреждение трубопровода теплоснабжения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Присоединение централизованным системам теплоснабжения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Система централизованного теплоснабжения'
+                                    },
+                                    
+                                ]
+                            },
+                            // Торговля
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушения при розничной продаже алкоголя'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нестационарная торговля (киоски, павильоны, сезонная торговля)'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Розничные рынки'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Создание доступной среды для инвалидов на объектах торговли'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Стационарная торговля (торговые центры, торговые комплексы, магазины)'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ярмарки'
+                                    },
+                                ]
+                            },
+                            // Физическая культура и спорт
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Заливка открытых хоккейных площадок'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Зачисление ребенка в спортивную школу'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Недовольство организацией проведения спортивных мероприятий'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Недоступность спортивных объектов для людей с ограниченными возможностями'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Некорректное отношение работников в учреждении спорта'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Платные услуги в ФОК и спортшколах'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Строительство и состояние спортивных сооружений'
+                                    },
+                                ]
+                            },
+                            // Электроснабжение
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Бесхозяйное электросетевое оборудование'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Заключение договора с поставщиком электроэнергии'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Качество электроснабжения'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Клиентские офисы поставщиков электроэнергии'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Линии электропередач'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отключение электроэнергии'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Подключение к электрическим сетям'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Приборы учета электроэнергии'
+                                    },
+                                ]
+                            },
+                            // Ветеринария
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отлов безнадзорных животных'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Содержание безнадзорных животных'
+                                    },
+                                ]
+                            },
+                            // Иное
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                ]
+                            },
+                            // Лесное хозяйство
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Изменение категории земель'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Незаконная вырубка'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Противопожарные мероприятия'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Рубка и посадка лесных насаждений'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Самовольное занятие земель лесного фонда'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Сжигание порубочных остатков'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Состояние лесных насаждений'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Строительство на землях лесного фонда'
+                                    },
+                                ]
+                            },
+                            // Общественное питание
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нарушение санитарных норм и правил на предприятии общественного питания'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Создание доступной среды для инвалидов на объектах общественного питания'
+                                    },
+                                    
+                                ]
+                            },
+                            // Парки культуры и отдыха
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Благоустройство существующих парков культуры и отдыха'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Создание нового парка культуры и отдыха'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Услуги и деятельность'
+                                    },
+                                ]
+                            },
+                            // Погребение и похоронное дело
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Некачественное предоставление ритуальных услуг'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ненадлежащее содержание кладбищ'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Создание доступной среды для инвалидов на кладбищах'
+                                    },
+                                    
+                                ]
+                            },
+                            // Сельское хозяйство и охота
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Ведение сельскохозяйственной деятельности'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Выдача и аннулирование охотничьих билетов'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Выдача разрешений на добычу охотничьих ресурсов'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Иное'
+                                    },
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Нецелевое использование земель селькохозяйственного назначения'
+                                    },
+                                ]
+                            },
+                            // Отчет правительства 2020
+                            {
+                                elem:'tags-item',
+                                content:[
+                                    {
+                                        elem:'tag-name',
+                                        content:'#Отчет Правительства 2020'
+                                    },
                                 ]
                             },
                         ]
