@@ -129,6 +129,7 @@ block("header-OC")({
               elem: "margin",
             },
 
+            // если авторизован
             {
               elem: "profile",
               content: {
@@ -150,6 +151,8 @@ block("header-OC")({
               },
             },
 
+
+            // если не авторизован
             // {
             //     block:'modal-OC',
             //     mix:{
