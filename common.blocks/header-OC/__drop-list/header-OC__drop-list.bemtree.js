@@ -7,7 +7,8 @@ block('header-OC').elem('drop-list')({
                 {
                     block:'link-OC',
                     attrs:{
-                        href:'/profile'
+                        onclick:'window.open("/profile","_self")'
+                        
                     },
                     content:[
                         {
