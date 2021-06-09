@@ -46,6 +46,9 @@ block("header-OC")({
                 content: {
                   tag: "a",
                   content: "Новости",
+                  attrs: {
+                    href: "/news",
+                  },
                 },
               },
               {

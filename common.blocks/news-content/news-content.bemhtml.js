@@ -1,37 +1,37 @@
-block("main-OC").elem("news-content")(
+block("news-content")(
   content()(function () {
     return this.ctx.content.map(function (item) {
       return [
         {
-          elem: "news-card",
+          elem: "card",
           mix: {
             block: "card-OC",
           },
           content: [
             {
-              elem: "news-top",
+              elem: "top",
               tag: "p",
               content: [
                 "Новости",
                 {
-                  elem: "news-data",
+                  elem: "data",
                   tag: "span",
                   content: item.data,
                 },
               ],
             },
             {
-              elem: "news-body",
+              elem: "body",
               content: [
                 {
-                  elem: "news-title",
+                  elem: "title",
                   tag: "h2",
                   content: item.title,
                 },
                 {
-                  elem: "news-img-body",
+                  elem: "img-body",
                   content: {
-                    elem: "news-img",
+                    elem: "img",
                     tag: "img",
                     attrs: {
                       src: item.imgUrl,
@@ -39,11 +39,11 @@ block("main-OC").elem("news-content")(
                   },
                 },
                 {
-                  elem: "news-source",
+                  elem: "source",
                   content: [
                     "Источник",
                     {
-                      elem: "news-source-url",
+                      elem: "source-url",
                       tag: "a",
                       attrs: {
                         href: "#",
@@ -53,7 +53,7 @@ block("main-OC").elem("news-content")(
                   ],
                 },
                 {
-                  elem: "news-text",
+                  elem: "text",
                   tag: "p",
                   content: item.text,
                 },
@@ -64,7 +64,7 @@ block("main-OC").elem("news-content")(
                   },
                 },
                 {
-                  elem: "news-comments",
+                  elem: "comments",
                   content: [
                     {
                       block: "comments-OC",
@@ -106,24 +106,24 @@ block("main-OC").elem("news-content")(
                     {
                       block: "comment-textarea-OC",
                       mix: {
-                        block: "main-OC",
-                        elem: "news-comment-textarea",
+                        block: "news-content",
+                        elem: "comment-textarea",
                       },
                     },
                     {
                       block: "button-OC",
                       mix: {
-                        block: "main-OC",
-                        elem: "problem-comment-button",
+                        block: "news-content",
+                        elem: "comment-button",
                       },
                       content: "Отправить",
                     },
                     {
-                      elem: "news-url",
+                      elem: "url",
                       content: [
                         "Ссылка",
                         {
-                          elem: "news-source-url",
+                          elem: "source-url",
                           tag: "a",
                           attrs: {
                             href: "#",

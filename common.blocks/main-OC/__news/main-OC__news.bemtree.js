@@ -19,7 +19,7 @@ block("main-OC").elem("news")({
       ],
     },
     {
-      block: "news-OC",
+      block: "news-card",
       cls: "row",
       content: [
         {

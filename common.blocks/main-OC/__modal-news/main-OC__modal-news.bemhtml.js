@@ -1,7 +1,7 @@
 block("main-OC").elem("modal-news")({
   content: () => [
     {
-      elem: "news-content",
+      block: "news-content",
       content: [
         {
           data: "30 декабря 2020",

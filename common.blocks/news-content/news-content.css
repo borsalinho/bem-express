@@ -1,11 +1,11 @@
-.main-OC__news-comments{
+.news-content__comments{
     margin-top: 30px;
 }
 
-.main-OC__news-comment-textarea{
+.news-content__comment-textarea{
     margin-top: 30px;
 }
-.main-OC__news-comment-button{
+.news-content__comment-button{
     margin-top: 30px;
     background: #035AA6;
     border-radius: 12px;
@@ -16,54 +16,54 @@
     padding: 10px;
 }
 @media screen and (min-width:575px) {
-    .main-OC__news-comment-button{
+    .news-content__comment-button{
         width: 250px;
     }
 }
-.main-OC__news-top{
+.news-content__top{
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     color: #1A1A1A;
     margin: 0 0 30px 0;
 }
-.main-OC__news-data{
+.news-content__data{
     font-weight: normal;
     font-size: 13px;
     line-height: 18px;
     color: #828282;
     margin: 0 0 0 12px;
 }
-.main-OC__news-title{
+.news-content__title{
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
     color: #1A1A1A;
     margin: 0 0 20px 0;
 }
-.main-OC__news-text{
+.news-content__text{
     font-size: 15px;
     line-height: 20px;
     color: #1A1A1A;
     margin: 0 0 20px 0;
 }
-.main-OC__news-img-body{
+.news-content__img-body{
     text-align: center;
     margin: 0 0 20px 0;
 }
-.main-OC__news-img{
+.news-content__img{
     max-width: 100%;
 }
-.main-OC__news-source{
+.news-content__source{
     font-weight: 600;
     font-size: 13px;
     line-height: 18px;
     color: rgb(130, 130, 130);
     margin: 0px 0px 20px;
 }
-.main-OC__news-source-url{
+.news-content__source-url{
     margin-left: 12px;
 }
-.main-OC__news-url{
+.news-content__url{
     margin: 20px 0 0 0;
 }

@@ -31,10 +31,12 @@
         },
         'card-OC',
         'problems-card',
+        'news-card',
         {
             elems: ['news']
         },
-        'news-OC',
+        'news-content',
+        'problems-content',
         {
             elems: ['modal-problem']
         },
