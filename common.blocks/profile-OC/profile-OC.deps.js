@@ -49,6 +49,7 @@
         {
             elems:['card-open']
         },
-        'profile-card'
+        'profile-card',
+        'share-OC'
     ]   
 });

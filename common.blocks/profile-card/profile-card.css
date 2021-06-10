@@ -6,7 +6,7 @@
     color: #FFFFFF;
     padding: 10px;
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:480px) {
     .profile-card__comment-button{
         width: 250px;
     }
