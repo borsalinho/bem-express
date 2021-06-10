@@ -19,7 +19,7 @@ block("contests-OC").elem("comp-slider")(
                   {
                       elem:'slide-text',
                       tag:'p',
-                      content:item.text
+                      content:'Конкурс завершен'
                   },
                   {
                       elem:'slide-button',

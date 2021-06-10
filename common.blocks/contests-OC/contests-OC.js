@@ -18,9 +18,22 @@ modules.define('contests-OC__ong-slider', ['i-bem-dom'], function(provide, bemDo
                                 slidesToShow: 1,
                                 slidesToScroll: 1,
                             });
+                            $('.contests-OC__ong-skeleton').css({'display' : 'none'});
+                            $('.contests-OC__ong-slider').show();
                         }
-                        // тк слайдов мало, то без скелетона
+                        
                     });
+
+                    $('.contests-OC__news-tab').click(function(){
+                        if ($(this).hasClass('contests-OC__news-tab_active_true')){
+
+                        }
+                        else{
+                            $('.contests-OC__news-tab').toggleClass('contests-OC__news-tab_active_true');
+                            $('.contests-OC__news-body').toggleClass('contests-OC__news-body_active_true')
+                        }
+                        
+                    })
                 }
             }
         }

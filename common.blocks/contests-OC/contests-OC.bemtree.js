@@ -78,12 +78,134 @@ block('contests-OC')({
                                             }
                                             
                                         ]
+                                    },
+                                    {
+                                        elem:'ong-skeleton'
                                     }
                                 ]
                             },
                             {
                                 elem:'news',
-                                mix:'card-OC'
+                                mix:'card-OC',
+                                content:[
+                                    {
+                                        elem:'news-top',
+                                        js:true,
+                                        content:[
+                                            {
+                                                elem:'news-tab',
+                                                elemMods:{active:'true'},
+                                                // tag:'span',
+                                                content:'Новости конкурсов'
+                                            },
+                                            {
+                                                elem:'news-tab',
+                                                // tag:'span',
+                                                content:'Предстоящие конкурсы'
+                                            },
+                                        ]
+                                    },
+                                    {
+                                        elem:'news-body',
+                                        elemMods:{active:'true'},
+                                        content:[
+                                            {
+                                                elem:'news-card',
+                                                content:[
+                                                    {
+                                                        elem:'n-c-title',
+                                                        tag:'h6',
+                                                        content:'Конкурс “Цифровой трон” продлен до 17 января 2021'
+                                                    },
+                                                    {
+                                                        elem:'n-c-url',
+                                                        tag:'a',
+                                                        attrs:{
+                                                            src:'#'
+                                                        },
+                                                        content:'Перейти'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem:'news-card',
+                                                content:[
+                                                    {
+                                                        elem:'n-c-title',
+                                                        tag:'h6',
+                                                        content:'Конкурс “Цифровой трон” продлен до 17 января 2021'
+                                                    },
+                                                    {
+                                                        elem:'n-c-url',
+                                                        tag:'a',
+                                                        attrs:{
+                                                            src:'#'
+                                                        },
+                                                        content:'Перейти'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem:'news-card',
+                                                content:[
+                                                    {
+                                                        elem:'n-c-title',
+                                                        tag:'h6',
+                                                        content:'Конкурс “Цифровой трон” продлен до 17 января 2021'
+                                                    },
+                                                    {
+                                                        elem:'n-c-url',
+                                                        tag:'a',
+                                                        attrs:{
+                                                            src:'#'
+                                                        },
+                                                        content:'Перейти'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem:'news-card',
+                                                content:[
+                                                    {
+                                                        elem:'n-c-title',
+                                                        tag:'h6',
+                                                        content:'Конкурс “Цифровой трон” продлен до 17 января 2021'
+                                                    },
+                                                    {
+                                                        elem:'n-c-url',
+                                                        tag:'a',
+                                                        attrs:{
+                                                            src:'#'
+                                                        },
+                                                        content:'Перейти'
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        elem:'news-body',
+                                        content:[
+                                            {
+                                                elem:'news-card',
+                                                content:[
+                                                    {
+                                                        elem:'n-c-title',
+                                                        tag:'h6',
+                                                        content:'Конкурс “Цифровой трон” продлен до 17 января 2021'
+                                                    },
+                                                    {
+                                                        elem:'n-c-url',
+                                                        content:'Описание'
+                                                    }
+                                                ]
+                                            },
+                                            
+                                            
+                                            
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -102,25 +224,26 @@ block('contests-OC')({
                                     {
                                         img:"img/contests-OC/digital-world.png",
                                         title:'Название конкурса в две строки или больше',
-                                        text:'Голосование до 17 января 2021 Итоги 18 января 2021',
                                         url:'#'
                                     },
                                     {
                                         img:"img/contests-OC/digital-world.png",
                                         title:'Название конкурса в две строки или больше',
-                                        text:'Голосование до 17 января 2021 Итоги 18 января 2021',
                                         url:'#'
                                     },
                                     {
                                         img:"img/contests-OC/digital-world.png",
                                         title:'Название конкурса в две строки или больше',
-                                        text:'Голосование до 17 января 2021 Итоги 18 января 2021',
                                         url:'#'
                                     },
                                     {
                                         img:"img/contests-OC/digital-world.png",
                                         title:'Название конкурса в две строки или больше',
-                                        text:'Голосование до 17 января 2021 Итоги 18 января 2021',
+                                        url:'#'
+                                    },
+                                    {
+                                        img:"img/contests-OC/digital-world.png",
+                                        title:'Название конкурса в две строки или больше',
                                         url:'#'
                                     },
                                 ]
