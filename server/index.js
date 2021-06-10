@@ -108,13 +108,26 @@ app.get('/news', function(req, res) {
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
             og: {
-                url: 'https://yakutia.click/newss',
+                url: 'https://yakutia.click/news',
                 siteName: 'Новости'
             }
         }
     })
 });
 
+app.get('/contests', function(req, res) {
+    render(req, res, {
+        view: 'contests-OC',
+        title: 'Конкурсы',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/contests',
+                siteName: 'Конкурсы'
+            }
+        }
+    })
+});
 
 app.get('/profile', function(req, res) {
     render(req, res, {

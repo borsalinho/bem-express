@@ -26,7 +26,10 @@
         'problems-OC',
 
         // Новости
-        'news-OC'
+        'news-OC',
+
+        // Конкурсы
+        'contests-OC'
     ]
 })
 

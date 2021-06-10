@@ -57,6 +57,9 @@ block("header-OC")({
                 content: {
                   tag: "a",
                   content: "Конкурсы",
+                  attrs: {
+                    href: "/contests",
+                  },
                 },
               },
               {
