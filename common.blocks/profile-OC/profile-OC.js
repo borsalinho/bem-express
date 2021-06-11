@@ -1,4 +1,4 @@
-modules.define('header-OC__init-slider', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('profile-OC__s-m-button', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
