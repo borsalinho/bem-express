@@ -2,6 +2,7 @@ block('news-OC')({
     content: () => [
         {   
             elem:'a',
+            tag:'section',
             content:{
                 elem:'a-content',
                 cls:'container',
@@ -67,6 +68,7 @@ block('news-OC')({
         },
         {
             elem:'b',
+            tag:'section',
             content:{
                 elem:'b-content',
                 cls:'container',
@@ -128,6 +130,7 @@ block('news-OC')({
         },
         {
             elem:'c',
+            tag:'section',
             content:{
                 elem:'c-content',
                 cls:'container',

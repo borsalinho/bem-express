@@ -29,7 +29,10 @@
         'news-OC',
 
         // Конкурсы
-        'contests-OC'
+        'contests-OC',
+
+        // Родные города и села
+        'regions'
     ]
 })
 

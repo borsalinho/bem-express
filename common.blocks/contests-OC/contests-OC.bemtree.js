@@ -3,6 +3,7 @@ block('contests-OC')({
         
         {
             elem:'a',
+            tag:'section',
             content:{
                 cls:'container',
                 content:{
@@ -45,6 +46,7 @@ block('contests-OC')({
         },
         {
             elem:'b',
+            tag:'section',
             content:{
                 cls:'container',
                 content:[

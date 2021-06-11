@@ -129,6 +129,20 @@ app.get('/contests', function(req, res) {
     })
 });
 
+app.get('/regions', function(req, res) {
+    render(req, res, {
+        view: 'regions',
+        title: 'Родные города и селы',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/regions',
+                siteName: 'Родные города и селы'
+            }
+        }
+    })
+});
+
 app.get('/profile', function(req, res) {
     render(req, res, {
         view: 'profile-OC',

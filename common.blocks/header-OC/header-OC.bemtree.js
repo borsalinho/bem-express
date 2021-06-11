@@ -180,9 +180,9 @@ block("header-OC")({
             js: true,
             content: [
               {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 1",
-                url: "/about",
+                image: "/img/header-services-OC/icon-regions.png",
+                text: "Родные города и селы",
+                url: "/regions",
               },
               {
                 image: "/img/header-services-OC/services-abiture.png",
