@@ -213,7 +213,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'regions/consepts'
                                                 },
                                                 content:{
                                                     elem:'card-button-2',

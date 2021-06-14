@@ -83,7 +83,7 @@ block("header-OC")({
                       elem: "arrow",
                       tag: "img",
                       attrs: {
-                        src: "img/header-OC/services-arrow.svg",
+                        src: "/img/header-OC/services-arrow.svg",
                       },
                     },
                   },

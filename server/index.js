@@ -143,6 +143,20 @@ app.get('/regions', function(req, res) {
     })
 });
 
+app.get('/regions/consepts', function(req, res) {
+    render(req, res, {
+        view: 'regions-concepts',
+        title: 'Программа поддержки местных инициатив',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/regions/consepts',
+                siteName: 'Программа поддержки местных инициатив'
+            }
+        }
+    })
+});
+
 app.get('/profile', function(req, res) {
     render(req, res, {
         view: 'profile-OC',

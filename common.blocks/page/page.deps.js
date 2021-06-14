@@ -32,7 +32,10 @@
         'contests-OC',
 
         // Родные города и села
-        'regions'
+        'regions',
+
+        // ППМИ
+        'regions-concepts'
     ]
 })
 

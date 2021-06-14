@@ -1,0 +1,159 @@
+.regions-concepts__a{
+    background-image: url(/img/regions-concepts/banner.svg);
+    background-size: cover;
+    padding: 40px 0;
+    color: #FFFFFF;
+}
+.regions-concepts__a-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 20px 0;
+}
+.regions-concepts__a-text{
+    font-size: 15px;
+    line-height: 20px;
+}
+.regions-concepts__right-row{
+    text-align: center;
+}
+.regions-concepts__a-col-right{
+    padding: 40px 0 0 0;
+}
+.regions-concepts__statistic-number{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+}
+.regions-concepts__statistic-name{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 15px 0 0 0;
+}
+.regions-concepts__statistic-name span{
+    font-weight: bold;
+}
+.regions-concepts__a-button{
+    margin: 40px 0 20px 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 10px 22px;
+    background: #9CAA58;
+    border-radius: 12px;
+    width: 100%;
+}
+@media screen and (min-width:480px) {
+    .regions-concepts__a-button{
+        width: inherit;
+    }
+}
+.regions-concepts__a-url{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.regions-concepts__a-bottom{
+    text-align: center;
+}
+@media screen and (min-width:768px) {
+    .regions-concepts__a-bottom{
+        text-align: start;
+    }
+}
+.regions-concepts__b{
+    padding: 40px 0 0 0;
+}
+.regions-concepts__statuses-title{
+    font-size: 12px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #828282;
+    text-decoration: underline;
+    width: 140px;
+    display: inline-block;
+    height: 44px;
+    margin: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.regions-concepts__carusel{
+    width: calc(100% - 140px);
+    display: inline-block;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.regions-concepts__status {
+    display: inline-block;
+    margin:0 20px 15px 0;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.regions-concepts__status_on_selection{
+    border: 2px solid #3087FC;
+    color: #3087FC;
+}
+.regions-concepts__status_on_selection:hover{
+    background-color: #3087FC;
+    color: #FFFFFF;
+}
+.regions-concepts__status_on_the-vote{
+    border: 2px solid #F2994A;
+    color: #F2994A;
+}
+.regions-concepts__status_on_the-vote:hover{
+    background-color: #F2994A;
+    color: #FFFFFF;
+}
+.regions-concepts__status_not_selected{
+    border: 2px solid #BDBDBD;
+    color: #BDBDBD;
+}
+.regions-concepts__status_not_selected:hover{
+    background-color:#BDBDBD;
+    color: #FFFFFF;
+}
+.regions-concepts__status_selected_true{
+    border: 2px solid #56ccf2;
+    color: #56ccf2;
+}
+.regions-concepts__status_selected_true:hover{
+    background-color:#56ccf2;
+    color: #FFFFFF;
+}
+.regions-concepts__status_approved_true{
+    border: 2px solid #6fcf97;
+    color: #6fcf97;
+}
+.regions-concepts__status_approved_true:hover{
+    background-color:#6fcf97;
+    color: #FFFFFF;
+}
+.regions-concepts__status_in_implementation{
+    border: 2px solid #efc53d;
+    color: #efc53d;
+}
+.regions-concepts__status_in_implementation:hover{
+    background-color:#efc53d;
+    color: #FFFFFF;
+}
+.regions-concepts__status_implemented_true{
+    border: 2px solid #9B6BD9;
+    color: #9B6BD9;
+}
+.regions-concepts__status_implemented_true:hover{
+    background-color:#9B6BD9;
+    color: #FFFFFF;
+}
+.regions-concepts__status_not_implemented{
+    border: 2px solid #ff5c46;
+    color: #ff5c46;
+}
+.regions-concepts__status_not_implemented:hover{
+    background-color:#ff5c46;
+    color: #FFFFFF;
+}

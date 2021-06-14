@@ -5,6 +5,7 @@
         'search-OC',
         {
             elems:['menu']
-        }
+        },
+        'custom-scroll'
     ]
 })
