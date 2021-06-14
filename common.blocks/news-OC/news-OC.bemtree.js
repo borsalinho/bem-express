@@ -33,14 +33,59 @@ block('news-OC')({
                                 cls:'col-md-6',
                                 content:{
                                     elem:'a-select',
-                                    tag:'select'
+                                    mix:{block:'selectize'},
+                                    js:true,
+                                    tag:'select',
+                                    attrs:{
+                                      id:'news__region'
+                                    },
+                                    content:[
+                                      {
+                                        tag:'option',
+                                        attrs:{
+                                          value:''
+                                        },
+                                        content:'Выберите ваш район'
+                                      },
+                                      {
+                                        tag:'option',
+                                        content:'вариант 1'
+                                      },
+                                      {
+                                        tag:'option',
+                                        content:'вариант 2'
+                                      },
+                                    ]
                                 }
                             },
                             {
                                 cls:'col-md-6',
                                 content:{
                                     elem:'a-select',
-                                    tag:'select'
+                                    tag:'select',
+                                    mix:{block:'selectize'},
+                                    js:true,
+                                    tag:'select',
+                                    attrs:{
+                                      id:'news__location'
+                                    },
+                                    content:[
+                                      {
+                                        tag:'option',
+                                        attrs:{
+                                          value:''
+                                        },
+                                        content:'Населенный пункт'
+                                      },
+                                      {
+                                        tag:'option',
+                                        content:'вариант 1'
+                                      },
+                                      {
+                                        tag:'option',
+                                        content:'вариант 2'
+                                      },
+                                    ]
                                 }
                             },
                         ]

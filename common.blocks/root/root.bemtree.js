@@ -53,6 +53,16 @@ block('root')({
                     }
                 },
                 {
+                    elem:'js',
+                    attrs:{
+                        src:"https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.13.3/js/standalone/selectize.js",
+                        integrity:"sha512-pF+DNRwavWMukUv/LyzDyDMn8U2uvqYQdJN0Zvilr6DDo/56xPDZdDoyPDYZRSL4aOKO/FGKXTpzDyQJ8je8Qw==",
+                        crossorigin:"anonymous",
+                        referrerpolicy:"no-referrer"
+                    }
+                },
+                
+                {
                     elem: 'js',
                     url: '/index.min.js'
                 },

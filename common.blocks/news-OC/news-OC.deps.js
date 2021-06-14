@@ -1,6 +1,7 @@
 ({
     shouldDeps:[
         'news-card',
-        'news-content'
+        'news-content',
+        'selectize'
     ]
 })
