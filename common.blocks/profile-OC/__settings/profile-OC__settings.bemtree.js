@@ -157,15 +157,31 @@ block('profile-OC').elem('settings')({
                             },
                             {   
                                 
-                                block:'select-OC',
-                                mix:{
-                                    block:'profile-OC',
-                                    elem:'settings-input'
+                                
+                                
+                                block:'profile-OC',
+                                elem:'settings-input',
+                                tag:'select',
+                                js:true,
+                                attrs:{
+                                    id:'profile__gender'
                                 },
                                 content:[
                                     {
-                                        placeholder:'Введите ваш пол'
-                                    }
+                                      tag:'option',
+                                      attrs:{
+                                        value:''
+                                      },
+                                      content:'Выберите ваш пол'
+                                    },
+                                    {
+                                      tag:'option',
+                                      content:'Мужской'
+                                    },
+                                    {
+                                      tag:'option',
+                                      content:'Женский'
+                                    },
                                 ]
                             }
                         ]

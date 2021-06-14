@@ -101,3 +101,7 @@
     line-height: 20px;
     color: #035AA6;
 }
+.profile-OC__col .selectize-input{
+    padding: 12px;
+    background: inherit;
+}

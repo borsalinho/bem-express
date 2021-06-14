@@ -192,7 +192,44 @@ block('profile-card')({
                 },
                 {
                     elem:'change-select',
-                    tag:'select'
+                    tag:'select',
+                    js:true,
+                    attrs:{
+                        id:'profile__change'
+                    },
+                    content:[
+                        {
+                            tag:'option',
+                            attrs:{
+                            value:''
+                            },
+                            content:'Выберите причину'
+                        },
+                        {
+                            tag:'option',
+                            content:'Не содержит ответа по существу на поставленный вопрос'
+                        },
+                        {
+                            tag:'option',
+                            content:'Не содержит необходимых оснований и доказательств'
+                        },
+                        {
+                            tag:'option',
+                            content:'Содержит персональные данные третьих лиц, распространяемых без соглассия '
+                        },
+                        {
+                            tag:'option',
+                            content:'Содержит термины и абвиатуры, которые не являются общеупотребительными или их содержание не раскрыто'
+                        },
+                        {
+                            tag:'option',
+                            content:'Проблема решена частично'
+                        },
+                        {
+                            tag:'option',
+                            content:'Проблема не решена'
+                        },
+                    ]
                 },
                 {
                     elem:'change-text',

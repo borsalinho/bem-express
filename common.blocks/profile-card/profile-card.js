@@ -23,6 +23,12 @@ modules.define('profile-card__change-status', ['i-bem-dom'], function(provide, b
                             }
                         });
                     });
+
+                    $("#profile__change").selectize({
+                        create: true,
+                        sortField: 'text',
+                        placeholder: 'Выберите причину',
+                    });
                     
                 }
             }
