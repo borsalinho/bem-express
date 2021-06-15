@@ -6,6 +6,6 @@
         {
             elems:['menu']
         },
-        'custom-scroll'
+        
     ]
 })

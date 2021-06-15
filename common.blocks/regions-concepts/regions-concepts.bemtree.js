@@ -215,17 +215,70 @@ block('regions-concepts')({
                                 }
                             },
                             {
-                                cls:'col-auto-md d-flex justify-content-center justify-content-md-end align-items-center',
+                                cls:'col d-md-none',
+                                content:{
+                                    elem:'status-select',
+                                    tag:'select',
+                                    js:true,
+                                    attrs:{
+                                        id:'concepts__status'
+                                    },
+                                    content:[
+                                        {
+                                            tag:'option',
+                                            attrs:{
+                                                value:''
+                                            },
+                                            content:'Статус'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Отбор'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'На голосовании'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Не отобрано'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Отобрано'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Одобрено'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'В реализации'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Реализовано'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'Не реализовано'
+                                        },
+                                    ]
+                                }
+                            },
+                            {   
+                                elem:'default-button',
+                                cls:'col-md-auto d-flex justify-content-center justify-content-md-end align-items-center',
                                 content:'Сбросить все настройки'
                             }
                         ]
                     },
                     {
                         elem:'statuses',
+                        cls:'d-md-block d-none',
                         content:[
                             {   
                                 elem:'statuses-title',
-                                tag:'h6',
                                 content:'Выберите статус идеи'
                             },
                             {
@@ -296,6 +349,185 @@ block('regions-concepts')({
                                         content:'Не реализовано'
                                     },
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        elem:'filter-row',
+                        cls:'row',
+                        content:[
+                            {
+                                cls:'col-md',
+                                content:{
+                                    elem:'filter-body',
+                                    content:[
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-all',
+                                                        name:'filter-group',
+                                                        checked:'checked'
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-all',
+                                                    },
+                                                    content:'Все'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-popular',
+                                                        name:'filter-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-popular',
+                                                    },
+                                                    content:'Популярные'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-day',
+                                                        name:'filter-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-day',
+                                                    },
+                                                    content:'За день'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-week',
+                                                        name:'filter-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-week',
+                                                    },
+                                                    content:'За неделю'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-month',
+                                                        name:'filter-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-month',
+                                                    },
+                                                    content:'За месяц'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem:'filter-item',
+                                            content:[
+                                                {
+                                                    tag:'input',
+                                                    attrs:{
+                                                        type:'radio',
+                                                        id:'filter-year',
+                                                        name:'filter-group',
+                                                    }
+                                                },
+                                                {   
+                                                    elem:'filter-text',
+                                                    tag:'label',
+                                                    attrs:{
+                                                        for:'filter-year',
+                                                    },
+                                                    content:'За год'
+                                                }
+                                            ]
+                                        },
+                                    ]
+                                }
+                            },
+                            {
+                                cls:'col-md-auto d-flex d-md-block justify-content-end justufy-content-md-start',
+                                content:{
+                                    elem:'number',
+                                    content:[
+                                        {
+                                            elem:'number-text',
+                                            tag:'span',
+                                            content:'Показать по '
+                                        },
+                                        {
+                                            elem:'number-select',
+                                            js:true,
+                                            attrs:{
+                                                id:'concepts__number-select'
+                                            },
+                                            tag:'select',
+                                            content:[
+                                                {
+                                                    tag:'option',
+                                                    attrs:{
+                                                        selected:'selected'
+                                                    },
+                                                    content:'8 карточек'
+                                                },
+                                                {
+                                                    tag:'option',
+                                                    content:'16 карточек'
+                                                },
+                                                {
+                                                    tag:'option',
+                                                    content:'32 карточек'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }

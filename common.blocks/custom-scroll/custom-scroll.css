@@ -34,7 +34,6 @@
     height: 0px;
 }
 
-/* изначально скрыт в мобилке */
 .custom-scroll{
     scrollbar-width: none;
 }

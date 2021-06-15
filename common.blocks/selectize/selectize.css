@@ -304,3 +304,44 @@
     opacity:.5;
     background-color:#fafafa
 }
+.selectize-dropdown-content::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:0px;
+    height:0px
+}
+    
+.selectize-dropdown-content::-webkit-scrollbar-track {
+    background-color:#F2F2F2;
+    margin:10px;
+}
+
+.selectize-dropdown-content::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-color:rgb(156, 170, 88);
+}
+
+.selectize-dropdown-content::-webkit-scrollbar-thumb:hover{
+    background-color:#56999f;
+    height: 10px;
+}
+.selectize-dropdown-content::-webkit-scrollbar:hover{
+    height: 10px;
+}
+
+.selectize-dropdown-content::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    height:10px;
+}
+
+.selectize-dropdown-content::-webkit-scrollbar{
+    width: 6px;   
+}
+.selectize-dropdown-content{
+    scrollbar-width: none;
+}
+.selectize-dropdown{
+    padding:0 10px 0 0;
+}
