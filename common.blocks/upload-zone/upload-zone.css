@@ -1,0 +1,21 @@
+.upload-zone__core{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upload-zone__icon{
+    width: 25px;
+    height: 25px;
+}
+.upload-zone__body{
+    display: flex;
+    font-size: 11px;
+    line-height: 15px;
+}
+.upload-zone__core{
+    margin: auto;
+}
+.upload-zone__color-text{
+    color: #546F01;
+    cursor: pointer;
+}

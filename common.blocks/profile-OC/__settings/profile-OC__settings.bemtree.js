@@ -94,6 +94,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'
@@ -126,6 +129,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'
@@ -206,6 +212,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'
@@ -238,6 +247,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'
@@ -270,6 +282,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'
@@ -302,6 +317,9 @@ block('profile-OC').elem('settings')({
                             {   
                                 
                                 block:'input-OC',
+                                attrs:{
+                                    // сюда можно необходимые атрибуты
+                                },
                                 mix:{
                                     block:'profile-OC',
                                     elem:'settings-input'

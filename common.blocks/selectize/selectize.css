@@ -93,7 +93,7 @@
     font-smoothing:inherit
 }
 .selectize-control.single .selectize-input.input-active,.selectize-input{
-    background:#fff;
+    background:inherit;
     cursor:text;
     display:inline-block
 }

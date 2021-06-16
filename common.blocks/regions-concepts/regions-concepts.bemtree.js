@@ -530,6 +530,369 @@ block('regions-concepts')({
                                 }
                             }
                         ]
+                    },
+                    {   
+                        block:'regions-card',
+                        mix:{
+                            block:'regions-concepts',
+                            elem:'cards'
+                        },
+                        cls:'row',
+                        content:[
+                            {   
+                                selection:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка Это будущее детка Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                vote:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                notSelected:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                selected:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                approved:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                inImplementation:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                implemented:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                            {   
+                                notImplemented:true,
+                                data:'12.02.2225',
+                                location:'марс',
+                                title:'Это будущее детка',
+                                text:'да, вован все еще правит, да, вован все еще правит да, вован все еще правит да, вован все еще правит да, вован все еще правит'
+                            },
+                        ]
+                    },
+                    {
+                        block:'pagination-OC'
+                    }
+                ]
+            }
+        },
+        {
+            elem:'c',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                    {
+                        block:'regions-form',
+                        mix:{ block:'card-OC' },
+                        content:[
+                            {
+                                elem:'title',
+                                tag:'h2',
+                            },
+                            {
+                                tag:'form',
+                                attrs:{},
+                                content:{
+                                    elem:'body',
+                                    cls:'row',
+                                    content:[
+                                        {
+                                            elem:'col-left',
+                                            cls:'col-md-6',
+                                            content:{
+                                                cls:'row',
+                                                content:[
+                                                    {   
+                                                        elem:'col',
+                                                        cls:'col-12',
+                                                        content:[
+                                                            {   
+                                                                elem:'titles',
+                                                                tag:'p',
+                                                                content:[
+                                                                    'Название идеи',
+                                                                    {
+                                                                        elem:'quot',
+                                                                        tag:'span',content:'*'
+                                                                    },
+                                                                ]
+                                                            },
+                                                            {   
+                                                                block:'input-OC',
+                                                                attrs:{
+                                                                    id:'asdasd'
+                                                                },
+                                                                content:[{
+                                                                    placeholder:'Название'
+                                                                }]
+                                                                
+                                                            }
+                                                        ]
+                                                    },
+                                                    {   
+                                                        elem:'col',
+                                                        cls:'col-12',
+                                                        content:[
+                                                            {   
+                                                                elem:'titles',
+                                                                tag:'p',
+                                                                content:[
+                                                                    'Выберите регион и населенный пункт',
+                                                                    {
+                                                                        elem:'quot',
+                                                                        tag:'span',content:'*'
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {   
+                                                                elem:'row',
+                                                                cls:'row',
+                                                                content:[
+                                                                    {   
+                                                                        // elem:'col',
+                                                                        cls:'col-sm-6',
+                                                                        content:{
+                                                                            elem:'idea-concept-region',
+                                                                            attrs:{
+                                                                                id:'idea-concept-region'
+                                                                            },
+                                                                            js:true,
+                                                                            tag:'select',
+                                                                            content:[
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    attrs:{
+                                                                                        value:''
+                                                                                    },
+                                                                                    content:'Выберите улус'
+                                                                                },
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    content:'улус 1'
+                                                                                },
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    content:'улус 2'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {   
+                                                                        // elem:'col',
+                                                                        cls:'col-sm-6',
+                                                                        content:{
+                                                                            elem:'idea-concept-location',
+                                                                            attrs:{
+                                                                                id:'idea-concept-location'
+                                                                            },
+                                                                            js:true,
+                                                                            tag:'select',
+                                                                            content:[
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    attrs:{
+                                                                                        value:''
+                                                                                    },
+                                                                                    content:'Выберите населенный пункт'
+                                                                                },
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    content:'население 1'
+                                                                                },
+                                                                                {
+                                                                                    tag:'option',
+                                                                                    content:'население 2'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            
+                                                        ]
+                                                    },
+                                                    {
+                                                        elem:'col',
+                                                        cls:'col-12',
+                                                        content:[
+                                                            {   
+                                                                elem:'titles',
+                                                                tag:'p',
+                                                                content:[
+                                                                    'Выберите категорию',
+                                                                    {
+                                                                        elem:'quot',
+                                                                        tag:'span',content:'*'
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                elem:'idea-concept-category',
+                                                                attrs:{
+                                                                    id:'idea-concept-category'
+                                                                },
+                                                                js:true,
+                                                                tag:'select',
+                                                                content:[
+                                                                    {
+                                                                        tag:'option',
+                                                                        attrs:{
+                                                                            value:''
+                                                                        },
+                                                                        content:'Выберите категорию'
+                                                                    },
+                                                                    {
+                                                                        tag:'option',
+                                                                        content:'категория 1'
+                                                                    },
+                                                                    {
+                                                                        tag:'option',
+                                                                        content:'категория 2'
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        elem:'col',
+                                                        cls:'col-12 d-flex justify-content-end justify-content-md-start',
+                                                        content:{
+                                                                elem:'map-point',
+                                                                tag:'a',
+                                                                content:'Отменить на карте'
+                                                            
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            elem:'col-right',
+                                            cls:'col-md-6',
+                                            content:{
+                                                cls:'row',
+                                                content:[
+                                                    {   
+                                                        elem:'col',
+                                                        cls:'col-12',
+                                                        content:[
+                                                            {   
+                                                                elem:'titles',
+                                                                tag:'p',
+                                                                content:[
+                                                                    'Описание идеи',
+                                                                    {
+                                                                        elem:'quot',
+                                                                        tag:'span',content:'*'
+                                                                    },
+                                                                ]
+                                                            },
+                                                            {   
+                                                                elem:'textarea-idea',
+                                                                attrs:{
+                                                                    placeholder:'Введите текст: Ограничение 4000 символов'
+                                                                },
+                                                                tag:'textarea',
+                                                            }
+                                                        ]
+                                                    },
+                                                    {   
+                                                        elem:'col',
+                                                        cls:'col-12',
+                                                        content:[
+                                                            {   
+                                                                elem:'titles',
+                                                                tag:'p',
+                                                                content:[
+                                                                    'Эффект от реализации',
+                                                                    {
+                                                                        elem:'quot',
+                                                                        tag:'span',content:'*'
+                                                                    },
+                                                                ]
+                                                            },
+                                                            {   
+                                                                elem:'textarea-effect',
+                                                                attrs:{
+                                                                    placeholder:'Введите текст: Ограничение 4000 символов'
+                                                                },
+                                                                tag:'textarea',
+                                                            }
+                                                        ]
+                                                    },
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            elem:'col-bottom',
+                                            cls:'col-12',
+                                            content:[
+                                                {   
+                                                    elem:'titles',
+                                                    tag:'p',
+                                                    content:[
+                                                        'Файлы',
+                                                        {
+                                                            elem:'quot',
+                                                            tag:'span',content:'*'
+                                                        },
+                                                    ]
+                                                },
+                                                {
+                                                    block:'upload-zone',
+                                                    mix:{
+                                                        block:'regions-forms',
+                                                        elem:'download'
+                                                    },
+                                                    attrs:{
+                                                        // необходимые атрибуты
+                                                    }
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            elem:'col-bottom',
+                                            cls:'col-12 d-flex justify-content-end justify-content-md-start',
+                                            content:{
+                                                elem:'button',
+                                                tag:'button',
+                                                mix:{block:'button-OC'},
+                                                content:'Отправить идею'
+                                            }
+                                            
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
                     }
                 ]
             }

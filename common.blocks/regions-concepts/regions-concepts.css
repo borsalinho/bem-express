@@ -62,7 +62,7 @@
     }
 }
 .regions-concepts__b{
-    padding: 40px 0 0 0;
+    padding: 40px 0;
 }
 .regions-concepts__statuses-title{
     font-size: 12px;
@@ -295,4 +295,94 @@
 }
 .regions-concepts__number .selectize-control.single .selectize-input::after{
     right: 0;
+}
+.regions-concepts__cards{
+    padding-top: 50px;
+}
+.regions-card__card{
+    position: relative;
+    margin: 0 0 30px 0;
+    background: #FFFFFF;
+}
+.regions-card__status{
+    position: absolute;
+    top:10px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 19px;
+}
+.regions-card__data, .regions-card__location{
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+.regions-card__data{
+    margin:0 0 4px 0;
+}
+.regions-card__location{
+    margin:0 0 15px 0;
+}
+.regions-card__title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.regions-card__text{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+.regions-card__comment-img{
+    margin:0 5px 0 0
+}
+.regions-card__viewed-img, .regions-card__like-img{
+    margin:0 5px 0 15px
+}
+.regions-card__bottom{
+    font-size: 13px;
+    color: #bdbdbd;
+}
+.regions-card__status_on_selection{
+    background: #3087FC;
+}
+.regions-card__status_on_the-vote{
+    background: rgb(242, 153, 74);
+}
+.regions-card__status_not_selected{
+    background: rgb(189, 189, 189);
+}
+.regions-card__status_selected_true{
+    background: rgb(86, 204, 242);
+}
+.regions-card__status_approved_true{
+    background: rgb(111, 207, 151);
+}
+.regions-card__status_in_implementation{
+    background: rgb(239, 197, 61);
+}
+.regions-card__status_implemented_true{
+    background: #9B6BD9;
+}
+.regions-card__status_not_implemented{
+    background: #ff5c46;
+}
+.regions-concepts__c{
+    background: #F3EBDA;
+    padding:80px 0;
 }

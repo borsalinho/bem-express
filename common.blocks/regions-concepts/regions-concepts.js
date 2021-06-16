@@ -96,3 +96,60 @@ modules.define('regions-concepts__number-select', ['i-bem-dom'], function(provid
     }));
 
 });
+
+modules.define('regions-form__idea-concept-region', ['i-bem-dom'], function(provide, bemDom) {
+
+    provide(bemDom.declBlock(this.name, {
+        onSetMod: {
+            js: {
+                inited: function() {
+
+
+                    $("#idea-concept-region").selectize({
+                        create: true,
+                        sortField: 'text',
+                    });
+                }
+            }
+        }
+    }));
+
+});
+
+modules.define('regions-form__idea-concept-location', ['i-bem-dom'], function(provide, bemDom) {
+
+    provide(bemDom.declBlock(this.name, {
+        onSetMod: {
+            js: {
+                inited: function() {
+
+
+                    $("#idea-concept-location").selectize({
+                        create: true,
+                        sortField: 'text',
+                    });
+                }
+            }
+        }
+    }));
+
+});
+
+modules.define('regions-form__idea-concept-category', ['i-bem-dom'], function(provide, bemDom) {
+
+    provide(bemDom.declBlock(this.name, {
+        onSetMod: {
+            js: {
+                inited: function() {
+
+
+                    $("#idea-concept-category").selectize({
+                        create: true,
+                        sortField: 'text',
+                    });
+                }
+            }
+        }
+    }));
+
+});
