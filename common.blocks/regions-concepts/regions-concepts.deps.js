@@ -1,6 +1,7 @@
 ({
     shouldDeps:[
         'regions-card',
-        'regions-form'
+        'regions-form',
+        'regions-modal'
     ]
 })

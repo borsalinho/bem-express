@@ -1,0 +1,41 @@
+.regions-modal__top{
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+.regions-modal__top-col_font_bold{
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.regions-modal__map-point{
+    font-weight: 600;
+    color: #546F01;
+    cursor: pointer;
+}
+.regions-modal__top-col{
+    margin:0 0 10px 0;
+}
+.regions-modal__body{
+    padding: 20px 0;
+    font-size: 13px;
+    line-height: 18px;
+}
+.regions-modal__title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin:0 0 20px 0;
+}
+.regions-modal__description-title, .regions-modal__effect-title{
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.regions-modal__comment-img{
+    margin:0 5px 0 0;
+}
+.regions-modal__viewed-img{
+    margin:0 5px 0 15px;
+}
+.regions-modal__like-img{
+    margin:0 0 0 15px;
+}

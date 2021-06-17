@@ -106,31 +106,31 @@ block("regions-card")(
                     {
                         elem: "bottom",
                         content: [
-                        {
-                            elem: "comment-img",
-                            tag: "img",
-                            attrs: {
-                            src: "/img/regions-card/chatting.svg",
-                            },
-                        },
-                        "12",
-                        {
-                            elem: "viewed-img",
-                            tag: "img",
-                            attrs: {
-                            src: "/img/regions-card/eye.svg",
-                            },
-                        },
-                        "14",
-                        {
-                          elem: "like-img",
-                          tag: "img",
-                          attrs: {
-                          src: "/img/regions-card/like-heard.svg",
+                          {
+                              elem: "comment-img",
+                              tag: "img",
+                              attrs: {
+                              src: "/img/regions-card/chatting.svg",
+                              },
                           },
-                        },
-                        "18",
-                        ],
+                          "12",
+                          {
+                              elem: "viewed-img",
+                              tag: "img",
+                              attrs: {
+                              src: "/img/regions-card/eye.svg",
+                              },
+                          },
+                          "14",
+                          {
+                            elem: "like-img",
+                            tag: "img",
+                            attrs: {
+                            src: "/img/regions-card/like-heard.svg",
+                            },
+                          },
+                          "18",
+                        ]
                     },
                     ],
             } 

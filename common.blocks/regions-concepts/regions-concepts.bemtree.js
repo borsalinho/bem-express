@@ -896,6 +896,228 @@ block('regions-concepts')({
                     }
                 ]
             }
+        },
+        // временный контейнер
+        {
+            cls:'container',
+            content:{
+                // модалка для карточек, до сир пор не знаю как "правильно для бэка"
+                block:'regions-modal',
+                mix:'card-OC',
+                content:[
+                    {
+                        elem:'top',
+                        content:[
+                            {
+                                cls:'row',
+                                content:[
+                                    {
+                                        elem:'top-col',
+                                        elemMods:{font:'bold'},
+                                        cls:'col-5 col-xl-3 order-1 order-xl-1',
+                                        content:'Идея №310'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-5 col-xl-9 order-7 order-xl-2',
+                                        content:'Категория: освещение'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-7 col-xl-3 order-2 order-xl-3',
+                                        content:'8 декабря 2020 г. 12:21'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-5 col-xl-9 d-flex justify-content-xl-start order-3 order-xl-4',
+                                        content:[
+                                            'Статус: На голосовании ',
+                                            {
+                                                cls:'d-none d-xl-block ml-1',
+                                                content:'до 9 декабря 2020 г. 12:40'
+                                            } 
+                                    ]
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-7 d-xl-none order-4',
+                                        content:'до 9 декабря 2020 г. 12:40'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-5 col-xl-3 mb-10 order-5 order-xl-5',
+                                        content:'Район: Кобяйский район'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-7 col-xl-auto order-6 order-xl-6 ',
+                                        content:'Населенный пункт: с. Аргас'
+                                    },
+                                    {
+                                        elem:'top-col',
+                                        cls:'col-7 col-xl mb-10 order-8 order-xl-7 d-flex justify-content-xl-end',
+                                        content:{
+                                            elem:'map-point',
+                                            tag:'a',
+                                            content:'Посмотреть на карте'
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        elem:'body',
+                        content:[
+                            {
+                                elem:'title',
+                                tag:'h6',
+                                content:'Увеличение мощности уличного освещения в с. Аргас'
+                            },
+                            {
+                                elem:'description-title',
+                                tag:'h6',
+                                content:'Описание'
+                            },
+                            {
+                                elem:'description',
+                                tag:'p',
+                                content:'Увеличение мощности уличного освещения в с. Аргас'
+                            },
+                            {
+                                elem:'effect-title',
+                                tag:'h6',
+                                content:'Описание'
+                            },
+                            {
+                                elem:'effect',
+                                tag:'p',
+                                content:'Обновление уличного освещения улиц села приведет к следующим положительным результатам: 1. Возможность свободного передвижения в темное время суток. Освещение 6 улиц. 2. Создание комфорта для 639 жителей села и его гостей. 3. Снижение к минимуму дорожно-транспортных происшествий внутри села - 0%. 4. Снижение уровня преступности и правонарушений в темное время суток - 0%.'
+                            },
+                            {   
+                                elem:'row',
+                                cls:'row',
+                                content:[
+                                    {   
+                                        elem:'col-left',
+                                        cls:'col order-lg-1 order-2',
+                                        content:[
+                                            {
+                                                elem: "comment-img",
+                                                tag: "img",
+                                                attrs: {
+                                                src: "/img/regions-card/chatting.svg",
+                                                },
+                                            },
+                                            "12",
+                                            {
+                                                elem: "viewed-img",
+                                                tag: "img",
+                                                attrs: {
+                                                src: "/img/regions-card/eye.svg",
+                                                },
+                                            },
+                                            "14",
+                                            {
+                                              elem: "like-img",
+                                              tag: "img",
+                                              attrs: {
+                                              src: "/img/regions-card/like-heard.svg",
+                                              },
+                                            },
+                                            "18",
+                                        ]
+                                    },
+                                    {   
+                                        elem:'col-right',
+                                        cls:'col-lg-auto order-lg-2 order-1',
+                                        content:{
+                                            block:'share-OC'
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                elem:'vote-button',
+                                mix:{block:'button-OC'},
+                                tag:'button',
+                                content:'Проголосовать'
+                            }
+                        ]
+                    },
+                    {
+                        elem:'bottom',
+                        content:[
+                            {
+                                elem: "comments",
+                                content: [
+                                  {
+                                    block: "comments-OC",
+                                    content: [
+                                      {
+                                        elem: "comments",
+                                        commentsContent: [
+                                          {
+                                            avatarUrl: "/img/actual-info-OC/zatu4ka2.jpg",
+                                            userName: "Зубенко Михаил Петрович",
+                                            userText:
+                                              "Вор в законе, Шумиловка городок.Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок. Вор в законе, Шумиловка городок",
+                                          },
+                                          {
+                                            avatarUrl: "/img/comments-OC/avatar_plug.png",
+                                            userName:
+                                              "Зубенко Михаил Петрович Зубенко Михаил Петрович Зубенко Михаил Петрович",
+                                            userText: "Вор в законе, Шумиловка городок",
+                                          },
+                                          {
+                                            avatarUrl: "/img/comments-OC/avatar_plug.png",
+                                            userName: "Зубенко Михаил Петрович",
+                                            userText: "Вор в законе, Шумиловка городок",
+                                          },
+                                          {
+                                            avatarUrl: "/img/comments-OC/avatar_plug.png",
+                                            userName: "Зубенко Михаил Петрович",
+                                            userText: "Вор в законе, Шумиловка городок",
+                                          },
+                                        ],
+                                      },
+                                    ],
+                                  },
+                                  {
+                                    block: "comment-textarea-OC",
+                                    mix: {
+                                      block: "news-content",
+                                      elem: "comment-textarea",
+                                    },
+                                  },
+                                  {
+                                    block: "button-OC",
+                                    mix: {
+                                      block: "news-content",
+                                      elem: "comment-button",
+                                    },
+                                    content: "Отправить",
+                                  },
+                                  {
+                                    elem: "url",
+                                    content: [
+                                      "Ссылка",
+                                      {
+                                        elem: "source-url",
+                                        tag: "a",
+                                        attrs: {
+                                          href: "#",
+                                        },
+                                        content: "ссылка на новость",
+                                      },
+                                    ],
+                                  },
+                                ],
+                              },
+                        ]
+                    },
+                ]
+            }
         }
     ]
 });
