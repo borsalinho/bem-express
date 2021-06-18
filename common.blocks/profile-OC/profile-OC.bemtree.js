@@ -81,7 +81,18 @@ block('profile-OC')({
                             elem:'s-m-col-right',
                             cls:'col-md-6 d-flex justify-content-md-end mt-4 mt-md-0',
                             content:{
-                                block:'share-OC'
+                                block:'share-OC',
+                                content:[
+                                    { 
+                                      background:'#035AA6;',
+                                      urlWhassap:'#',
+                                      urlVk:'#',
+                                      urlTelegram:'#',
+                                      urlTwitter:'#',
+                                      urlFacebook:'#',
+                                      urlShare:'#',
+                                    }
+                                  ]
                             }
                         }
                     ]

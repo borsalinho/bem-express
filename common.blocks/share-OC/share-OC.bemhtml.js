@@ -1,6 +1,7 @@
-block('share-OC')({
-    content: () => [
-        
+block("share-OC")(
+    content()(function () {
+      return this.ctx.content.map(function (item) {
+        return [
             {
                 elem:'title',
                 tag:'h6',
@@ -10,97 +11,87 @@ block('share-OC')({
                 elem:'icons',
                 content:[
                     {
-                        elem:'whassup-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlWhassap
                         },
                         content:{
-                            elem:'whassup-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/whassup_blue.svg',
-                                title:'whatsapp-icon'
+                                style:'background:url("/img/share-OC/whatsapp.png") center no-repeat'+ item.background
                             },
                         }
                     },
                     {
-                        elem:'vk-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlVk
                         },
                         content:{
-                            elem:'vk-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/vk_blue.svg',
-                                title:'vk-icon'
+                                style:'background:url("/img/share-OC/vk.png") center no-repeat'+ item.background
                             },
                         }
                     },
                     {
-                        elem:'telegram-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlTelegram
                         },
                         content:{
-                            elem:'telegram-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/telegram_blue.svg',
-                                title:'telegram-icon'
+                                style:'background:url("/img/share-OC/telegram.png") center no-repeat'+ item.background
                             },
                         }
                     },
                     {
-                        elem:'twitter-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlTwitter
                         },
                         content:{
-                            elem:'twitter-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/twitter_blue.svg',
-                                title:'twitter-icon'
+                                style:'background:url("/img/share-OC/twitter.png") center no-repeat'+ item.background
                             },
                         }
                     },
                     {
-                        elem:'facebook-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlFacebook
                         },
                         content:{
-                            elem:'facebook-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/facebook_blue.svg',
-                                title:'facebook-icon'
+                                style:'background:url("/img/share-OC/facebook.png") center no-repeat'+ item.background
                             },
                         }
                     },
                     {
-                        elem:'share-url',
+                        elem:'url',
                         tag:'a',
                         attrs:{
-                            href:'#'
+                            href:item.urlShare
                         },
                         content:{
-                            elem:'share-icon',
-                            tag:'img',
+                            elem:'icon',
                             attrs:{
-                                src:'/img/share-OC/share_blue.svg',
-                                title:'share-icon'
+                                style:'background:url("/img/share-OC/link.png") center no-repeat'+ item.background
                             },
                         }
                     },
                 ]
             }
-        
-    ]
-});
+        ];
+      });
+    }),
+  );
+  

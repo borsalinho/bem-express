@@ -10,18 +10,19 @@
     font-weight: normal;
     margin: 0 12px 0 0;
 }
-.share-OC__whassup-url{
+.share-OC__icons{
+    height: 22px;
+}
+.share-OC__url:not(:last-child){
     margin-right: 12px;
 }
-.share-OC__vk-url{
-    margin-right: 12px;
+.share-OC__url{
+    display: inline-block;
 }
-.share-OC__telegram-url{
-    margin-right: 12px;
-}
-.share-OC__twitter-url{
-    margin-right: 12px;
-}
-.share-OC__facebook-url{
-    margin-right: 12px;
+.share-OC__icon{
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    background: aqua;
+    display: inline-block;
 }

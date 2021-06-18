@@ -172,7 +172,18 @@ block('profile-card')({
                         },
                         {   
                             block:'share-OC',
-                            mix:{block:'profile-card',elem:'share'}
+                            mix:{block:'profile-card',elem:'share'},
+                            content:[
+                                { 
+                                  background:'#035AA6;',
+                                  urlWhassap:'#',
+                                  urlVk:'#',
+                                  urlTelegram:'#',
+                                  urlTwitter:'#',
+                                  urlFacebook:'#',
+                                  urlShare:'#',
+                                }
+                              ]
                         }
                     ]
                 }

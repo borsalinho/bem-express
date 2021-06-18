@@ -906,6 +906,20 @@ block('regions-concepts')({
                 mix:'card-OC',
                 content:[
                     {
+                        elem:'top-show',
+                        js:true,
+                        content:[
+                            'Подробности идеи',
+                            {   
+                                elem:'arrow',
+                                tag:'img',
+                                attrs:{
+                                    src:'/img/regions-modal/arrow.svg'
+                                }
+                            }
+                        ]
+                    },
+                    {
                         elem:'top',
                         content:[
                             {
@@ -977,7 +991,16 @@ block('regions-concepts')({
                             {
                                 elem:'description-title',
                                 tag:'h6',
-                                content:'Описание'
+                                content:[
+                                    'Описание',
+                                    {   
+                                        elem:'arrow',
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-modal/arrow.svg'
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 elem:'description',
@@ -1032,17 +1055,52 @@ block('regions-concepts')({
                                         elem:'col-right',
                                         cls:'col-lg-auto order-lg-2 order-1',
                                         content:{
-                                            block:'share-OC'
+                                            block:'share-OC',
+                                            content:[
+                                                { 
+                                                  background:'#546F01',
+                                                  urlWhassap:'#',
+                                                  urlVk:'#',
+                                                  urlTelegram:'#',
+                                                  urlTwitter:'#',
+                                                  urlFacebook:'#',
+                                                  urlShare:'#',
+                                                }
+                                              ]
                                         }
                                     }
                                 ]
                             },
                             {
-                                elem:'vote-button',
+                                elem:'support-button',
                                 mix:{block:'button-OC'},
                                 tag:'button',
-                                content:'Проголосовать'
-                            }
+                                content:[
+                                    {
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-modal/heart-white.png'
+                                        }
+                                    },
+                                    'Проголосовать'
+                                ]
+                            },
+                            // если статус на голосовании
+                            {
+                                elem:'support-button',
+                                elemMods:{vote:'true'},
+                                mix:{block:'button-OC'},
+                                tag:'button',
+                                content:[
+                                    {
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-modal/thumbs-up.png'
+                                        }
+                                    },
+                                    'Поддерживаю'
+                                ]
+                            },
                         ]
                     },
                     {
@@ -1093,7 +1151,7 @@ block('regions-concepts')({
                                   {
                                     block: "button-OC",
                                     mix: {
-                                      block: "news-content",
+                                      block: "region-concepts",
                                       elem: "comment-button",
                                     },
                                     content: "Отправить",
@@ -1101,7 +1159,7 @@ block('regions-concepts')({
                                   {
                                     elem: "url",
                                     content: [
-                                      "Ссылка",
+                                      "Ссылка ",
                                       {
                                         elem: "source-url",
                                         tag: "a",

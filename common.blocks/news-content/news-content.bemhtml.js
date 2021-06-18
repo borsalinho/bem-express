@@ -61,6 +61,17 @@ block("news-content")(
                   cls: " d-flex justify-content-md-end",
                   content: {
                     block: "share-OC",
+                    content:[
+                      { 
+                        background:'#035AA6;',
+                        urlWhassap:'#',
+                        urlVk:'#',
+                        urlTelegram:'#',
+                        urlTwitter:'#',
+                        urlFacebook:'#',
+                        urlShare:'#',
+                      }
+                    ]
                   },
                 },
                 {
