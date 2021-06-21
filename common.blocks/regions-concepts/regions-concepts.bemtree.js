@@ -991,6 +991,12 @@ block('regions-concepts')({
                             {
                                 elem:'description-title',
                                 tag:'h6',
+                                content:'Описание',
+                            },
+                            {
+                                elem:'description-sm-title',
+                                tag:'h6',
+                                js:true,
                                 content:[
                                     'Описание',
                                     {   
@@ -1010,7 +1016,22 @@ block('regions-concepts')({
                             {
                                 elem:'effect-title',
                                 tag:'h6',
-                                content:'Описание'
+                                content:'Эффект от реализации:'
+                            },
+                            {
+                                elem:'effect-sm-title',
+                                tag:'h6',
+                                js:true,
+                                content:[
+                                    'Эффект от реализации',
+                                    {   
+                                        elem:'arrow',
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-modal/arrow.svg'
+                                        }
+                                    }
+                                ]
                             },
                             {
                                 elem:'effect',
@@ -1151,7 +1172,7 @@ block('regions-concepts')({
                                   {
                                     block: "button-OC",
                                     mix: {
-                                      block: "region-concepts",
+                                      block: "region-modal",
                                       elem: "comment-button",
                                     },
                                     content: "Отправить",

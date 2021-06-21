@@ -50,10 +50,24 @@
     line-height: 25px;
     margin:0 0 20px 0;
 }
-.regions-modal__description-title, .regions-modal__effect-title{
+.regions-modal__description-title, .regions-modal__effect-title,.regions-modal__description-sm-title, .regions-modal__effect-sm-title{
     font-weight: bold;
     margin: 0 0 10px 0;
 }
+.regions-modal__description-title, .regions-modal__description, .regions-modal__effect-title, .regions-modal__effect{
+    display: none;
+}
+@media screen and (min-width:480px) {
+    
+    .regions-modal__description-sm-title, .regions-modal__effect-sm-title{
+        display: none;
+    }
+    .regions-modal__description-title, .regions-modal__description, .regions-modal__effect{
+        display: block;
+    }
+    
+}
+
 .regions-modal__comment-img{
     margin:0 5px 0 0;
 }
@@ -85,7 +99,7 @@
     text-align: center;
     background: #f19494;
 }
-.region-concepts__comment-button{
+.region-modal__comment-button{
     margin:20px 0 0 0;
     border-radius: 12px;
     color: #FFFFFF;
@@ -96,7 +110,7 @@
     background: #546F01;
 }
 @media screen and (min-width:480px) {
-    .regions-modal__support-button, .region-concepts__comment-button{
+    .regions-modal__support-button, .region-modal__comment-button{
         width: 200px;
     }
 }
