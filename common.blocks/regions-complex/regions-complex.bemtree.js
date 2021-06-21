@@ -1,8 +1,10 @@
-block('regions-concepts')({
+block('regions-complex')({
     
     content: () => [
-        {
+        {   
+            block:'regions-concepts',
             elem:'a',
+            elemMods:{page:'complex'},
             tag:'section',
             content:{
                 cls:'container',
@@ -13,114 +15,47 @@ block('regions-concepts')({
                         content:[
                             {
                                 elem:'a-col-left',
-                                cls:'col-md-4',
+                                cls:'col-lg-6',
                                 content:[
                                     {
                                         elem:'a-title',
                                         tag:'h1',
-                                        content:'Программа поддержки местных инициатив'
+                                        content:'Благоустройство сельских территорий'
                                     },
                                     {
                                         elem:'a-text',
                                         tag:'p',
-                                        content:'Электронная система для софинансирования проектов развития общественной инфраструктуры, которая состоит из приема и экспертизы конкурсных заявок, электронного документооборота, финансового и аналитического мониторинга.'
+                                        content:'Электронная система для софинансирования общественно значимых проектов в рамках мероприятия "Благоустройство сельских территорий" государственной программы Республики Саха (Якутия) "Комплексное развитие сельских территорий на 2020-2025 годы"'
                                     },
-                                    
+                                    {   
+                                        elem:'a-button',
+                                        elemMods:{page:'complex'},
+                                        mix:{block:'button-OC'},
+                                        tag:'button',
+                                        content:'Посмотреть идею'
+                                    },
                                 ]
                             },
                             {
                                 elem:'a-col-right',
-                                cls:'col-md-8',
+                                elemMods:{page:'complex'},
+                                cls:'col-lg-6 d-flex justify-content-center',
                                 content:{
-                                    elem:'right-row',
-                                    cls:'row',
-                                    content:[
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'183'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'идей предложено '},'инициативной группой']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'31'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'на голосовании '},'проголосуйте и вы']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'0'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'ждут очереди '},'на реализацию']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'0'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'идей реализовано '},'посмотрите проекты']
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    elem:'banner',
+                                    tag:'img',
+                                    attrs:{
+                                        src:'/img/regions-complex/village-img.png'
+                                    }
                                 }
                             }
                         ]
                     },
-                    {
-                        elem:'a-bottom',
-                        content:[
-                            {   
-                                elem:'a-button',
-                                mix:{block:'button-OC'},
-                                tag:'button',
-                                content:'Посмотреть идею'
-                            },
-                            {
-                                elem:'a-url',
-                                content:[
-                                    'Заполните заявку на ',
-                                    {
-                                        tag:'a',
-                                        attrs:{
-                                            href:'https://ppmi.yakutia.click/'
-                                        },
-                                        content:'https://ppmi.yakutia.click/'
-                                    }
-                                ]
-                            }
-                        ]
-                    }
                 ]
                 
             }
         },
-        {
+        {   
+            block:'regions-concepts',
             elem:'b',
             tag:'section',
             content:{
@@ -133,11 +68,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-complex',
                                     elem:'region-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__region'
+                                        id:'complex__region'
                                     },
                                     content:[
                                         {
@@ -161,11 +97,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-complex',
                                     elem:'location-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__location'
+                                        id:'complex__location'
                                     },
                                     content:[
                                         {
@@ -189,11 +126,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-complex',
                                     elem:'category-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__category'
+                                        id:'complex__category'
                                     },
                                     content:[
                                         {
@@ -217,11 +155,12 @@ block('regions-concepts')({
                             {
                                 cls:'col d-md-none',
                                 content:{
+                                    block:'regions-complex',
                                     elem:'status-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__status'
+                                        id:'complex__status'
                                     },
                                     content:[
                                         {
@@ -496,16 +435,17 @@ block('regions-concepts')({
                                 content:{
                                     elem:'number',
                                     content:[
-                                        {
+                                        {   
                                             elem:'number-text',
                                             tag:'span',
                                             content:'Показать по '
                                         },
-                                        {
+                                        {   
+                                            block:'regions-complex',
                                             elem:'number-select',
                                             js:true,
                                             attrs:{
-                                                id:'concepts__number-select'
+                                                id:'complex__number-select'
                                             },
                                             tag:'select',
                                             content:[
@@ -603,7 +543,8 @@ block('regions-concepts')({
                 ]
             }
         },
-        {
+        {   
+            block:'regions-concepts',
             elem:'c',
             tag:'section',
             content:{
@@ -680,9 +621,9 @@ block('regions-concepts')({
                                                                         // elem:'col',
                                                                         cls:'col-sm-6',
                                                                         content:{
-                                                                            elem:'idea-concept-region',
+                                                                            elem:'idea-complex-region',
                                                                             attrs:{
-                                                                                id:'idea-concept-region'
+                                                                                id:'idea-complex-region'
                                                                             },
                                                                             js:true,
                                                                             tag:'select',
@@ -709,9 +650,9 @@ block('regions-concepts')({
                                                                         // elem:'col',
                                                                         cls:'col-sm-6',
                                                                         content:{
-                                                                            elem:'idea-concept-location',
+                                                                            elem:'idea-complex-location',
                                                                             attrs:{
-                                                                                id:'idea-concept-location'
+                                                                                id:'idea-complex-location'
                                                                             },
                                                                             js:true,
                                                                             tag:'select',
@@ -755,9 +696,9 @@ block('regions-concepts')({
                                                                 ]
                                                             },
                                                             {
-                                                                elem:'idea-concept-category',
+                                                                elem:'idea-complex-category',
                                                                 attrs:{
-                                                                    id:'idea-concept-category'
+                                                                    id:'idea-complex-category'
                                                                 },
                                                                 js:true,
                                                                 tag:'select',
@@ -1062,6 +1003,15 @@ block('regions-concepts')({
                                               attrs: {
                                               src: "/img/regions-card/like-heard.svg",
                                               },
+                                            },
+                                            "18",
+                                            // если на стадии голосвании
+                                            {
+                                                elem: "vote-img",
+                                                tag: "img",
+                                                attrs: {
+                                                    src: "/img/regions-card/like.svg",
+                                                },
                                             },
                                             "18",
                                         ]

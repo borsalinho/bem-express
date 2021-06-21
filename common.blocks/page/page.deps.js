@@ -35,7 +35,10 @@
         'regions',
 
         // ППМИ
-        'regions-concepts'
+        'regions-concepts',
+
+        // Благоустройство сельских территорий
+        'regions-complex'
     ]
 })
 

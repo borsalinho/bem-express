@@ -45,7 +45,7 @@
 }
 @media screen and (min-width:480px) {
     .regions-concepts__a-button{
-        width: inherit;
+        width: initial;
     }
 }
 .regions-concepts__a-url{
@@ -351,7 +351,7 @@
 .regions-card__comment-img{
     margin:0 5px 0 0
 }
-.regions-card__viewed-img, .regions-card__like-img{
+.regions-card__viewed-img, .regions-card__like-img, .regions-card__vote-img{
     margin:0 5px 0 15px
 }
 .regions-card__bottom{
@@ -385,4 +385,11 @@
 .regions-concepts__c{
     background: #F3EBDA;
     padding:80px 0;
+}
+.regions-concepts__banner{
+    height: 100%;
+    width: 100%;
+    max-width: 430px;
+    margin-bottom: 20px;
+    max-height: 249px;
 }

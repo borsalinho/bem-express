@@ -157,6 +157,20 @@ app.get('/regions/consepts', function(req, res) {
     })
 });
 
+app.get('/regions/complex', function(req, res) {
+    render(req, res, {
+        view: 'regions-complex',
+        title: 'Благоустройство сельских территорий',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/regions/complex',
+                siteName: 'Благоустройство сельских территорий'
+            }
+        }
+    })
+});
+
 app.get('/profile', function(req, res) {
     render(req, res, {
         view: 'profile-OC',

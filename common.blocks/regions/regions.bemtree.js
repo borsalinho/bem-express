@@ -412,7 +412,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'/regions/complex'
                                                 },
                                                 content:{
                                                     elem:'card-button-2',

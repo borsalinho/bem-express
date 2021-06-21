@@ -71,12 +71,10 @@
 .regions-modal__comment-img{
     margin:0 5px 0 0;
 }
-.regions-modal__viewed-img{
+.regions-modal__viewed-img, .regions-modal__vote-img, .regions-modal__like-img{
     margin:0 5px 0 15px;
 }
-.regions-modal__like-img{
-    margin:0 0 0 15px;
-}
+
 .regions-modal__effect{
     margin:0 0 20px 0;
 }

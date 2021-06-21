@@ -3,6 +3,7 @@ block("regions-card")(
       return this.ctx.content.map(function (item) {
         
         let status;
+        let voteIcon;
       if (item.selection) {
         status = [
             {
@@ -20,6 +21,16 @@ block("regions-card")(
                 content:'На голосовании'
             },
         ];
+        voteIcon = [
+          {
+            elem: "vote-img",
+            tag: "img",
+            attrs: {
+            src: "/img/regions-card/like.svg",
+            },
+          },
+          "18",
+      ];
       }
       if (item.notSelected) {
         status = [
@@ -130,6 +141,7 @@ block("regions-card")(
                             },
                           },
                           "18",
+                          voteIcon
                         ]
                     },
                     ],
