@@ -153,3 +153,20 @@ modules.define('regions-form__idea-concept-category', ['i-bem-dom'], function(pr
     }));
 
 });
+
+modules.define('regions-concepts__concepts-anchor', ['i-bem-dom'], function(provide, bemDom) {
+
+    provide(bemDom.declBlock(this.name, {
+        onSetMod: {
+            js: {
+                inited: function() {
+                    $('.regions-concepts__concepts-anchor').on('click', function(e){
+                        $('html,body').stop().animate({ scrollTop: $('#regions__concepts-form').offset().top }, 1000);
+                        e.preventDefault();
+                    });
+                }
+            }
+        }
+    }));
+
+});

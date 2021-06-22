@@ -1,8 +1,10 @@
-block('regions-concepts')({
+block('regions-village')({
     
     content: () => [
-        {
+        {   
+            block:'regions-concepts',
             elem:'a',
+            elemMods:{page:'village'},
             tag:'section',
             content:{
                 cls:'container',
@@ -13,122 +15,150 @@ block('regions-concepts')({
                         content:[
                             {
                                 elem:'a-col-left',
-                                cls:'col-md-4',
+                                cls:'col-lg-6',
                                 content:[
                                     {
                                         elem:'a-title',
                                         tag:'h1',
-                                        content:'Программа поддержки местных инициатив'
+                                        content:'Стратегическая инициатива «Новая модель села. Развитие сельских территорий»'
                                     },
                                     {
                                         elem:'a-text',
                                         tag:'p',
-                                        content:'Электронная система для софинансирования проектов развития общественной инфраструктуры, которая состоит из приема и экспертизы конкурсных заявок, электронного документооборота, финансового и аналитического мониторинга.'
+                                        content:'Стратегическая инициатива «Новая модель села. Развитие сельских территорий» - инициатива сельчан, направленная на обновление человеческого капитала и инфраструктуры, улучшение среды жизни и обитания на селе.'
+                                    },
+                                    {   
+                                        
+                                        elem:'village-anchor',
+                                        tag:'a',
+                                        js:true,
+                                        attrs:{
+                                            href:'#regions__village-form'
+                                        },
+                                        content:{   
+                                            elem:'a-button',
+                                            elemMods:{page:'village'},
+                                            mix:{block:'button-OC'},
+                                            tag:'button',
+                                            content:'Предложить идею'
+                                        }
                                     },
                                     
                                 ]
                             },
                             {
                                 elem:'a-col-right',
-                                cls:'col-md-8',
+                                elemMods:{page:'village'},
+                                cls:'col-lg-6 d-flex justify-content-center',
                                 content:{
-                                    elem:'right-row',
-                                    cls:'row',
-                                    content:[
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'183'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'идей предложено '},'инициативной группой']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'31'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'на голосовании '},'проголосуйте и вы']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'0'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'ждут очереди '},'на реализацию']
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            cls:'col-xl-3 col-6',
-                                            content:[
-                                                {
-                                                    elem:'statistic-number',
-                                                    content:'0'
-                                                },
-                                                {
-                                                    elem:'statistic-name',
-                                                    content:[{tag:'span',content:'идей реализовано '},'посмотрите проекты']
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    elem:'banner',
+                                    tag:'img',
+                                    attrs:{
+                                        src:'/img/regions-complex/village-img.png'
+                                    }
                                 }
                             }
                         ]
                     },
-                    {
-                        elem:'a-bottom',
-                        content:[
-                            {
-                                elem:'concepts-anchor',
-                                tag:'a',
-                                js:true,
-                                attrs:{
-                                    href:'#regions__concepts-form'
-                                },
-                                content:{   
-                                    elem:'a-button',
-                                    mix:{block:'button-OC'},
-                                    tag:'button',
-                                    content:'Посмотреть идею'
-                                }
-                            },
-                            {
-                                elem:'a-url',
-                                content:[
-                                    'Заполните заявку на ',
-                                    {
-                                        tag:'a',
-                                        attrs:{
-                                            href:'https://ppmi.yakutia.click/'
-                                        },
-                                        content:'https://ppmi.yakutia.click/'
-                                    }
-                                ]
-                            }
-                        ]
-                    }
                 ]
                 
             }
         },
-        {
+        {   
+            elem:'a',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                    {   
+                        elem:'a-title',
+                        tag:'h6',
+                        content:'О проекте'
+                    },
+                    {
+                        elem:'a-discription',
+                        tag:'p',
+                        content:['Целью сервиса «Новая модель села. Развитие сельских территорий» является улучшение уровня жизни в селах. Теперь у каждого жителя республики есть возможность стать частью инициативной команды, поделиться идеей, предложениями по улучшению и развитию жизни в сельской местности, объединиться с другими жителями сел и реализовать любой проект.',
+                        {tag:'br'},
+                        'Ограничений по предложениям нет, идеи могут затрагивать разные сферы жизни граждан: экономическую, социальную, политическую, духовную.']
+                    },
+                    {
+                        elem:'a-row',
+                        cls:'row',
+                        content:[
+                            {   
+                                elem:'a-col',
+                                cls:'col-md-4',
+                                content:[
+                                    {
+                                        elem:'col-title',
+                                        tag:'h6',
+                                        content:'Предлодите идею'
+                                    },
+                                    {
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-village/idea-lump.png'
+                                        }
+                                    },
+                                    {
+                                        elem:'col-discription',
+                                        tag:'p',
+                                        content:'Чтобы разместить свою идею по улучшению жизни в сельской местности, нажмите на кнопку «Предложить идею».'
+                                    }
+                                ]   
+                            },
+                            {   
+                                elem:'a-col',
+                                cls:'col-md-4',
+                                content:[
+                                    {
+                                        elem:'col-title',
+                                        tag:'h6',
+                                        content:'Голосуйте'
+                                    },
+                                    {
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-village/idea-vote.png'
+                                        }
+                                    },
+                                    {
+                                        elem:'col-discription',
+                                        tag:'p',
+                                        content:'Ставьте лайки и оставляйте комментарии – покажите какие идеи наиболее актуальны для развития сельской местности.'
+                                    }
+                                ]   
+                            },
+                            {   
+                                elem:'a-col',
+                                cls:'col-md-4',
+                                content:[
+                                    {
+                                        elem:'col-title',
+                                        tag:'h6',
+                                        content:'Поделитесь'
+                                    },
+                                    {
+                                        tag:'img',
+                                        attrs:{
+                                            src:'/img/regions-village/idea-share.png'
+                                        }
+                                    },
+                                    {
+                                        elem:'col-discription',
+                                        tag:'p',
+                                        content:'Продвигайте свои проекты в социальных сетях, чтобы привлечь как можно больше граждан к обсуждению.'
+                                    }
+                                ]   
+                            },
+                        ]
+                    }
+                ]
+            }
+        },
+        {   
+            block:'regions-concepts',
             elem:'b',
             tag:'section',
             content:{
@@ -141,11 +171,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-village',
                                     elem:'region-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__region'
+                                        id:'village__region'
                                     },
                                     content:[
                                         {
@@ -169,11 +200,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-village',
                                     elem:'location-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__location'
+                                        id:'village__location'
                                     },
                                     content:[
                                         {
@@ -197,11 +229,12 @@ block('regions-concepts')({
                             {
                                 cls:'col-md',
                                 content:{
+                                    block:'regions-village',
                                     elem:'category-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__category'
+                                        id:'village__category'
                                     },
                                     content:[
                                         {
@@ -225,11 +258,12 @@ block('regions-concepts')({
                             {
                                 cls:'col d-md-none',
                                 content:{
+                                    block:'regions-village',
                                     elem:'status-select',
                                     tag:'select',
                                     js:true,
                                     attrs:{
-                                        id:'concepts__status'
+                                        id:'village__status'
                                     },
                                     content:[
                                         {
@@ -504,16 +538,17 @@ block('regions-concepts')({
                                 content:{
                                     elem:'number',
                                     content:[
-                                        {
+                                        {   
                                             elem:'number-text',
                                             tag:'span',
                                             content:'Показать по '
                                         },
-                                        {
+                                        {   
+                                            block:'regions-village',
                                             elem:'number-select',
                                             js:true,
                                             attrs:{
-                                                id:'concepts__number-select'
+                                                id:'village__number-select'
                                             },
                                             tag:'select',
                                             content:[
@@ -611,7 +646,8 @@ block('regions-concepts')({
                 ]
             }
         },
-        {
+        {   
+            block:'regions-concepts',
             elem:'c',
             tag:'section',
             content:{
@@ -621,7 +657,7 @@ block('regions-concepts')({
                         block:'regions-form',
                         mix:{ block:'card-OC' },
                         attrs:{
-                            id:'regions__concepts-form'
+                            id:'regions__village-form'
                         },
                         content:[
                             {
@@ -691,9 +727,9 @@ block('regions-concepts')({
                                                                         // elem:'col',
                                                                         cls:'col-sm-6',
                                                                         content:{
-                                                                            elem:'idea-concept-region',
+                                                                            elem:'idea-village-region',
                                                                             attrs:{
-                                                                                id:'idea-concept-region'
+                                                                                id:'idea-village-region'
                                                                             },
                                                                             js:true,
                                                                             tag:'select',
@@ -720,9 +756,9 @@ block('regions-concepts')({
                                                                         // elem:'col',
                                                                         cls:'col-sm-6',
                                                                         content:{
-                                                                            elem:'idea-concept-location',
+                                                                            elem:'idea-village-location',
                                                                             attrs:{
-                                                                                id:'idea-concept-location'
+                                                                                id:'idea-village-location'
                                                                             },
                                                                             js:true,
                                                                             tag:'select',
@@ -766,9 +802,9 @@ block('regions-concepts')({
                                                                 ]
                                                             },
                                                             {
-                                                                elem:'idea-concept-category',
+                                                                elem:'idea-village-category',
                                                                 attrs:{
-                                                                    id:'idea-concept-category'
+                                                                    id:'idea-village-category'
                                                                 },
                                                                 js:true,
                                                                 tag:'select',
@@ -1073,6 +1109,15 @@ block('regions-concepts')({
                                               attrs: {
                                               src: "/img/regions-card/like-heard.svg",
                                               },
+                                            },
+                                            "18",
+                                            // если на стадии голосвании
+                                            {
+                                                elem: "vote-img",
+                                                tag: "img",
+                                                attrs: {
+                                                    src: "/img/regions-card/like.svg",
+                                                },
                                             },
                                             "18",
                                         ]

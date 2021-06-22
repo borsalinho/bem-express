@@ -1,0 +1,38 @@
+.regions-concepts__a_page_village{
+    background:rgba(156,170,88,0.2) ;
+    color: inherit;
+    padding: 40px 0 0 0;
+}
+.regions-concepts__a-button_page_village{
+    background: #546F01;
+    margin: 20px 0px 20px;
+}
+.regions-concepts__a-col-right_page_village{
+    padding: 0;
+}
+.regions-village__a{
+    padding: 40px 0 0 0;
+}
+.regions-village__a-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    margin:0 0 40px 0;
+}
+.regions-village__a-col{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.regions-village__a-discription{
+    font-size: 15px;
+    line-height: 20px;
+}
+.regions-village__col-title{
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+}
+.regions-village__col-discription{
+    margin: 40px 0 0 0;
+}

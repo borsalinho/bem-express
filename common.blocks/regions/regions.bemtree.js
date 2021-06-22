@@ -200,7 +200,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'regions/consepts#regions__concepts-form'
                                                 },
                                                 content:{
                                                     elem:'card-button-1',
@@ -399,7 +399,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'regions/complex#regions__complex-form'
                                                 },
                                                 content:{
                                                     elem:'card-button-1',
@@ -598,7 +598,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'regions/village#regions__village-form'
                                                 },
                                                 content:{
                                                     elem:'card-button-1',

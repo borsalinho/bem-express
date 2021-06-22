@@ -1,11 +1,11 @@
-modules.define('regions-complex__region-select', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-village__region-select', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
             js: {
                 inited: function() {
 
-                    $("#complex__region").selectize({
+                    $("#village__region").selectize({
                         create: true,
                         sortField: 'text',
                         placeholder: 'Выберите улус',
@@ -18,14 +18,14 @@ modules.define('regions-complex__region-select', ['i-bem-dom'], function(provide
 
 });
 
-modules.define('regions-complex__location-select', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-village__location-select', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
             js: {
                 inited: function() {
 
-                    $("#complex__location").selectize({
+                    $("#village__location").selectize({
                         create: true,
                         sortField: 'text',
                         placeholder: 'Населенный пункт',
@@ -38,14 +38,14 @@ modules.define('regions-complex__location-select', ['i-bem-dom'], function(provi
 
 });
 
-modules.define('regions-complex__category-select', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-village__category-select', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
             js: {
                 inited: function() {
 
-                    $("#complex__category").selectize({
+                    $("#village__category").selectize({
                         create: true,
                         sortField: 'text',
                         placeholder: 'Категория',
@@ -58,7 +58,7 @@ modules.define('regions-complex__category-select', ['i-bem-dom'], function(provi
 
 });
 
-modules.define('regions-complex__status-select', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-village__status-select', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
@@ -66,7 +66,7 @@ modules.define('regions-complex__status-select', ['i-bem-dom'], function(provide
                 inited: function() {
 
 
-                    $("#complex__status").selectize({
+                    $("#village__status").selectize({
                         create: true,
                         sortField: 'text',
                         placeholder: 'Статус',
@@ -78,7 +78,7 @@ modules.define('regions-complex__status-select', ['i-bem-dom'], function(provide
 
 });
 
-modules.define('regions-complex__number-select', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-village__number-select', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
@@ -86,7 +86,7 @@ modules.define('regions-complex__number-select', ['i-bem-dom'], function(provide
                 inited: function() {
 
 
-                    $("#complex__number-select").selectize({
+                    $("#village__number-select").selectize({
                         create: true,
                         sortField: 'text',
                     });
@@ -97,7 +97,7 @@ modules.define('regions-complex__number-select', ['i-bem-dom'], function(provide
 
 });
 
-modules.define('regions-form__idea-complex-region', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-form__idea-village-region', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
@@ -105,7 +105,7 @@ modules.define('regions-form__idea-complex-region', ['i-bem-dom'], function(prov
                 inited: function() {
 
 
-                    $("#idea-complex-region").selectize({
+                    $("#idea-village-region").selectize({
                         create: true,
                         sortField: 'text',
                     });
@@ -116,7 +116,7 @@ modules.define('regions-form__idea-complex-region', ['i-bem-dom'], function(prov
 
 });
 
-modules.define('regions-form__idea-complex-location', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-form__idea-village-location', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
@@ -124,7 +124,7 @@ modules.define('regions-form__idea-complex-location', ['i-bem-dom'], function(pr
                 inited: function() {
 
 
-                    $("#idea-complex-location").selectize({
+                    $("#idea-village-location").selectize({
                         create: true,
                         sortField: 'text',
                     });
@@ -135,7 +135,7 @@ modules.define('regions-form__idea-complex-location', ['i-bem-dom'], function(pr
 
 });
 
-modules.define('regions-form__idea-complex-category', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-form__idea-village-category', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
@@ -143,7 +143,7 @@ modules.define('regions-form__idea-complex-category', ['i-bem-dom'], function(pr
                 inited: function() {
 
 
-                    $("#idea-complex-category").selectize({
+                    $("#idea-village-category").selectize({
                         create: true,
                         sortField: 'text',
                     });
@@ -154,14 +154,14 @@ modules.define('regions-form__idea-complex-category', ['i-bem-dom'], function(pr
 
 });
 
-modules.define('regions-concepts__complex-anchor', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('regions-concepts__village-anchor', ['i-bem-dom'], function(provide, bemDom) {
 
     provide(bemDom.declBlock(this.name, {
         onSetMod: {
             js: {
                 inited: function() {
-                    $('.regions-concepts__complex-anchor').on('click', function(e){
-                        $('html,body').stop().animate({ scrollTop: $('#regions__complex-form').offset().top }, 1000);
+                    $('.regions-concepts__village-anchor').on('click', function(e){
+                        $('html,body').stop().animate({ scrollTop: $('#regions__village-form').offset().top }, 1000);
                         e.preventDefault();
                     });
                 }

@@ -27,12 +27,20 @@ block('regions-complex')({
                                         tag:'p',
                                         content:'Электронная система для софинансирования общественно значимых проектов в рамках мероприятия "Благоустройство сельских территорий" государственной программы Республики Саха (Якутия) "Комплексное развитие сельских территорий на 2020-2025 годы"'
                                     },
-                                    {   
-                                        elem:'a-button',
-                                        elemMods:{page:'complex'},
-                                        mix:{block:'button-OC'},
-                                        tag:'button',
-                                        content:'Посмотреть идею'
+                                    {
+                                        elem:'complex-anchor',
+                                        tag:'a',
+                                        js:true,
+                                        attrs:{
+                                            href:'#regions__complex-form'
+                                        },
+                                        content:{   
+                                            elem:'a-button',
+                                            elemMods:{page:'complex'},
+                                            mix:{block:'button-OC'},
+                                            tag:'button',
+                                            content:'Предложить идею'
+                                        }
                                     },
                                 ]
                             },
@@ -553,6 +561,9 @@ block('regions-complex')({
                     {
                         block:'regions-form',
                         mix:{ block:'card-OC' },
+                        attrs:{
+                            id:'regions__complex-form'
+                        },
                         content:[
                             {
                                 elem:'title',
