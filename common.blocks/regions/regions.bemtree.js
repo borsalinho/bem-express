@@ -611,7 +611,7 @@ block('regions')({
                                             {   
                                                 tag:'a',
                                                 attrs:{
-                                                    href:'#'
+                                                    href:'/regions/village'
                                                 },
                                                 content:{
                                                     elem:'card-button-2',

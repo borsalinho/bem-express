@@ -171,6 +171,21 @@ app.get('/regions/complex', function(req, res) {
     })
 });
 
+app.get('/regions/village', function(req, res) {
+    render(req, res, {
+        view: 'regions-village',
+        title: 'Стратегическая инициатива «Новая модель села. Развитие сельских территорий»',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/regions/village',
+                siteName: 'Стратегическая инициатива «Новая модель села. Развитие сельских территорий»'
+            }
+        }
+    })
+});
+
+
 app.get('/profile', function(req, res) {
     render(req, res, {
         view: 'profile-OC',
