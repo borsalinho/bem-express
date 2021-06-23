@@ -185,28 +185,29 @@ block("header-OC")({
                 url: "/regions",
               },
               {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 2",
+                image: "/img/header-services-OC/ecoclick.png",
+                text: "Сервис Экоклик",
+                url:'#'
+              },
+              {
+                image: "/img/header-services-OC/service-roads.jpg",
+                text: "Сервис Дорогие Дороги",
+                url:'#'
+              },
+              {
+                image: "/img/header-services-OC/service-grants.png",
+                text: "Гранты главы Республики Саха (Якутия)",
+                url:'https://grants.yakutia.click/'
+              },
+              {
+                image: "/img/header-services-OC/service-stopcovid.png",
+                text: "Жизнь после Covid-19",
+                url:'#'
               },
               {
                 image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 3",
-              },
-              {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 4",
-              },
-              {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 5",
-              },
-              {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 6",
-              },
-              {
-                image: "/img/header-services-OC/services-abiture.png",
-                text: "Родные города и селы 7",
+                text: "Справочник абитуриента",
+                url:'#'
               },
             ],
           },
