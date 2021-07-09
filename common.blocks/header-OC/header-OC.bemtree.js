@@ -187,7 +187,7 @@ block("header-OC")({
               {
                 image: "/img/header-services-OC/ecoclick.png",
                 text: "Сервис Экоклик",
-                url:'#'
+                url:'/ecoclick'
               },
               {
                 image: "/img/header-services-OC/service-roads.jpg",

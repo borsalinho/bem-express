@@ -9,7 +9,7 @@ block('page')({
             block: node.data.view
         },
         {
-            block: 'footer-OC'
+            block: 'footer-OC',
         }
     ]
 });

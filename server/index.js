@@ -200,6 +200,20 @@ app.get('/profile', function(req, res) {
     })
 });
 
+app.get('/ecoclick', function(req, res) {
+    render(req, res, {
+        view: 'main-EC',
+        title: 'Сервис ECOCLICK по мониторингу экологической ситуации в Республике Саха (Якутии)',
+        meta: {
+            description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
+            og: {
+                url: 'https://yakutia.click/ecoclick',
+                siteName: 'Сервис ECOCLICK по мониторингу экологической ситуации в Республике Саха (Якутии)'
+            }
+        }
+    })
+});
+
 isDev && require('./rebuild')(app);
 
 app.get('*', function(req, res) {
