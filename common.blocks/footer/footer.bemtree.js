@@ -46,7 +46,7 @@ block('footer').content()(function() {
                                       content: {
                                         tag: "img",
                                         attrs: {
-                                          src: "/img/logo-messangers-OC/logo-instagram.png",
+                                          src: "/img/logo-messangers-OC/logo-inst-blue.png",
                                           alt: "Логотип OneClick Yakutia в Instagram",
                                           title: "Страница OneClick Yakutia в Instagram",
                                         },
@@ -56,12 +56,12 @@ block('footer').content()(function() {
                                       tag: "a",
                                       elem: "border",
                                       attrs: {
-                                        href: "https://twitter.com/OneclickYakutia",
+                                        href: "https://t.me/one_click_yakutia",
                                       },
                                       content: {
                                         tag: "img",
                                         attrs: {
-                                          src: "/img/logo-messangers-OC/logo-twitter.png",
+                                          src: "/img/logo-messangers-OC/logo-telegramm-blue.png",
                                           alt: "Логотип OneClick Yakutia в Twitter",
                                           title: "Страница OneClick Yakutia в Twitter",
                                         },
@@ -71,14 +71,15 @@ block('footer').content()(function() {
                                       tag: "a",
                                       elem: "border",
                                       attrs: {
-                                        href: "https://vk.com/oneclickyakutia",
+                                        href: "https://dnevniki.ykt.ru/OneClickYakutia",
                                       },
                                       content: {
                                         tag: "img",
                                         attrs: {
-                                          src: "/img/logo-messangers-OC/logo-vk.png",
+                                          src: "/img/logo-messangers-OC/dnevniki-blue.png",
                                           alt: "Логотип OneClick Yakutia в VK",
                                           title: "Страница OneClick Yakutia в VK",
+                                          style:"margin-left:2px;margin-top:1px"
                                         },
                                       },
                                     },
