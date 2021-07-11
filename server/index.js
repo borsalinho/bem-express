@@ -62,7 +62,8 @@ app.get('/ping/', function(req, res) {
 
 app.get('/', function(req, res) {
     render(req, res, {
-        view: 'main-OC',
+        body: 'main-OC',
+        footer:'footer-OC',
         title: 'Oneclick Yakutia',
         meta: {
             description: 'OneClick Yakutia – средство решения многих проблем в жизни граждан. Республика Саха (Якутия)',
@@ -76,7 +77,8 @@ app.get('/', function(req, res) {
 
 app.get('/about', function(req, res) {
     render(req, res, {
-        view: 'about-OC',
+        body: 'about-OC',
+        footer:'footer-OC',
         title: 'О платформе',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -90,7 +92,8 @@ app.get('/about', function(req, res) {
 
 app.get('/problems', function(req, res) {
     render(req, res, {
-        view: 'problems-OC',
+        body: 'problems-OC',
+        footer:'footer-OC',
         title: 'Мониторинг проблем',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -103,7 +106,8 @@ app.get('/problems', function(req, res) {
 });
 app.get('/news', function(req, res) {
     render(req, res, {
-        view: 'news-OC',
+        body: 'news-OC',
+        footer:'footer-OC',
         title: 'Новости',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -117,7 +121,8 @@ app.get('/news', function(req, res) {
 
 app.get('/contests', function(req, res) {
     render(req, res, {
-        view: 'contests-OC',
+        body: 'contests-OC',
+        footer:'footer-OC',
         title: 'Конкурсы',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -131,7 +136,8 @@ app.get('/contests', function(req, res) {
 
 app.get('/regions', function(req, res) {
     render(req, res, {
-        view: 'regions',
+        body: 'regions',
+        footer:'footer-OC',
         title: 'Родные города и селы',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -145,7 +151,8 @@ app.get('/regions', function(req, res) {
 
 app.get('/regions/consepts', function(req, res) {
     render(req, res, {
-        view: 'regions-concepts',
+        body: 'regions-concepts',
+        footer:'footer-OC',
         title: 'Программа поддержки местных инициатив',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -159,7 +166,8 @@ app.get('/regions/consepts', function(req, res) {
 
 app.get('/regions/complex', function(req, res) {
     render(req, res, {
-        view: 'regions-complex',
+        body: 'regions-complex',
+        footer:'footer-OC',
         title: 'Благоустройство сельских территорий',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -173,7 +181,8 @@ app.get('/regions/complex', function(req, res) {
 
 app.get('/regions/village', function(req, res) {
     render(req, res, {
-        view: 'regions-village',
+        body: 'regions-village',
+        footer:'footer-OC',
         title: 'Стратегическая инициатива «Новая модель села. Развитие сельских территорий»',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -188,7 +197,8 @@ app.get('/regions/village', function(req, res) {
 
 app.get('/profile', function(req, res) {
     render(req, res, {
-        view: 'profile-OC',
+        body: 'profile-OC',
+        footer:'footer-OC',
         title: 'Профиль',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -202,7 +212,8 @@ app.get('/profile', function(req, res) {
 
 app.get('/ecoclick', function(req, res) {
     render(req, res, {
-        view: 'main-EC',
+        body: 'main-EC',
+        footer:'footer-EC',
         title: 'Сервис ECOCLICK по мониторингу экологической ситуации в Республике Саха (Якутии)',
         meta: {
             description: 'OneСlick Yakutia - это цифровой проект, нацеленный на взаимодействие граждан, власти и бизнеса в решении актуальных вопросов.',
@@ -218,7 +229,7 @@ isDev && require('./rebuild')(app);
 
 app.get('*', function(req, res) {
     res.status(404);
-    return render(req, res, { view: '404' });
+    return render(req, res, { body: '404' });
 });
 
 if (isDev) {

@@ -1,35 +1,39 @@
-block("footer-EC")({
-    content: () => [
-        {
-            block:'footer-OC',
-            content:{
+block('footer').content()(function() {
+    return this.ctx.content.map(function (item) {
+        return [
+            {
                 cls: "container",
                 content: [
-                  {
+                  { 
+                    elem:'row',
                     cls: "row",
                     content: [
                       {
-                        cls: "col-xl-2 col-md-3 footer__mb_md-20",
+                        elem:'col',
+                        elemMods:{mb:'md-20'},
+                        cls: "col-xl-2 col-md-3",
                         content: [
                           {
                             cls: "row",
                             content: [
-                              {
+                              {   
+                                block:'footer',
+                                elem:'col',
                                 cls: "col-md-12 col-5",
-                                content: {
-                                  block: "logo-OC",
-                                  mix: {
-                                    block: "footer-OC",
-                                    elem: "elem",
-                                  },
-                                },
+                                content:{
+                                    block:item.logoBlock,
+                                    mix: {
+                                        block: "footer",
+                                        elem: "elem",
+                                    },
+                                }
                               },
                               {
                                 cls: "col-md-12 col-7 justify-content-end justify-content-md-start d-flex",
                                 content: {
                                   block: "logo-messangers-OC",
                                   mix: {
-                                    block: "footer-OC",
+                                    block: "footer",
                                     elem: "elem",
                                   },
                                   content: [
@@ -112,11 +116,13 @@ block("footer-EC")({
                           },
                         ],
                       },
-                      {
-                        cls: "col-xl-5 col-md-5 footer__mb_md-20",
+                      { 
+                        elem:'col',
+                        elemMods:{mb:'md-20'},
+                        cls: "col-xl-5 col-md-5",
                         content: [
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "link-OC",
@@ -128,7 +134,7 @@ block("footer-EC")({
                             },
                           },
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "link-OC",
@@ -140,7 +146,7 @@ block("footer-EC")({
                             },
                           },
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "link-OC",
@@ -170,11 +176,12 @@ block("footer-EC")({
                           },
                         ],
                       },
-                      {
+                      { 
+                        elem:'col',
                         cls: "col-xl-5 col-md-4",
                         content: [
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "link-OC",
@@ -186,7 +193,7 @@ block("footer-EC")({
                             },
                           },
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "link-OC",
@@ -198,7 +205,7 @@ block("footer-EC")({
                           },
           
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "modal-xl-OC",
@@ -214,7 +221,7 @@ block("footer-EC")({
                           },
           
                           {
-                            block: "footer-OC",
+                            block: "footer",
                             elem: "elem",
                             content: {
                               block: "modal-xl-OC",
@@ -233,9 +240,9 @@ block("footer-EC")({
                     ],
                   },
                 ],
-              },
-        }
-      
-    ],
-  });
-  
+            },
+        ];
+    }
+    
+    
+)});

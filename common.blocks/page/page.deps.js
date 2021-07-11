@@ -1,5 +1,7 @@
 ({
     shouldDeps: [
+        // Ошибка
+        '404',
         // Главные
         'header-OC',
         'footer-OC',
@@ -44,7 +46,8 @@
         'regions-village',
 
         // Экоклик-главная
-        'main-EC'
+        'main-EC',
+        'footer-EC'
     ]
 })
 

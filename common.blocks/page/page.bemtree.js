@@ -6,10 +6,10 @@ block('page')({
         {
             // block: 'body-OC'
             // вот тут я переделал немного чтобы body сразу принял нужную страницу
-            block: node.data.view
+            block: node.data.body
         },
         {
-            block: 'footer-OC',
+            block: node.data.footer
         }
     ]
 });
