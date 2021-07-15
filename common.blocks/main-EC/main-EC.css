@@ -1,7 +1,9 @@
 .main-EC__a{
-    background: linear-gradient(267.51deg, #54BDE3 0.46%, #56C3E6 59.09%, #04DFBA 115.71%);
-    padding: 60px 0;
+    background: url('/img/main-EC/banner.svg');
+    padding: 80px 0 0;
     color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-EC__a-title{
     font-weight: bold;
@@ -10,5 +12,77 @@
     margin:0 0 30px 0;
 }
 .main-EC__a-title-2{
-    
+    font-size: 24px;
+    line-height: 28px;
+    margin:0 0 40px 0;
+}
+.main-EC__a-text{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+.main-EC__a-img{
+    max-width: 100%;
+}
+@media screen and (min-width:600px) {
+    .main-EC__a-img{
+        max-width: none;
+    }
+}
+.main-EC__left-col{
+    padding-bottom: 0px;
+}
+@media screen and (min-width:1200px) {
+    .main-EC__left-col{
+        padding-bottom: 80px;
+    }
+}
+.main-EC__b, .main-EC__c, .main-EC__d, .main-EC__e{
+    padding: 40px 0;
+}
+.main-EC__b-title, .main-EC__c-title, .main-EC__d-title, .main-EC__e-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #29586C;
+    margin: 0 0 40px 0;
+}
+.main-EC__b-text{
+    font-size: 18px;
+    line-height: 25px;
+}
+.main-EC__b-row{
+    margin-top:60px;
+    text-align: center;
+}
+.main-EC__b-col{
+    margin-top:20px;
+}
+.main-EC__b-url{
+    color: #1A1A1A;
+}
+.main-EC__b-col-title{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: bold;
+    margin:0 0 20px 0;
+}
+.main-EC__b-img-block{
+    margin:0 0 20px 0;
+    position: relative;
+    height: 160px;
+}
+.main-EC__b-img-block-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main-EC__b-img{
+    max-width: 100%;
+    height: auto;
+}
+.main-EC__d{
+    background: #F2F5F7;
 }

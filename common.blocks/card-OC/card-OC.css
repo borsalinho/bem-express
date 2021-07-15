@@ -7,3 +7,6 @@
 .card-OC_mt_20{
     margin-top: 20px;
 }
+.card-OC:hover{
+    box-shadow: 0px 8px 5px rgba(171, 171, 171, 0.53), 0px 4px 40px rgba(171, 171, 171, 0.12);
+}

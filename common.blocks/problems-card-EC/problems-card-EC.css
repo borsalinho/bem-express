@@ -1,0 +1,57 @@
+.problems-card-EC__mt-20 {
+  margin-top: 20px;
+}
+/* .problems-card-EC__card {
+  height: 274px;
+} */
+.problems-card-EC__data, .problems-card-EC__position{
+  font-size: 13px;
+  line-height: 18px;
+  color: #828282;
+}
+.problems-card-EC__position{
+  margin-bottom: 20px;
+}
+.problems-card-EC__title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin: 0 0 16px 0;
+  height: 40px;
+}
+.problems-card-EC__text {
+  font-size: 15px;
+  line-height: 20px;
+  color: #1a1a1a;
+  height: auto;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  margin: 0 0 16px 0;
+}
+.problems-card-EC__bottom {
+  font-size: 13px;
+  line-height: 18px;
+  color: #828282;
+  display: -webkit-flex;
+  display: flex;
+}
+.problems-card-EC__comment-img {
+  margin-right: 8px;
+  margin-left: 20px;
+}
+.problems-card-EC__viewed-img {
+  margin-right: 8px;
+}
+.problems-card-EC__like-img{
+  margin-left: 20px;
+  margin-right: 8px;
+}

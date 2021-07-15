@@ -1,0 +1,74 @@
+.events-card-EC__mt-20 {
+    margin-top: 20px;
+  }
+  /* .events-card-EC__card {
+    height: 274px;
+  } */
+  .events-card-EC__data, .events-card-EC__position, .events-card-EC__format{
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+  }
+  .events-card-EC__position{
+    margin-bottom: 20px;
+  }
+  .events-card-EC__title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 0 16px 0;
+    height: 40px;
+  }
+  .events-card-EC__text {
+    font-size: 15px;
+    line-height: 20px;
+    color: #1a1a1a;
+    height: auto;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    margin: 0 0 16px 0;
+  }
+  .events-card-EC__bottom {
+    font-size: 13px;
+    line-height: 18px;
+    color: #828282;
+    display: -webkit-flex;
+    display: flex;
+  }
+  .events-card-EC__comment-img {
+    margin-right: 8px;
+    margin-left: 20px;
+  }
+  .events-card-EC__viewed-img {
+    margin-right: 8px;
+  }
+  .events-card-EC__like-img, .events-card-EC__people-img{
+    margin-left: 20px;
+    margin-right: 8px;
+  }
+  .events-card-EC__card{
+      padding: 0;
+  }
+  .events-card-EC__body{
+      padding: 20px;
+  }
+  .events-card-EC__top{
+      height: 280px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+  }
+  .events-card-EC__top-img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 100%;
+    width: 100%;
+  }
