@@ -1,9 +1,9 @@
 .problems-card-EC__mt-20 {
   margin-top: 20px;
 }
-/* .problems-card-EC__card {
-  height: 274px;
-} */
+.problems-card-EC__card {
+  cursor: pointer;
+}
 .problems-card-EC__data, .problems-card-EC__position{
   font-size: 13px;
   line-height: 18px;

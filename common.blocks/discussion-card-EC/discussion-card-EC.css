@@ -1,18 +1,25 @@
-.events-card-EC__mt-20 {
+.discussion-card-EC__mt-20 {
     margin-top: 20px;
   }
-  .events-card-EC__card {
+  .discussion-card-EC__card {
+    position: relative;
     cursor: pointer;
   }
-  .events-card-EC__data, .events-card-EC__position, .events-card-EC__format{
+  .discussion-card-EC__data{
     font-size: 13px;
     line-height: 18px;
     color: #828282;
   }
-  .events-card-EC__position{
+  .discussion-card-EC__from{
+    font-size: 12px;
+    line-height: 16px;
+    color: #EB5757;
+    margin:0 0 20px 0;
+  }
+  .discussion-card-EC__position{
     margin-bottom: 20px;
   }
-  .events-card-EC__title {
+  .discussion-card-EC__title {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
@@ -24,7 +31,7 @@
     margin: 0 0 16px 0;
     height: 40px;
   }
-  .events-card-EC__text {
+  .discussion-card-EC__text {
     font-size: 15px;
     line-height: 20px;
     color: #1a1a1a;
@@ -37,38 +44,41 @@
     -webkit-line-clamp: 5;
     margin: 0 0 16px 0;
   }
-  .events-card-EC__bottom {
+  .discussion-card-EC__bottom {
     font-size: 13px;
     line-height: 18px;
     color: #828282;
     display: -webkit-flex;
     display: flex;
   }
-  .events-card-EC__comment-img {
+  .discussion-card-EC__comment-img {
     margin-right: 8px;
     margin-left: 20px;
   }
-  .events-card-EC__viewed-img {
+  .discussion-card-EC__viewed-img {
     margin-right: 8px;
   }
-  .events-card-EC__like-img, .events-card-EC__people-img{
+  .discussion-card-EC__like-img{
     margin-left: 20px;
     margin-right: 8px;
   }
-  .events-card-EC__card{
-      padding: 0;
-  }
-  .events-card-EC__body{
-      padding: 20px;
-  }
-  .events-card-EC__top{
-      height: 280px;
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-  }
-  .events-card-EC__top-img{
+  
+  .discussion-card-EC__top-img{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     height: 100%;
     width: 100%;
+  }
+  .discussion-card-EC__term{
+    right: -10px;
+    top: -5px;
+    position: absolute;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 10px;
+    color: #54BDE3;
+    background: #FFFFFF;
+    border: 2px solid #54BDE3;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.53), 0px 4px 40px rgba(171, 171, 171, 0.12);
+    border-radius: 6px;
   }

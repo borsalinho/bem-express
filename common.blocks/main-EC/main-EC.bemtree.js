@@ -268,6 +268,18 @@ block("main-EC")({
                                 text: "Просим оказать содействие в ремонт. ",
                             },
                         ]
+                    },
+                    {   
+                        elem:'block-bottom',
+                        cls:'d-flex justify-content-end',
+                        content:{
+                            elem:'see-all',
+                            tag:'a',
+                            attrs:{
+                                href:'#'
+                            },
+                            content:'Посмотреть все'
+                        }
                     }
                 ]
             }
@@ -315,6 +327,18 @@ block("main-EC")({
                                 text: "Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться? Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться?",
                             },
                         ]
+                    },
+                    {   
+                        elem:'block-bottom',
+                        cls:'d-flex justify-content-end',
+                        content:{
+                            elem:'see-all',
+                            tag:'a',
+                            attrs:{
+                                href:'#'
+                            },
+                            content:'Посмотреть все'
+                        }
                     }
                 ]
             }
@@ -334,10 +358,112 @@ block("main-EC")({
                         block:'discussion-card-EC',
                         cls:'row',
                         content:[
-                            {
-
+                            {   
+                                term:'до 12.02.2021',
+                                img:"/img/events-card-EC/EC-plug.jpg",
+                                data: "29 июня 2020, 07:48",
+                                from:'От администрации города Якутск',
+                                title:
+                                    "По Пояркова 3/1 во дворах сломали дорожное полотно. По Пояркова 3/1 во дворах сломали дорожное полотно.",
+                                text: "Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться? Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться?",
+                            },
+                            {   
+                                img:"/img/events-card-EC/EC-plug.jpg",
+                                data: "29 июня 2020, 07:48",
+                                from:'От администрации г. Якутск',
+                                title:
+                                    "По Пояркова 3/1 во дворах сломали дорожное полотно. По Пояркова 3/1 во дворах сломали дорожное полотно.",
+                                text: "Просим оказать содействие в ремонт.",
+                            },
+                            {   
+                                img:"/img/events-card-EC/EC-plug.jpg",
+                                data: "29 июня 2020, 07:48",
+                                from:'От администрации города Якутск',
+                                title:
+                                    "По Пояркова 3/1.",
+                                text: "Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться? Просим оказать содействие в ремонт. Во дворе свалка и не вывозят мусор куда жаловаться?",
+                            },
+                            {   
+                                img:"/img/events-card-EC/EC-plug.jpg",
+                                data: "29 июня 2020, 07:48",
+                                from:'От администрации города Якутск',
+                                title:
+                                    "По Пояркова 3/1 во .",
+                                text: "Просим оказать содействие в ремонт.",
                             }
                         ]
+                    },
+                    {   
+                        elem:'block-bottom',
+                        cls:'d-flex justify-content-end',
+                        content:{
+                            elem:'see-all',
+                            tag:'a',
+                            attrs:{
+                                href:'#'
+                            },
+                            content:'Посмотреть все'
+                        }
+                    }
+                    
+                ]
+            }
+        },
+        {
+            elem:'f',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                    {
+                        elem:'f-title',
+                        tag:'h2',
+                        content:'Актуальные конкурсы'
+                    },
+                    {
+                        // Тут необходимые конкурсы
+                    },
+                    {   
+                        elem:'block-bottom',
+                        cls:'d-flex justify-content-end',
+                        content:{
+                            elem:'see-all',
+                            tag:'a',
+                            attrs:{
+                                href:'#'
+                            },
+                            content:'Посмотреть все'
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            elem:'h',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                    {
+                        elem:'h-title',
+                        tag:'h2',
+                        content:'Новости'
+                    },
+                    {
+                        // Тут необходимые конкурсы
+                    },
+                    {   
+                        elem:'block-bottom',
+                        cls:'d-flex justify-content-end',
+                        content:{
+                            elem:'see-all',
+                            tag:'a',
+                            attrs:{
+                                href:'#'
+                            },
+                            content:'Посмотреть все'
+                        }
+                    }
                 ]
             }
         }

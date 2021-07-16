@@ -4,7 +4,7 @@ block("problems-card-EC")(
 
       return [
         {
-          cls: "col-sm-6 col-lg-3",
+          cls: "col-md-6 col-lg-4 col-xl-3",
 
           content: {
             elem: "card",
