@@ -3,7 +3,7 @@ block("news-card-EC")(
     return this.ctx.content.map(function (item) {
       return [
         {
-          cls: "col-sm-6 col-lg-3",
+          cls: "col-md-6 col-lg-4 col-xl-3",
 
           content: {
             elem: "card",
@@ -13,9 +13,7 @@ block("news-card-EC")(
             },
             attrs: {
               style:
-                "background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%)," +
-                item.background +
-                "center center no-repeat; background-size: cover;",
+                "background:url('"+item.background+"') center center no-repeat; background-size: cover;",
             },
             content: [
               {

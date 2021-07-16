@@ -1,10 +1,10 @@
-.news-card__card{
+.news-card-EC__card{
     height: 274px;
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
 }
-.news-card__title{
+.news-card-EC__title{
     margin-top: auto;
     font-weight: 600;
     font-size: 15px;
@@ -18,14 +18,14 @@
     -webkit-line-clamp: 3;
     height: 60px;
 }
-.news-card__bottom{
+.news-card-EC__bottom{
     display: -webkit-flex;
     display: flex;
     font-size: 13px;
     line-height: 18px;
     color: #BDBDBD;
 }
-.news-card__viewed{
+.news-card-EC__viewed{
     margin-left: auto;
     margin-right: 8px;
 }

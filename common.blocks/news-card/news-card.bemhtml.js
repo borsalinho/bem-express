@@ -13,9 +13,7 @@ block("news-card")(
             },
             attrs: {
               style:
-                "background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%)," +
-                item.background +
-                "center center no-repeat; background-size: cover;",
+                "background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%),url('"+item.background+"') center center no-repeat; background-size: cover;",
             },
             content: [
               {
