@@ -17,25 +17,19 @@ block("problems-EC")({
                                 {
                                     elem:'a-title',
                                     tag:'h1',
-                                    content:'Сохраним природу нашей республики'
+                                    content:'Сохраните окружающий мир Республики Саха'
                                 },
-                                {
-                                    elem:'a-title-2',
-                                    tag:'h2',
-                                    content:'Сервис по мониторингу экологических проблем Республики Саха (Якутии)'
-                                },
-                                {
-                                    elem:'a-text',
-                                    tag:'p',
-                                    content:'Перейти на "Экологический паспорт РС (Я)", портал министерства экологии, природопользования и лесного хозяйства Республики Саха (Якутия)'
-                                },
+                                
                                 {   
-                                    elem:'a-url',
-                                    tag:'a',
-                                    attrs:{
-                                        href:'http://prirodayakutia.sakha.gov.ru/'
+                                    elem:'a-button',
+                                    mix:{
+                                        block:'button-EC'
                                     },
-                                    content:'http://prirodayakutia.sakha.gov.ru/'
+                                    tag:'button',
+                                    attrs:{
+                                        href:'#'
+                                    },
+                                    content:'Оставить заявку'
                                 }
                             ]
                         },
@@ -55,7 +49,159 @@ block("problems-EC")({
                 
             }
         },
-        
+        {
+            elem:'b',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                        {
+                            elem:'b-title',
+                            tag:'h2',
+                            content:'Экологические проблемы'
+                        },
+                        {
+                            elem:'b-row',
+                            cls:'row',
+                            content:[
+                                {
+                                    cls:'col-md-4',
+                                    content:{
+                                        elem:'region-select',
+                                        mix:{block:'selectize'},
+                                        js:true,
+                                        tag:'select',
+                                        attrs:{
+                                        id:'problems-EC__region'
+                                        },
+                                        content:[
+                                        {
+                                            tag:'option',
+                                            attrs:{
+                                            value:''
+                                            },
+                                            content:''
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 11'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 22'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 33'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 333'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 3333'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 33333'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 3334433'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 334434433'
+                                        },
+                                        ]
+                                    }
+                                },
+                                {
+                                    cls:'col-md-4',
+                                    content:{
+                                        elem:'settlement-select',
+                                        mix:{block:'selectize'},
+                                        js:true,
+                                        tag:'select',
+                                        attrs:{
+                                        id:'problems-EC__settlement'
+                                        },
+                                        content:[
+                                            {
+                                                tag:'option',
+                                                attrs:{
+                                                value:''
+                                                },
+                                                content:'Населенный пункт'
+                                            },
+                                            {
+                                                tag:'option',
+                                                content:'вариант 1'
+                                            },
+                                            {
+                                                tag:'option',
+                                                content:'вариант 2'
+                                            },
+                                            {
+                                                tag:'option',
+                                                content:'вариант 3'
+                                            },
+                                        ]
+                                    }
+                                },
+                                {
+                                    cls:'col-md-4',
+                                    content:{
+                                        elem:'category-select',
+                                        mix:{block:'selectize'},
+                                        js:true,
+                                        tag:'select',
+                                        attrs:{
+                                        id:'problems-EC__category'
+                                        },
+                                        content:[
+                                        {
+                                            tag:'option',
+                                            attrs:{
+                                            value:''
+                                            },
+                                            content:'Категория'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 1'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 2'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 1'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 2'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 1'
+                                        },
+                                        {
+                                            tag:'option',
+                                            content:'вариант 2'
+                                        },
+                                        ]
+                                    }
+                                }
+                                
+                            ]
+                        }
+                ]
+            }
+        }
+                    
     ],
   });
   

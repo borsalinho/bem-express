@@ -1,0 +1,49 @@
+.problems-EC__a{
+    padding: 80px 0 0 0;
+    background: url('/img/problems-EC/banner-bk.svg');
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.problems-EC__a-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom:40px;
+}
+.problems-EC__a-button{
+    width: 100%;
+}
+@media screen and (min-width:480px) {
+    .problems-EC__a-title{
+        font-size: 48px;
+        line-height: 65px;
+        margin-bottom:140px;
+    }
+    .problems-EC__a-button{
+        width: 245px;
+    }
+}
+.problems-EC__a-img{
+    max-width: 100%;
+}
+@media screen and (min-width:600px) {
+    .problems-EC__a-img{
+        max-width: none;
+    }
+}
+@media screen and (min-width:1200px) {
+    .problems-EC__left-col{
+        padding-bottom:80px ;
+    }
+}
+.problems-EC__b{
+    padding: 40px 0;
+}
+.problems-EC__b-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #29586C;
+    margin: 0 0 40px 0;
+}

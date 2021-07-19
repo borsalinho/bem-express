@@ -1,0 +1,12 @@
+.button-EC{
+    background: linear-gradient(180deg, #4C99D4 -75.79%, #56C3E6 12.1%, #00F5C9 100.7%);
+    color: #ffffff;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
