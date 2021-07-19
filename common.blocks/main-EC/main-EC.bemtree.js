@@ -293,7 +293,7 @@ block("main-EC")({
                     {
                         elem:'d-title',
                         tag:'h2',
-                        content:'Экологические проблемы'
+                        content:'Экологические мероприятия'
                     },
                     {   
                         block:'events-card-EC',
@@ -352,7 +352,7 @@ block("main-EC")({
                     {
                         elem:'e-title',
                         tag:'h2',
-                        content:'Открытые обсуждения'
+                        content:'Общественные слушания'
                     },
                     {   
                         block:'discussion-card-EC',
@@ -439,13 +439,13 @@ block("main-EC")({
             }
         },
         {
-            elem:'h',
+            elem:'g',
             tag:'section',
             content:{
                 cls:'container',
                 content:[
                     {
-                        elem:'h-title',
+                        elem:'g-title',
                         tag:'h2',
                         content:'Новости'
                     },
@@ -496,6 +496,150 @@ block("main-EC")({
                             },
                             content:'Посмотреть все'
                         }
+                    }
+                ]
+            }
+        },
+        {
+            elem:'h',
+            tag:'section',
+            content:{
+                cls:'container',
+                content:[
+                    {
+                        elem:'h-title',
+                        tag:'h2',
+                        content:'Видео'
+                    },
+                    {
+                        elem:'v-block',
+                        content:[
+                            {
+                                content:{
+                                    elem:'v-video',
+                                    content:{
+                                        tag:'iframe',
+                                        attrs:{
+                                            width:"560",
+                                            height:"315",
+                                            src:"https://www.youtube.com/embed/WsKuz_qxjVg",
+                                            title:"YouTube video player",
+                                            frameborder:"0",
+                                            allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                            allowfullscreen:""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                elem:'v-text',
+                                content:'Видеурок №1 Экологическое воспитание.'
+                            }
+                        ]
+                    },
+                    {
+                        elem:'v-block',
+                        content:[
+                            {
+                                content:{
+                                    elem:'v-video',
+                                    content:{
+                                        tag:'iframe',
+                                        attrs:{
+                                            width:"560",
+                                            height:"315",
+                                            src:"https://www.youtube.com/embed/bU-iIVM9n4o",
+                                            title:"YouTube video player",
+                                            frameborder:"0",
+                                            allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                            allowfullscreen:""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                elem:'v-text',
+                                content:'Видеоурок N2 "Опасные отходы'
+                            }
+                        ]
+                    },
+                    {
+                        elem:'v-block',
+                        content:[
+                            {
+                                content:{
+                                    elem:'v-video',
+                                    content:{
+                                        tag:'iframe',
+                                        attrs:{
+                                            width:"560",
+                                            height:"315",
+                                            src:"https://www.youtube.com/embed/QkHyn3MSjh0",
+                                            title:"YouTube video player",
+                                            frameborder:"0",
+                                            allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                            allowfullscreen:""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                elem:'v-text',
+                                content:'Видеоурок №3 «Альтернативы»'
+                            }
+                        ]
+                    },
+                    {
+                        elem:'v-block',
+                        content:[
+                            {
+                                content:{
+                                    elem:'v-video',
+                                    content:{
+                                        tag:'iframe',
+                                        attrs:{
+                                            width:"560",
+                                            height:"315",
+                                            src:"https://www.youtube.com/embed/85SCc2vKd18",
+                                            title:"YouTube video player",
+                                            frameborder:"0",
+                                            allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                            allowfullscreen:""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                elem:'v-text',
+                                content:'Введение в сервис Экоклик'
+                            }
+                        ]
+                    },
+                    {
+                        elem:'v-block',
+                        content:[
+                            {
+                                content:{
+                                    elem:'v-video',
+                                    content:{
+                                        tag:'iframe',
+                                        attrs:{
+                                            width:"560",
+                                            height:"315",
+                                            src:"https://www.youtube.com/embed/lrh8Jh_nA4A",
+                                            title:"YouTube video player",
+                                            frameborder:"0",
+                                            allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+                                            allowfullscreen:""
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                elem:'v-text',
+                                content:'Видеоинструкция Экоклик'
+                            }
+                        ]
                     }
                 ]
             }
