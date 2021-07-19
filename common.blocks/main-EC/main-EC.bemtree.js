@@ -82,7 +82,7 @@ block("main-EC")({
                                     elem:'b-url',
                                     tag:'a',
                                     attrs:{
-                                        href:'#'
+                                        href:'/ecoclick/problems/'
                                     },
                                     content:[
                                         {
