@@ -40,13 +40,41 @@
 .main-EC__b, .main-EC__c, .main-EC__d, .main-EC__e, .main-EC__f, .main-EC__h,.main-EC__g{
     padding: 40px 0;
 }
-.main-EC__b-title, .main-EC__c-title, .main-EC__d-title, .main-EC__e-title, .main-EC__f-title, .main-EC__h-title, .main-EC__g-title{
+.main-EC__b-title, .main-EC__f-title, .main-EC__h-title, .main-EC__g-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
     color: #29586C;
     margin: 0 0 40px 0;
 }
+.main-EC__c-title, .main-EC__d-title, .main-EC__e-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #29586C;
+}
+.main-EC__c-top, .main-EC__d-top, .main-EC__e-top{
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.main-EC__c-href, .main-EC__d-href, .main-EC__e-href{
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top:20px;
+}
+@media screen and (min-width:768px) {
+    .main-EC__c-top, .main-EC__d-top, .main-EC__e-top{
+        flex-direction: row;
+    }
+    .main-EC__c-href, .main-EC__d-href, .main-EC__e-href{
+        margin-top:0px;
+    }
+}
+
 .main-EC__b-text{
     font-size: 18px;
     line-height: 25px;

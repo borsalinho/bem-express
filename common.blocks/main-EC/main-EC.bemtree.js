@@ -231,9 +231,22 @@ block("main-EC")({
                 cls:'container',
                 content:[
                     {
-                        elem:'c-title',
-                        tag:'h2',
-                        content:'Экологическая повестка'
+                        elem:'c-top',
+                        content:[
+                            {
+                                elem:'c-title',
+                                tag:'h2',
+                                content:'Экологическая повестка'
+                            },
+                            {   
+                                elem:'c-href',
+                                tag:'a',
+                                attrs:{
+                                    href:'#'
+                                },
+                                content:'Создать'
+                            }
+                        ]
                     },
                     {   
                         block:'problems-card-EC',
@@ -291,9 +304,22 @@ block("main-EC")({
                 cls:'container',
                 content:[
                     {
-                        elem:'d-title',
-                        tag:'h2',
-                        content:'Экологические мероприятия'
+                        elem:'d-top',
+                        content:[
+                            {
+                                elem:'d-title',
+                                tag:'h2',
+                                content:'Экологические мероприятия'
+                            },
+                            {   
+                                elem:'d-href',
+                                tag:'a',
+                                attrs:{
+                                    href:'#'
+                                },
+                                content:'Создать'
+                            }
+                        ]
                     },
                     {   
                         block:'events-card-EC',
@@ -350,9 +376,22 @@ block("main-EC")({
                 cls:'container',
                 content:[
                     {
-                        elem:'e-title',
-                        tag:'h2',
-                        content:'Общественные слушания'
+                        elem:'e-top',
+                        content:[
+                            {
+                                elem:'e-title',
+                                tag:'h2',
+                                content:'Общественные слушания'
+                            },
+                            {   
+                                elem:'e-href',
+                                tag:'a',
+                                attrs:{
+                                    href:'#'
+                                },
+                                content:'Создать'
+                            }
+                        ]
                     },
                     {   
                         block:'discussion-card-EC',
@@ -405,7 +444,6 @@ block("main-EC")({
                             content:'Посмотреть все'
                         }
                     }
-                    
                 ]
             }
         },
