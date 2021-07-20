@@ -242,7 +242,7 @@ block("main-EC")({
                                 elem:'c-href',
                                 tag:'a',
                                 attrs:{
-                                    href:'#'
+                                    href:'/ecoclick/problems/'
                                 },
                                 content:'Создать'
                             }
@@ -289,7 +289,7 @@ block("main-EC")({
                             elem:'see-all',
                             tag:'a',
                             attrs:{
-                                href:'#'
+                                href:'/ecoclick/problems/'
                             },
                             content:'Посмотреть все'
                         }

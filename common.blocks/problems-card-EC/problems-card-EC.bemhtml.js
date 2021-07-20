@@ -38,7 +38,7 @@ block("problems-card-EC")(
                     elem: "viewed-img",
                     tag: "img",
                     attrs: {
-                      src: "img/problems-card-EC/eye.png",
+                      src: "/img/problems-card-EC/eye.png",
                     },
                   },
                   "12",
@@ -46,7 +46,7 @@ block("problems-card-EC")(
                     elem: "comment-img",
                     tag: "img",
                     attrs: {
-                      src: "img/problems-card-EC/comment.png",
+                      src: "/img/problems-card-EC/comment.png",
                     },
                   },
                   "12",
@@ -54,7 +54,7 @@ block("problems-card-EC")(
                     elem: "like-img",
                     tag: "img",
                     attrs: {
-                      src: "img/problems-card-EC/like.png",
+                      src: "/img/problems-card-EC/like.png",
                     },
                   },
                   "12",

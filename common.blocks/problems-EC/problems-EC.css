@@ -37,13 +37,92 @@
         padding-bottom:80px ;
     }
 }
-.problems-EC__b{
+.problems-EC__b, .problems-EC__c{
     padding: 40px 0;
 }
-.problems-EC__b-title{
+.problems-EC__b-title, .problems-EC__c-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
     color: #29586C;
     margin: 0 0 40px 0;
+}
+.problems-EC__b-row-2{
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+}
+.problems-EC__select-show .selectize-input{
+    border: none;
+    padding: 0;
+    width: 90px;
+    box-shadow: none !important;
+    margin:0 0 0 5px;
+    padding-top: 1px;
+}
+.problems-EC__select-show .selectize-input.dropdown-active{
+    border-radius: 0 ;
+}
+.problems-EC__select-show .selectize-dropdown{
+    border: none;
+    background: inherit;
+    padding: 5px 0 0 0 ;
+    height: 100%;
+}
+.problems-EC__select-show .selectize-dropdown-content{
+    background: #ffffff
+}
+.problems-EC__select-show  .selectize-control.single .selectize-input:after{
+    display: none;
+}
+.problems-EC__default-settings{
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.problems-EC__search input{
+    font-size: 14px;
+    line-height: 19px;
+    width: 43px; 
+    transition: width 0.3s linear 0s;
+}
+.problems-EC__search input:hover, .problems-EC__search input:focus{
+    width: 120px;
+    /* border: 1px solid #d0d0d0; */
+    border-radius: 6px;
+}
+@media screen and (min-width:992px) {
+    .problems-EC__search input{
+        width: auto; 
+    }
+    .problems-EC__search input:hover, .problems-EC__search input:focus{
+        width: auto;
+    }
+}
+.problems-EC__search input::placeholder{
+    font-size: 14px;
+    line-height: 19px;  
+}
+.problems-EC__b-row-2{
+    margin-top:20px;
+}
+.problems-EC__b-bottom{
+    margin:40px 0 0 0;
+}
+.problems-EC__e-title{
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.problems-EC__e{
+    padding: 40px 0;
+    background: url('/img/problems-EC/bottom-bk.svg');
+    background-size: cover;
 }

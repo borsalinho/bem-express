@@ -54,3 +54,9 @@
         width: 250px;
     }
 }
+.regions-form__title{
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
