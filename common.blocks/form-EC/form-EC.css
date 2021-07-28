@@ -1,0 +1,83 @@
+.form-EC{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(171, 171, 171, 0.1), 0px 4px 40px rgba(171, 171, 171, 0.12);
+    border-radius: 12px;
+    padding: 20px;
+}
+@media screen and (min-width:992px) {
+    .form-EC{
+        padding: 40px 60px 80px;
+    }
+}
+.form-EC__title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1A1A;
+}
+.form-EC__title_mb_30{
+    margin-bottom:30px
+}
+.form-EC__title_mt_30{
+    margin-top: 30px;
+}
+.form-EC__col-name{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 10px 0;
+}
+.form-EC__quot{
+    color: #EB5757;
+    margin-left:5px;
+}
+.form-EC__input, .form-EC__textarea{
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 13px;
+    line-height: 18px;
+    width: 100%;
+    margin:0 0 20px 0;
+    outline: none;
+}
+.form-EC__textarea{
+    height: 200px;
+}
+.form-EC__checkbox{
+    width: 15px;
+    height: 15px;
+    border-radius: 6px;
+    margin: 0 10px 0 0;
+}
+.form-EC__map-point, .form-EC__add-url a{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #294B6E !important;
+}
+.form-EC__download{
+    margin: 0 0 20px 0;
+}
+.form-EC__download .upload-zone__body{
+    background: none;
+}
+.form-EC .selectize-control{
+    margin-bottom:20px
+}
+.form-EC__button{
+    width: 100%;
+}
+@media screen and (min-width:480px) {
+    .form-EC__button{
+        width: 245px;
+    }
+}
+.form-EC__spoiler{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin:0 0 40px 0;
+    text-align: center;
+}

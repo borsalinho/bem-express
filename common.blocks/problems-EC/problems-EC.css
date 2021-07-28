@@ -114,15 +114,16 @@
 .problems-EC__b-bottom{
     margin:40px 0 0 0;
 }
-.problems-EC__e-title{
+.problems-EC__d-title{
     font-size: 36px;
     line-height: 42px;
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 40px;
 }
-.problems-EC__e{
+.problems-EC__d{
     padding: 40px 0;
     background: url('/img/problems-EC/bottom-bk.svg');
     background-size: cover;
 }
+

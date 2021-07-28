@@ -480,7 +480,7 @@ block("problems-EC")({
             ]
         },
         {
-            elem:'e',
+            elem:'d',
             attrs:{
                 id:"problems-form-EC"
             },
@@ -489,15 +489,26 @@ block("problems-EC")({
                 cls:'container',
                 content:[
                     {
-                        elem:'e-title',
+                        elem:'d-title',
                         tag:'h2',
                         content:'Оставить заявку'
                     },
                     {
                         block:'form-EC',
                         content:[
+                            {   
+                                elem:'spoiler',
+                                content:['Для подачи заявки ',{
+                                    tag:'a',
+                                    attrs:{
+                                        href:'#'
+                                    },
+                                    content:'авторизуйтесь'
+                                }]
+                            },
                             {
                                 elem:'title',
+                                elemMods:{mb:'30'},
                                 content:'ЗАЯВИТЕЛЬ'
                             },
                             {
@@ -555,7 +566,7 @@ block("problems-EC")({
                                                             elem:'input',
                                                             tag:'input',
                                                             attrs:{
-                                                                placeholder:'__.__.____'
+                                                                placeholder:'_ _ . _ _ . _ _ _ _'
                                                             }
                                                         }
                                                     ]
@@ -622,7 +633,7 @@ block("problems-EC")({
                                                 {
                                                     elem:'col',
                                                     elemMods:{mt:'20'},
-                                                    cls:'col-12',
+                                                    cls:'col-12 d-flex align-items-center',
                                                     content:[
                                                         {   
                                                             elem:'checkbox',
@@ -641,6 +652,14 @@ block("problems-EC")({
                             {
                                 elem:'title',
                                 elemMods:{mt:'30'},
+                                mix:[
+                                    {
+                                        elem:'title',
+                                        elemMods:{mb:'30'},
+                                    }
+                                ], 
+                                
+                                
                                 content:'ПРОБЛЕМА'
                             },
                             {
@@ -689,6 +708,7 @@ block("problems-EC")({
                                             },
                                             {   
                                                 elem:'problems-category',
+                                                
                                                 mix:{block:'selectize'},
                                                 tag:'select',
                                                 js:true,
@@ -885,7 +905,7 @@ block("problems-EC")({
                                         content:{
                                             elem:'map-point',
                                             tag:'a',
-                                            content:'Отменить на карте'
+                                            content:'Отметить на карте'
                                         }
                                     },
                                     {
@@ -923,12 +943,19 @@ block("problems-EC")({
                                                 content:'Добавьте фото/видео материалы',
                                                 
                                             },
-                                            {
+                                            {   
+                                                
                                                 block:'upload-zone',
-                                                mix:{
-                                                    block:'regions-forms',
-                                                    elem:'download'
-                                                },
+                                                mix:[
+                                                    {
+                                                        block:'regions-forms',
+                                                        elem:'download'
+                                                    },
+                                                    {
+                                                        block:'form-EC',
+                                                        elem:'download'
+                                                    }
+                                                ],
                                                 attrs:{
                                                     // необходимые атрибуты
                                                 }
@@ -965,7 +992,7 @@ block("problems-EC")({
                                                     attrs:{
                                                         id:'id'
                                                     },
-                                                    content:'Добавить еше'
+                                                    content:'Добавить еще'
                                                 }
                                             }
                                         ]
@@ -989,7 +1016,103 @@ block("problems-EC")({
                     }  
                 ]
             }
-        }         
+        },
+        {   
+            // временный класс чтобы было удобно верстать
+            cls:'container',
+            content:{
+                block:'problem-content-EC',
+                content:[
+                    {
+                        elem:'top',
+                        js:true,
+                        content:{
+                            cls:'row',
+                            content:[
+                                {
+                                    elem:'col',
+                                    cls:'col-lg',
+                                    content:{
+                                        elem:'type-title',
+                                        elemMods:{type:'number'},
+                                        tag:'p',
+                                        content:[
+                                            'Проблема ',
+                                            {tag:'br',cls:'d-none d-lg-block'},
+                                            '№5'
+                                        ]
+                                    }
+                                },
+                                {
+                                    elem:'col',
+                                    cls:'col-lg',
+                                    content:{
+                                        elem:'type-title',
+                                        tag:'p',
+                                        content:[
+                                            'Категория: ',
+                                            {tag:'br',cls:'d-none d-lg-block'},
+                                            'Животный мир'
+                                        ]
+                                    }
+                                },
+                                {
+                                    elem:'col',
+                                    cls:'col-lg',
+                                    content:{
+                                        elem:'type-title',
+                                        tag:'p',
+                                        content:[
+                                            'Тип нарушений: ',
+                                            {tag:'br',cls:'d-none d-lg-block'},
+                                            ' незаконная добыча животных и птиц, находящихся в беспомощном состоянии'
+                                        ]
+                                    }
+                                },
+                                {
+                                    elem:'col',
+                                    cls:'col-lg',
+                                    content:{
+                                        elem:'type-title',
+                                        tag:'p',
+                                        content:[
+                                            'Район: ',
+                                            {tag:'br',cls:'d-none d-lg-block'},
+                                            'Верхневилюйский район'
+                                        ]
+                                    }
+                                },
+                                {
+                                    elem:'col',
+                                    cls:'col-lg',
+                                    content:{
+                                        elem:'type-title',
+                                        tag:'p',
+                                        content:[
+                                            'Населенный пункт: ',
+                                            {tag:'br',cls:'d-none d-lg-block'},
+                                            'п.Джебарики-Хая'
+                                        ]
+                                    }
+                                },
+                                {
+                                    elem:'col',
+                                    elemMods:{mt:'20'},
+                                    cls:'col-12',
+                                    content:{
+                                        tag:'span',
+                                        elem:'see-map',
+                                        content:'Посмотреть на карте'
+                                    }
+                                },
+                            ]
+                        }
+                        
+                    }
+                ]
+            }
+        }
+                
     ],
   });
   

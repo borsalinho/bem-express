@@ -1,6 +1,7 @@
 ({
     shouldDeps:[
         'button-EC',
-        'form-EC'
+        'form-EC',
+        'problem-content-EC'
     ]
 })
