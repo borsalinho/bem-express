@@ -92,7 +92,10 @@ block("regions-card")(
             cls:'col-sm-6 col-lg-4 col-xl-3',
             content:{
                 elem:'card',
-                mix:{block:'card-OC'},
+                mix:[
+                  {block:'card-OC'},
+                  {block:'hover-effect'}
+                ],
                 content:[
                     
                     status,

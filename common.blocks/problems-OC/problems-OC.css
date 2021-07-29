@@ -123,6 +123,9 @@
 .problems-OC__tag-name:hover{
     font-weight: 600;
 }
+.problems-OC__tag-name:active{
+    font-weight: bold;
+}
 .problems-OC__menu-item-img{
     transition: transform 0.2s;
     transform: rotate(0deg);

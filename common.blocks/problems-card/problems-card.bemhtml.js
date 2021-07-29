@@ -42,10 +42,15 @@ block("problems-card")(
 
           content: {
             elem: "card",
-            mix: {
-              block: "card-OC",
-              mods: { mt: "20" },
-            },
+            mix:[ 
+              {
+                block: "card-OC",
+                mods: { mt: "20" },
+              },
+              {
+                block:'hover-effect'
+              }
+            ],
             content: [
               {
                 elem: "data",

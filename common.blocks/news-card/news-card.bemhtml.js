@@ -7,10 +7,15 @@ block("news-card")(
 
           content: {
             elem: "card",
-            mix: {
-              block: "card-OC",
-              mods: { mt: "20" },
-            },
+            mix: [
+              {
+                block: "card-OC",
+                mods: { mt: "20" },
+              },
+              {
+                block:'hover-effect'
+              }
+            ],
             attrs: {
               style:
                 "background:linear-gradient(180deg, rgba(39, 73, 109, 0.8) 0%, #27496D 100%),url('"+item.background+"') center center no-repeat; background-size: cover;",
